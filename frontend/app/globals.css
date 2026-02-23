@@ -1,0 +1,206 @@
+/* ─── Google Fonts ────────────────────────────────────────────────────── */
+/* Outfit + JetBrains Mono loaded via layout.tsx */
+
+/* ─── Design tokens ───────────────────────────────────────────────────── */
+:root {
+  --font-ui: 'Outfit', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --radius: 16px;
+  --radius-sm: 10px;
+  --radius-xs: 6px;
+
+  --accent: #3b7bff;
+  --accent-hover: #2563eb;
+  --accent-soft: rgba(59, 123, 255, 0.12);
+  --accent-border: rgba(59, 123, 255, 0.3);
+
+  --danger: #ef4444;
+  --danger-soft: rgba(239, 68, 68, 0.1);
+
+  --success: #10b981;
+
+  --transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ─── Dark theme ──────────────────────────────────────────────────────── */
+[data-theme="dark"] {
+  --bg-base:    #0f1117;
+  --bg-surface: #161b25;
+  --bg-elevated:#1d2333;
+  --bg-hover:   #242b3d;
+  --bg-active:  #2a3347;
+
+  --border:     rgba(255, 255, 255, 0.07);
+  --border-med: rgba(255, 255, 255, 0.12);
+
+  --text-primary:   #e8ecf4;
+  --text-secondary: #8a93a8;
+  --text-muted:     #4a5265;
+  --text-inverse:   #0f1117;
+
+  --user-bubble-bg:    #1e2d4a;
+  --user-bubble-border: rgba(59, 123, 255, 0.25);
+  --ai-bubble-bg:      #161b25;
+  --ai-bubble-border:  rgba(255, 255, 255, 0.07);
+
+  --code-bg: #0d1117;
+  --scrollbar-thumb: rgba(255,255,255,0.1);
+
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.5);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.6);
+}
+
+/* ─── Light theme ─────────────────────────────────────────────────────── */
+[data-theme="light"] {
+  --bg-base:    #f0f2f7;
+  --bg-surface: #ffffff;
+  --bg-elevated:#f8f9fc;
+  --bg-hover:   #eef1f8;
+  --bg-active:  #e4e8f5;
+
+  --border:     rgba(0, 0, 0, 0.07);
+  --border-med: rgba(0, 0, 0, 0.12);
+
+  --text-primary:   #111827;
+  --text-secondary: #4b5563;
+  --text-muted:     #9ca3af;
+  --text-inverse:   #ffffff;
+
+  --user-bubble-bg:    #eff4ff;
+  --user-bubble-border: rgba(59, 123, 255, 0.2);
+  --ai-bubble-bg:      #ffffff;
+  --ai-bubble-border:  rgba(0, 0, 0, 0.07);
+
+  --code-bg: #f3f4f6;
+  --scrollbar-thumb: rgba(0,0,0,0.12);
+
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.1);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.12);
+}
+
+/* ─── Base reset ──────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--font-ui);
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  transition: background var(--transition), color var(--transition);
+}
+
+/* ─── Scrollbar ───────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 3px;
+}
+
+/* ─── Selection ───────────────────────────────────────────────────────── */
+::selection {
+  background: var(--accent-soft);
+  color: var(--text-primary);
+}
+
+/* ─── Prose (markdown output) ─────────────────────────────────────────── */
+.prose {
+  line-height: 1.7;
+  color: var(--text-primary);
+}
+.prose p { margin-bottom: 0.75em; }
+.prose p:last-child { margin-bottom: 0; }
+.prose strong { font-weight: 600; color: var(--text-primary); }
+.prose em { font-style: italic; }
+.prose ul, .prose ol { padding-left: 1.4em; margin-bottom: 0.75em; }
+.prose li { margin-bottom: 0.25em; }
+.prose a { color: var(--accent); text-decoration: none; }
+.prose a:hover { text-decoration: underline; }
+.prose blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 1em;
+  color: var(--text-secondary);
+  margin: 0.75em 0;
+}
+.prose h1, .prose h2, .prose h3 {
+  font-weight: 700;
+  margin: 1em 0 0.4em;
+  color: var(--text-primary);
+}
+.prose h1 { font-size: 1.3em; }
+.prose h2 { font-size: 1.15em; }
+.prose h3 { font-size: 1.05em; }
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: var(--code-bg);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  color: #e879f9;
+}
+.prose pre {
+  background: var(--code-bg) !important;
+  border-radius: var(--radius-sm);
+  margin: 0.75em 0;
+  overflow-x: auto;
+  border: 1px solid var(--border);
+}
+.prose pre code {
+  background: transparent;
+  padding: 0;
+  color: inherit;
+}
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  font-size: 0.9em;
+}
+.prose th, .prose td {
+  border: 1px solid var(--border-med);
+  padding: 0.5em 0.75em;
+  text-align: left;
+}
+.prose th {
+  background: var(--bg-elevated);
+  font-weight: 600;
+}
+.prose tr:hover td { background: var(--bg-hover); }
+
+/* ─── Animations ──────────────────────────────────────────────────────── */
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.4; }
+}
+@keyframes dotsWave {
+  0%, 80%, 100% { transform: scale(0.6); opacity: 0.4; }
+  40%           { transform: scale(1);   opacity: 1;   }
+}
+
+.animate-fadeSlideUp { animation: fadeSlideUp 0.3s ease forwards; }
+.animate-spin { animation: spin 1s linear infinite; }
