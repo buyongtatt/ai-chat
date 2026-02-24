@@ -1,10 +1,11 @@
 """
 QAService — retrieval + streaming answer generation.
 
-Image strategy (llama3.2-vision supports EXACTLY 1 image per request):
-  - If user attached an image  → send ONLY the user's image
-  - If no user image           → send the single most relevant doc image (if any)
-  - The image summary text is always included in the context regardless
+Image strategy (multi-image model e.g. qwen3-vl, gemma3, llava):
+  - User attached image + relevant doc images → all sent together (max MAX_VISION_IMAGES)
+  - User attached image only                  → sent alone
+  - No user image                             → top relevant doc images sent
+  - All image summaries always included as text context regardless
 """
 from __future__ import annotations
 
@@ -18,6 +19,10 @@ from core.memory_store import Chunk, MemoryStore
 from services.ollama_client import OllamaClient
 
 logger = logging.getLogger(__name__)
+
+# Max doc images to pass to the vision model alongside user's question
+# Increase if your model supports more (qwen3-vl supports many)
+MAX_DOC_IMAGES = 3
 
 SYSTEM_PROMPT = """\
 You are DocMind, a helpful assistant that answers questions from a document library.
@@ -45,56 +50,50 @@ class QAService:
         # 1. Retrieve relevant chunks
         relevant_chunks = self.store.search(question, top_k=10)
 
-        # 2. Build text context (includes image chunk summaries as text)
+        # 2. Build text context (image chunk summaries included as text too)
         context = _build_context(relevant_chunks)
 
-        # 3. Pick exactly ONE image to send to the vision model
-        #    Priority: user's attached image > most relevant doc image
-        single_image_path: str | None = None
+        # 3. Collect all relevant doc image paths (multi-image model supports many)
+        doc_image_paths = [
+            c.image_path for c in relevant_chunks
+            if c.source_type == "image"
+            and c.image_path
+            and Path(c.image_path).exists()
+        ][:MAX_DOC_IMAGES]
+
+        # 4. Handle user-attached image — save to temp file
+        all_image_paths: list[str] = []
         temp_path: str | None = None
         image_note = ""
 
         if user_image:
-            # Save user image to temp file
             tmp = tempfile.NamedTemporaryFile(
                 suffix=f".{user_image_ext}", delete=False
             )
             tmp.write(user_image)
             tmp.close()
             temp_path = tmp.name
-            single_image_path = temp_path
+            # User image goes first, then relevant doc images
+            all_image_paths = [temp_path] + doc_image_paths
             image_note = "\n\n[User has attached an image for analysis]"
-            logger.info("Using user-attached image for vision call")
-
-        else:
-            # Find the highest-scored doc image chunk
-            best_image_chunk = next(
-                (c for c in relevant_chunks
-                 if c.source_type == "image"
-                 and c.image_path
-                 and Path(c.image_path).exists()),
-                None
+            logger.info(
+                f"Vision call: 1 user image + {len(doc_image_paths)} doc image(s) "
+                f"= {len(all_image_paths)} total"
             )
-            if best_image_chunk:
-                single_image_path = best_image_chunk.image_path
-                page = best_image_chunk.metadata.get("page", 0)
-                image_note = (
-                    f"\n\n[Showing most relevant document image: "
-                    f"{best_image_chunk.doc_name}, page {page + 1}]"
-                )
-                logger.info(
-                    f"Using doc image for vision call: "
-                    f"{best_image_chunk.doc_name} p.{page + 1}"
-                )
+        else:
+            all_image_paths = doc_image_paths
+            if doc_image_paths:
+                image_note = f"\n\n[Referencing {len(doc_image_paths)} relevant document image(s)]"
+                logger.info(f"Vision call: {len(doc_image_paths)} doc image(s)")
 
-        # 4. Inject attached text file content
+        # 5. Inject attached text file content
         attachment_note = ""
         if user_text_attachment:
             attachment_note = (
                 f"\n\n[User attached a file]\n{user_text_attachment[:3000]}"
             )
 
-        # 5. Build full prompt
+        # 6. Build full prompt
         prompt = (
             f"=== KNOWLEDGE BASE CONTEXT ===\n{context}"
             f"{image_note}"
@@ -102,12 +101,12 @@ class QAService:
             f"=== USER QUESTION ===\n{question}"
         )
 
-        # 6. Stream — pass at most 1 image path
+        # 7. Stream answer with all images
         try:
             async for token in self.client.chat_stream(
                 prompt=prompt,
                 system_prompt=SYSTEM_PROMPT,
-                image_paths=[single_image_path] if single_image_path else None,
+                image_paths=all_image_paths if all_image_paths else None,
                 cancel_event=cancel_event,
             ):
                 yield token

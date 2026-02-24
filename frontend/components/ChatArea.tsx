@@ -163,7 +163,7 @@ function EmptyState() {
       </div>
       <h2>DocMind</h2>
       <p>Ask anything about your document library.</p>
-      <p>Powered by llama3.2-vision running locally.</p>
+      <p>Powered by qwen3-vl running locally.</p>
       <div className={styles.suggestions}>
         {[
           'Summarize the main findings',

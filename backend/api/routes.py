@@ -35,7 +35,7 @@ async def stats():
     return {
         "total_documents": s.total_documents(),
         "total_chunks": s.total_chunks(),
-        "model": "llama3.2-vision",
+        "model": "qwen3-vl",
     }
 
 

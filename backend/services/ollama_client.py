@@ -4,7 +4,7 @@ OllamaClient — unified async client for both:
   • Local Ollama  (http://localhost:11434)  → used for answering questions
 
 Auto-detects the correct installed model name so partial names like
-"llama3.2-vision" will match "llama3.2-vision:latest" automatically.
+"qwen3-vl" will match "qwen3-vl:latest" automatically.
 """
 from __future__ import annotations
 
@@ -145,15 +145,10 @@ class OllamaClient:
 
         user_msg: dict = {"role": "user", "content": prompt}
         if image_paths:
-            # llama3.2-vision supports exactly 1 image per request
-            if len(image_paths) > 1:
-                logger.warning(
-                    f"llama3.2-vision supports 1 image max — got {len(image_paths)}, using first only"
-                )
-            single = image_paths[0]
-            b64 = _encode_image(single)
-            if b64:
-                user_msg["images"] = [b64]
+            encoded = [b64 for p in image_paths if (b64 := _encode_image(p))]
+            if encoded:
+                user_msg["images"] = encoded
+                logger.debug(f"Sending {len(encoded)} image(s) to model")
 
         messages.append(user_msg)
 

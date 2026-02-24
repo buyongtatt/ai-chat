@@ -1,8 +1,8 @@
-'use client';
-import { Document, Stats } from '@/types';
-import styles from './Sidebar.module.css';
-import { FileText, Image, BookOpen, Database, ChevronLeft } from 'lucide-react';
-import clsx from 'clsx';
+"use client";
+import { Document, Stats } from "@/types";
+import styles from "./Sidebar.module.css";
+import { FileText, Image, BookOpen, Database, ChevronLeft } from "lucide-react";
+import clsx from "clsx";
 
 interface Props {
   documents: Document[];
@@ -13,15 +13,45 @@ interface Props {
 }
 
 const FILE_ICONS: Record<string, React.ReactNode> = {
-  pdf:  <span className={styles.badge} style={{background:'#ef4444'}}>PDF</span>,
-  docx: <span className={styles.badge} style={{background:'#3b82f6'}}>DOC</span>,
-  txt:  <span className={styles.badge} style={{background:'#10b981'}}>TXT</span>,
-  md:   <span className={styles.badge} style={{background:'#8b5cf6'}}>MD</span>,
-  png:  <span className={styles.badge} style={{background:'#f59e0b'}}>IMG</span>,
-  jpg:  <span className={styles.badge} style={{background:'#f59e0b'}}>IMG</span>,
+  pdf: (
+    <span className={styles.badge} style={{ background: "#ef4444" }}>
+      PDF
+    </span>
+  ),
+  docx: (
+    <span className={styles.badge} style={{ background: "#3b82f6" }}>
+      DOC
+    </span>
+  ),
+  txt: (
+    <span className={styles.badge} style={{ background: "#10b981" }}>
+      TXT
+    </span>
+  ),
+  md: (
+    <span className={styles.badge} style={{ background: "#8b5cf6" }}>
+      MD
+    </span>
+  ),
+  png: (
+    <span className={styles.badge} style={{ background: "#f59e0b" }}>
+      IMG
+    </span>
+  ),
+  jpg: (
+    <span className={styles.badge} style={{ background: "#f59e0b" }}>
+      IMG
+    </span>
+  ),
 };
 
-export default function Sidebar({ documents, stats, apiOnline, open, onToggle }: Props) {
+export default function Sidebar({
+  documents,
+  stats,
+  apiOnline,
+  open,
+  onToggle,
+}: Props) {
   return (
     <aside className={clsx(styles.sidebar, !open && styles.collapsed)}>
       <div className={styles.header}>
@@ -31,8 +61,15 @@ export default function Sidebar({ documents, stats, apiOnline, open, onToggle }:
           </div>
           {open && <span className={styles.logoText}>DocMind</span>}
         </div>
-        <button className={styles.collapseBtn} onClick={onToggle} title="Toggle sidebar">
-          <ChevronLeft size={16} className={clsx(styles.chevron, !open && styles.rotated)} />
+        <button
+          className={styles.collapseBtn}
+          onClick={onToggle}
+          title="Toggle sidebar"
+        >
+          <ChevronLeft
+            size={16}
+            className={clsx(styles.chevron, !open && styles.rotated)}
+          />
         </button>
       </div>
 
@@ -42,7 +79,7 @@ export default function Sidebar({ documents, stats, apiOnline, open, onToggle }:
           <div className={styles.statusRow}>
             <span className={clsx(styles.dot, apiOnline && styles.online)} />
             <span className={styles.statusText}>
-              {apiOnline ? 'llama3.2-vision • online' : 'API offline'}
+              {apiOnline ? "qwen3-vl • online" : "API offline"}
             </span>
           </div>
 
@@ -76,13 +113,15 @@ export default function Sidebar({ documents, stats, apiOnline, open, onToggle }:
                 <span>Run the indexer to get started</span>
               </div>
             ) : (
-              documents.map(doc => (
+              documents.map((doc) => (
                 <div key={doc.id} className={styles.docItem}>
                   <div className={styles.docIcon}>
                     {FILE_ICONS[doc.type] ?? <FileText size={14} />}
                   </div>
                   <div className={styles.docInfo}>
-                    <div className={styles.docName} title={doc.name}>{doc.name}</div>
+                    <div className={styles.docName} title={doc.name}>
+                      {doc.name}
+                    </div>
                     <div className={styles.docMeta}>
                       <span>{doc.chunks} chunks</span>
                       {doc.image_chunks > 0 && (

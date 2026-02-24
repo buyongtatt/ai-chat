@@ -1,6 +1,6 @@
 """
 DocMind — Local AI Document Intelligence
-FastAPI + Ollama llama3.2-vision backend
+FastAPI + Ollama qwen3-vl backend
 """
 import logging
 from contextlib import asynccontextmanager
@@ -40,7 +40,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="DocMind API",
-    description="Offline AI Q&A with vision powered by Ollama llama3.2-vision",
+    description="Offline AI Q&A with vision powered by Ollama qwen3-vl",
     version="1.0.0",
     lifespan=lifespan,
 )
@@ -65,7 +65,7 @@ async def health():
     store = MemoryStore.get_instance()
     return {
         "status": "ok",
-        "model": "llama3.2-vision",
+        "model": "qwen3-vl",
         "documents": store.total_documents(),
         "chunks": store.total_chunks(),
     }
