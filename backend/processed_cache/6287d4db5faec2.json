@@ -1,0 +1,1733 @@
+{
+  "doc_id": "6287d4db5faec2",
+  "doc_name": "FFTester - Interface Definition (External).pdf",
+  "doc_type": "pdf",
+  "source_path": "D:\\ai-chat\\backend\\knowledge_base\\FFTester - Interface Definition (External).pdf",
+  "chunks": [
+    {
+      "id": "6287d4db5faec2_p0_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester – Web Service Flex Flow Tester version 2.10; Interface Definition – User Manual; Document: 'FFTester - Interface Definition (External).pdf'; Page 1 of 37 total pages; Product name: FFTester (abbreviation for Flex Flow Tester); Type: Web Service; Document type: User Manual; Section: Interface Definition; Designation: External.",
+      "raw_preview": "Page 1 of 37 FFTester – Web Service Flex Flow Tester 2.10 \nInterface Definition – User Manual",
+      "chunk_index": 0,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p0_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf' | Chunk #1. Content: Image on page 1 showing the \"flex\" logo—lowercase blue text on black background with registered trademark symbol (®) positioned to the right of the \"x\". No additional text, numerical data, dates, or technical specifications present in this chunk.",
+      "raw_preview": "",
+      "chunk_index": 1,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p0_i0.jpg",
+      "metadata": {
+        "page": 0,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p0_img1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: \"FFTester - Interface Definition (External).pdf\", Chunk #2, Page 1. Contains an image with a blue background featuring a white computer monitor icon. The monitor’s screen displays a white infinity symbol (∞) formed by a play button (triangle) and a gear (cogwheel) icon, symbolizing continuous testing/automation. Key elements: FFTester, Interface Definition (External), Chunk #2, Page 1, blue background, white monitor, infinity symbol with integrated play button and gear.",
+      "raw_preview": "",
+      "chunk_index": 2,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p0_i1.jpg",
+      "metadata": {
+        "page": 0,
+        "img_index": 1
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p1_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester - Interface Definition (External).pdf, page 2 of 37 (header: FFTester – Web Service). Table of contents entries:  \n- **Configuring SQL driver** (p.12)  \n- **Downloading the SQL Driver** (p.6)  \n- **Error Messages** (p.31)  \n- **Generic Function** (p.12) with sub-entries: **REST** (p.12), **SOAP** (p.12)  \n- **Get Unit Info** (p.4) with sub-entry: **REST** (page number not specified in chunk)  \n\nKey details: Document title, page range (2/37), header context, all section names, exact page numbers (6, 12, 31, 4), technical terms (SQL driver, REST, SOAP), and structural relationships (sub-entries under Generic Function and Get Unit Info). Missing page number for REST under Get Unit Info explicitly noted.",
+      "raw_preview": "Page 2 of 37 FFTester – Web Service  \nContent Configuring SQL driver .................................................................................................. 12 \nDownloading the SQL Driver ........................................................................................... 6 \nError Messages  ..........................................................................................",
+      "chunk_index": 3,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 1
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p1_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester - Interface Definition (External).pdf, Chunk #4: Document sections with page numbers: Introduction (3), Overview (3), REST (4,5), SOAP (4,5), Save Test Result (7), REST (7), SOAP (7), SOAP UI Configuration (page number not specified in chunk). REST and SOAP each appear twice—first covering general interface definitions (pages 4–5), then specifically under Save Test Result (page 7). SOAP UI Configuration lacks an assigned page number in this chunk. No dates or additional technical details provided.",
+      "raw_preview": "...................... 4 \nREST ....................................................................................................................... 4, 5 \nSOAP ....................................................................................................................... 4, 5 \nIntroduction ...................................................................................................",
+      "chunk_index": 4,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 1
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p1_t2",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document chunk #5 (page 7) contains a table of contents listing sections and their page numbers:\n- \"SOAP UI Configuration\" on page 36\n- \"Validation\" on page 30\n- \"XML Cache File Format\" on page 14\n- Under \"XML Cache File Format\", the following elements are all specified on page 14:\n  - \"BATCH element\"\n  - \"DUT element\"\n  - \"ERROR element\"\n  - \"EXTRA element\"\n  - \"FACTORY element\"\n  - \"GROUP element\" (truncated with \"................................\", indicating incomplete listing of sub-elements within GROUP)",
+      "raw_preview": ".......................... 7 \nSOAP UI Configuration  ................................................................................................. 36 \nValidation ...................................................................................................................... 30 \nXML Cache File Format  ........................................................................................",
+      "chunk_index": 5,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 1
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p1_t3",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document chunk lists technical elements and page references from \"FFTester - Interface Definition (External).pdf\": GROUP element (p.14), PANEL element (p.14), PRODUCT element (p.14), REFS element (p.14), TEST element (p.14), XML cache file Semantics section (p.23), BATCH element (p.23), DUT element (p.23), FACTORY element (p.23). All listed elements are defined within the specified page ranges.",
+      "raw_preview": "........................... 14 \nGROUP element ........................................................................................................ 14 \nPANEL element ......................................................................................................... 14 \nPRODUCT element ................................................................................................... 14 \nR",
+      "chunk_index": 6,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 1
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p1_t4",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester - Interface Definition (External) document, Chunk #7: Table of contents entries with page numbers: FACTORY element (p.23), GROUP element (p.23), PANEL element (p.23), PRODUCT element (p.23), REFS element (p.23), TEST element (p.23), XML Tags Definition (p.14), Validation (p.29), Error Messages (page number unspecified). All listed elements (FACTORY, GROUP, PANEL, PRODUCT, REFS, TEST) reference page 23; XML Tags Definition references page 14; Validation references page 29; Error Messages lacks a specified page number in this chunk. Document structure indicates external interface specification with XML-based elements and validation components.",
+      "raw_preview": "............................. 23 \nFACTORY element .................................................................................................... 23 \nGROUP element ........................................................................................................ 23 \nPANEL element ......................................................................................................... 23",
+      "chunk_index": 7,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 1
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p1_t5",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester - Interface Definition (External).pdf, Chunk #8: Table of contents excerpt listing page 29 (section title unspecified, represented by ellipses), page 30 titled \"Error Messages\", and page 36 titled \"SOAP UI Configuration\". Captures document structure with precise page references for key sections.",
+      "raw_preview": "..................... 29 \nError Messages ............................................................................................................. 30 \nSOAP UI Configuration ................................................................................................. 36",
+      "chunk_index": 8,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 1
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p1_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: \"FFTester - Interface Definition (External).pdf\", Chunk #9. Content: Image on page 2 depicting the \"flex\" logo in blue text on black background, featuring lowercase \"f\", \"l\", \"e\", \"x\" characters with a registered trademark symbol (®) positioned to the right of the \"x\". The logo uses a sans-serif typeface with rounded edges and uniform stroke width.",
+      "raw_preview": "",
+      "chunk_index": 9,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p1_i0.jpg",
+      "metadata": {
+        "page": 1,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p2_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service Overview (Page 3/37): Test programs exchange data with Flexflow via local .NET assembly (Windows) or remote web service (non-Windows clients recommended). Interface provides three methods: GetUnitInfo (called *before* testing to query unit information), SaveResult (called *after* testing to submit pass/fail status and measurement data), and Test Genric function (generic method for test execution). Control flow: Operators scan unit serial number (SN) → call GetUnitInfo; if RetCode=0, perform test → call SaveResult; if SaveResult RetCode=0, scan next unit; if SaveResult RetCode≠0, backup local test result copy and report error. If GetUnitInfo RetCode≠0, report error without testing. No test performed if initial SN scan fails. RetCode=0 indicates success for both methods.",
+      "raw_preview": "Page 3 of 37 FFTester – Web Service  \nOverview A test program can exchange data with Flexflow by either calling a .NET assembly \ninstalled on the same local machine, or calling a remote web service. We recommend \nnon-Windows clients to use web service solution. The interface provides two basic methods ( GetUnitInfo  and SaveResult ) and one \ngeneric method ( Test Genric function )  for test progra",
+      "chunk_index": 10,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 2
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p2_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Image on page 3 of \"FFTester - Interface Definition (External).pdf\" displays the \"flex\" logo: lowercase blue text on a black background, with a registered trademark symbol (®) positioned to the right of the \"x\".",
+      "raw_preview": "",
+      "chunk_index": 11,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p2_i0.jpg",
+      "metadata": {
+        "page": 2,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p2_img1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: \"FFTester - Interface Definition (External).pdf\" | Chunk #12. Content consists solely of an image located on page 3 of the document. No textual content, interface elements, technical specifications, names, numbers, dates, concepts, relationships, or other details from the image are provided in this chunk. The reference identifies the document title, chunk number, and page location of the image without describing the image's content.",
+      "raw_preview": "",
+      "chunk_index": 12,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p2_i1.jpg",
+      "metadata": {
+        "page": 2,
+        "img_index": 1
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p2_img2",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf' | Chunk #13. Content: Image on page 3. The image consists of a completely blank white page with no visible text, graphics, diagrams, labels, or discernible content. No interface elements, technical specifications, names, numbers, dates, concepts, relationships, or other information is present in this image. The visual content is entirely empty/white with no distinguishable features.",
+      "raw_preview": "",
+      "chunk_index": 13,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p2_i2.jpg",
+      "metadata": {
+        "page": 2,
+        "img_index": 2
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p2_img3",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf' | Chunk #14. Content: Image on page 3. Image consists of blank white background with single black vertical line along left edge; no text, graphics, data, names, numbers, dates, concepts, relationships, or technical details present. Purely empty visual element with minimal border artifact.",
+      "raw_preview": "",
+      "chunk_index": 14,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p2_i3.jpg",
+      "metadata": {
+        "page": 2,
+        "img_index": 3
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p2_img4",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Chunk #15 (page 3) of 'FFTester - Interface Definition (External).pdf' contains a blank/empty image with no visible text, graphics, symbols, or discernible content. No names, numbers, dates, concepts, relationships, or technical details are present in this chunk. The page consists solely of a white/empty visual field with no interface elements, annotations, or definitional content.",
+      "raw_preview": "",
+      "chunk_index": 15,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p2_i4.jpg",
+      "metadata": {
+        "page": 2,
+        "img_index": 4
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p2_img5",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "The provided content indicates this is an image on page 3 of the document \"FFTester - Interface Definition (External).pdf\" (Chunk #16). No textual content, names, numbers, dates, concepts, relationships, or technical details are extractable from this description as it only references the presence of an image without providing the image itself or any descriptive metadata about the image's contents. For semantic search indexing, this entry should be flagged as containing visual content only with no machine-readable text data available in this chunk. The document title \"FFTester - Interface Definition (External)\" and page number \"3\" are the only verifiable factual elements present in the provided description.",
+      "raw_preview": "",
+      "chunk_index": 16,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p2_i5.jpg",
+      "metadata": {
+        "page": 2,
+        "img_index": 5
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p2_img6",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Chunk #17 (image on page 3 of 'FFTester - Interface Definition (External).pdf') contains a completely blank white image with no visible text, graphics, symbols, or discernible content. No names, numbers, dates, concepts, relationships, or technical details are present in this image. The visual field is uniformly white with no variations, annotations, or interface elements. This empty image appears in the specified document location but conveys no information.",
+      "raw_preview": "",
+      "chunk_index": 17,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p2_i6.jpg",
+      "metadata": {
+        "page": 2,
+        "img_index": 6
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p2_img7",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Chunk #18 references page 3 of \"FFTester - Interface Definition (External).pdf\" as an image. The provided image content is completely blank/white with no visible text, graphics, interface elements, or discernible information. No names, numbers, dates, concepts, relationships, or technical details are present in this image chunk. The visual content consists solely of a uniform white field with no structural elements, annotations, or interface components. This blank page appears to contain no definitional or descriptive material related to FFTester's external interface specifications.",
+      "raw_preview": "",
+      "chunk_index": 18,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p2_i7.jpg",
+      "metadata": {
+        "page": 2,
+        "img_index": 7
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p2_img8",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Blank white image; page 3 of \"FFTester - Interface Definition (External).pdf\" document; no visible content, text, diagrams, or graphical elements present; image appears completely empty/white with no discernible features, labels, interface components, or technical details; referenced as Chunk #19 in document processing; no names, numbers, dates, concepts, relationships, or technical specifications observable in this image.",
+      "raw_preview": "",
+      "chunk_index": 19,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p2_i8.png",
+      "metadata": {
+        "page": 2,
+        "img_index": 8
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p2_img9",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Chunk #20 references an image on page 3 of \"FFTester - Interface Definition (External).pdf\" that contains no visible content—entirely blank/white with no discernible text, graphics, interface elements, labels, numbers, dates, or technical details. No names, concepts, relationships, or interface components are present in this image. The visual field is uniformly white with no structural elements, annotations, or data points to extract. This blank image constitutes the entirety of the referenced content in the specified document location.",
+      "raw_preview": "",
+      "chunk_index": 20,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p2_i9.jpg",
+      "metadata": {
+        "page": 2,
+        "img_index": 9
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p2_img10",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Chunk #21 references page 3 of 'FFTester - Interface Definition (External).pdf', which contains a blank image with no discernible content, text, graphics, or data. No names, numbers, dates, concepts, relationships, or technical details are present in this chunk. The image consists solely of an empty white field with no visible elements for analysis.",
+      "raw_preview": "",
+      "chunk_index": 21,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p2_i10.jpg",
+      "metadata": {
+        "page": 2,
+        "img_index": 10
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p2_img11",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf' | Chunk #22 (image on page 3). The provided image content is entirely blank/white with no visible text, graphics, interface elements, or discernible information. No names, numbers, dates, concepts, relationships, or technical details are present in this chunk. The visual field contains no interface components, labels, diagrams, or data points for analysis. This blank image constitutes the sole content of the referenced page segment.",
+      "raw_preview": "",
+      "chunk_index": 22,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p2_i11.jpg",
+      "metadata": {
+        "page": 2,
+        "img_index": 11
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p2_img12",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf' | Chunk #23. Content: Image on page 3. The image consists of a completely blank white page with no visible text, graphics, markings, or discernible content. No names, numbers, dates, concepts, relationships, or technical details are present in the visual content. The page appears empty with uniform white background and no distinguishable elements.",
+      "raw_preview": "",
+      "chunk_index": 23,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p2_i12.png",
+      "metadata": {
+        "page": 2,
+        "img_index": 12
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p3_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service (page 4 of 37): Operation \"Get Unit Info\" (method: GetUnitInfo) requires two mandatory string parameters: Station Name and Serial Number. Includes two optional string parameters: UserID (if unset, user access rights validation is skipped) and Extra Data (required only for custom stored procedures). Section includes \"Request Response\" structure.",
+      "raw_preview": "Page 4 of 37 FFTester – Web Service  \n1. Get Unit Info GetUnitInfo  takes two mandatory string parameters: Station Name and Serial Number . There are two optional parameters, UserID and Extra Data. If UserID is not set, then \nFFTester will not validate users against access right. Extra data just is necessary in \ncase of we have a customize store procedure. Request Response",
+      "chunk_index": 24,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 3
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p3_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf' | Chunk #25. Image on page 4 showing the \"flex\" logo: stylized lowercase blue text \"flex\" on black background, with registered trademark symbol (®) positioned to the right of the \"x\". The \"x\" character features a distinctive diagonal stroke design. No additional text, numbers, dates, or technical specifications present in this image chunk.",
+      "raw_preview": "",
+      "chunk_index": 25,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p3_i0.jpg",
+      "metadata": {
+        "page": 3,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p3_img1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "SOAP 1.1 request (Request 1) to http://gdlm02205:4450/ using namespace http://schemas.xmlsoap.org/soap/envelope/. Contains soapenv:Envelope with empty soapenv:Header and soapenv:Body housing tem:GetUnitInfo operation. Parameters: serialNumber \"FFTester1906190014\", stationName \"FFTester_AutoTest1\". Optional elements (marked <!--Optional-->) include empty userId and extraData (with closing tag </tem:extraData>). XML structure displayed in tool interface with \"Raw\" and \"XML\" tabs.",
+      "raw_preview": "",
+      "chunk_index": 26,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p3_i1.jpg",
+      "metadata": {
+        "page": 3,
+        "img_index": 1
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p3_img2",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "SOAP envelope response from FFTester interface (page 4): s:Envelope with namespace \"http://schemas.xmlsoap.org/soap/envelope/\" containing s:Body with GetUnitInfoResponse (namespace \"http://tempuri.org/\"). Response includes GetUnitInfoResult (namespace \"http://schemas.datacontract.org/2004/07/FFTester\") with FFPartID nil=\"true\", FFTestID nil=\"true\", FFUnitID nil=\"true\", Id=\"9999\", and Value=\"Cannot find AllowCreate for StationTypID=5,StationID=4,Li\". The XML structure shows a failed unit information retrieval with null part/test/unit IDs and specific station parameters (StationTypID=5, StationID=4) referenced in the error message.",
+      "raw_preview": "",
+      "chunk_index": 27,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p3_i2.jpg",
+      "metadata": {
+        "page": 3,
+        "img_index": 2
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p4_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Page 5 of 37 of \"FFTester – Interface Definition (External)\" details the FFTester Web Service SOAP interface. Example request for `GetUnitInfo` operation: SOAP envelope with namespaces `soapenv` (`http://schemas.xmlsoap.org/soap/envelope/`) and `tem` (`http://tempuri.org/`), containing optional parameters: `serialNumber` \"FFTester1906190013\" (embedded date 190619 = 19 June 2019, sequence 0013), `stationName` \"FFTester_AutoTest1\", `userId` \"admin\". Example response: SOAP envelope with namespace `s` (`http://schemas.xmlsoap.org/soap/envelope/`), `GetUnitInfoResponse` (namespace `http://tempuri.org/`), `GetUnitInfoResult` with namespaces `a` (`http://schemas.datacontract.org/2004/07/Flex.FFTester.Utilities`) and `i` (`http://www.w3.org/2001/XMLSchema-instance`), containing `FFPartID` nil, `FFTestID` nil, `FFUnitID` nil, and `Id` 0.",
+      "raw_preview": "Page 5 of 37 FFTester – Web Service  \na. SOAP \nExample of the Request: --GetUnitInfo--Request \n<soapenv:Envelope \nxmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" \nxmlns:tem=\"http://tempuri.org/\"> <soapenv:Header/> <soapenv:Body> <tem:GetUnitInfo> <!--Optional:--> <tem:serialNumber> FFTester1906190013 </tem:serialNumber> <!--Optional:--> <tem:stationName> FFTester_AutoTest1 </tem:stationN",
+      "chunk_index": 28,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 4
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p4_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "XML response element `<GetUnitInfoResult>` contains `<a:Value>` with CDATA-escaped `UnitInfo` structure listing three `UnitData` entries:  \n- `Name=\"PartNumber\"`, `Value=\"TestPart1\"`, `UserID=\"admin\"`  \n- `Name=\"StationID\"`, `Value=\"FFTester_AutoTest1\"`, `UserID=\"admin\"`  \n- `Name=\"ProductionOrder\"`, `Value=\"Test001\"`, `UserID=\"admin\"`  \nIncludes nil attributes (`i:nil=\"true\"`) for `FFPartID`, `FFTestID`, and `FFUnitID`, plus `Id=\"0\"`. Namespace prefixes `a` and `i` reference `http://www.w3.org/2001/XMLSchema-instance`. No dates present.",
+      "raw_preview": "xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> <a:FFPartID i:nil=\"true\"/> <a:FFTestID i:nil=\"true\"/> <a:FFUnitID i:nil=\"true\"/> <a:Id>0</a:Id> <a:Value><![CDATA[<UnitInfo><UnitData><Name>PartNumber</Name><Val\nue>TestPart1</Value><UserID>admin</UserID></UnitData><UnitData><Na\nme>StationID</Name><Value>FFTester_AutoTest1</Value><UserID>admin\n</UserID></UnitData><UnitData><Name>ProductionOrder<",
+      "chunk_index": 29,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 4
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p4_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: \"FFTester - Interface Definition (External).pdf\" | Chunk: #30 | Page: 5 | Content: Image displaying \"flex\" in blue sans-serif typeface on black background, with registered trademark symbol (®) positioned to the right of the \"x\". Text features stylized lowercase \"f\", \"l\", \"e\", and \"x\" characters.",
+      "raw_preview": "",
+      "chunk_index": 30,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p4_i0.jpg",
+      "metadata": {
+        "page": 4,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p5_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "- Page 6 of 37 of \"FFTester – Web Service\" document.  \n- **GetUnitInfo operation**:  \n  - SOAP response structure provided (closing `</GetUnitInfoResponse>`, `</s:Body>`, `</s:Envelope>` tags).  \n  - REST request: JSON object with `serialNumber` (string), `stationName` (string), `userId` (string).  \n  - REST response: JSON object with `id` (string), `value` (string), `ffUnitId` (long), `ffTestId` (long), `ffPartId` (long).  \n- **SaveResult operation**:  \n  - Accepts one parameter: XML string containing test results for Flexflow.  \n  - Supports two XML formats: **Flexflow format** and **FTS format**.  \n  - Format selection specified in `FFTester.ini` file via chosen XML Schema (XSD).  \n  - `FFTester.dll` validates input against the selected XSD, transforms results into tabular format, and saves to **SQL Server database**.",
+      "raw_preview": "Page 6 of 37 FFTester – Web Service </GetUnitInfoResponse> </s:Body> \n</s:Envelope> b. REST Example of the Request: --GetUnitInfo— JSON Request \n{ \"serialNumber\" : \"string\" , \"stationName\" : \"string\" , \"userId\" : \"string\"  \n} Example of the response: --GetUnitInfo—JSON Response   \n{ \"id\": \"string\" , \"value\" : \"string\" , \"ffUnitId\" : \"long\", \"ffTestId\" : \"long\", \"ffPartId\" : \"long\" \n} 2. Save Test ",
+      "chunk_index": 31,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 5
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p5_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf' | Chunk #32 | Page 6 image: Blue \"flex\" logo (lowercase letters) on black background with registered trademark symbol (®) positioned after the \"x\" character. The logo features stylized typography where the \"x\" has an extended right arm. Document context indicates this is part of an external interface definition specification for FFTester.",
+      "raw_preview": "",
+      "chunk_index": 32,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p5_i0.jpg",
+      "metadata": {
+        "page": 5,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p6_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester - Interface Definition (External).pdf, Chunk #33, Page 7 of 37: Section titled \"FFTester – Web Service Request\". No additional content, technical details, or data provided in this chunk beyond the page identifier and section title.",
+      "raw_preview": "Page 7 of 37 FFTester – Web Service  \nRequest",
+      "chunk_index": 33,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 6
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p6_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: \"FFTester - Interface Definition (External).pdf\" | Chunk #34 | Page 7 contains an image displaying the \"flex\" logo. The logo features the word \"flex\" in bold, blue lowercase typography (with the 'f' appearing as a larger initial character) on a black background. The letter \"x\" is stylized with a diagonal line extending from its right arm. A registered trademark symbol (®) appears to the right of the logo. The image serves as a visual element within the FFTester interface definition documentation.",
+      "raw_preview": "",
+      "chunk_index": 34,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p6_i0.jpg",
+      "metadata": {
+        "page": 6,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p6_img1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "SOAP request to http://qdlm02205:4450/ containing ffTesterXmlRequest with CDATA-wrapped XML test data. Batch timestamp: 2002-08-07 15:14:34.939891; factory name: \"Unde\"; tester: \"FFTester_AutoTest1\"; product: \"Phone One\", revision \"P1\". Reference sequence: \"C:\\FTS\\Apps\\Commodity GSM\\Board Level\\Commodity GSM Board Level Test\". Panel ID: \"FFtester1901080001\", timestamp: 2002-08-07 15:14:35.924127. DUT ID: \"FFTester:MainSequence Callback\", stepgroup: \"Main\", groupindex: \"33\", loopindex: \"-1\", extra groupindex: \"789\". Contains multiple NI PCI-6025E interface board test groups (switch 1-3, SDS communication port), SIM switch test, current consumption measurements (DACALDET Low), and \"Unlock RF\" group (groupindex: \"32\"). Extra dutextram: \"456\". Station name: \"FFTester_AutoTest1\". Uses SOAP 1.1 envelope with http://schemas.xmlsoap.org/soap/envelope/ namespace.",
+      "raw_preview": "",
+      "chunk_index": 35,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p6_i1.jpg",
+      "metadata": {
+        "page": 6,
+        "img_index": 1
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p7_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service (page 8/37) SOAP request example for `SaveResult` operation: SOAP envelope with namespaces `soapenv` (`http://schemas.xmlsoap.org/soap/envelope/`) and `tem` (`http://tempuri.org/`). Body contains `tem:SaveResult` with `tem:ffTesterXmlRequest` holding CDATA-embedded XML. The XML root `<BATCH>` has attributes: `TIMESTAMP=\"2002-08-07 15:14:34.938991\"`, `SYNTAX_REV=\"1.1\"`, `COMPATIBLE_REV=\"1.1\"`. Child elements include:  \n- `<FACTORY>`: `TESTER=\"Autotest\"`, `USER=\"admin\"` (other attributes empty).  \n- `<PRODUCT>`: `NAME=\"Phone One\"`, `REVISION=\"P1\"` (other attributes empty).  \n- `<REFS>`: `SEQ_REF=\"C:\\FTS\\Apps\\Commodity GSM\\Board_Level\\Commodity GSM Board Level Test PD3.seq\"`, `FTS_REF=\"PM:v036,INT:V034(CFG:V013,RES:0.A9,MEA:1.14)\"`, `CFG_REF=\"C:\\FTS\\Apps\\Commodity GSM\\Board_Level\\Commodity GSM Board Level Test PA1.cfg\"` (other attributes empty).  \n- `<PANEL>`: `ID=\"Undef\"`, `RUNMODE=\"Debug\"`, `TIMESTAMP=\"2002-08-07 15:14:35.924127\"`, `TESTTIME=\"120.107666\"`, `WAITTIME=\"0.000000\"`, `STATUS=\"Passed\"` (comment empty).  \nAll paths use Windows-style backslashes; FTS reference includes versioned components (PM:v036, INT:V034, CFG:V013, RES:0.A9, MEA:1.14).",
+      "raw_preview": "Page 8 of 37 FFTester – Web Service  \nResponse a. SOAP Example of the Request: \nThis xml could be too large but a short example attached below. <soapenv:Envelope  \nxmlns:soapenv =\"http://schemas.xmlsoap.org/soap/envelope/\"  \nxmlns:tem= \"http://tempuri.org/\" > <soapenv:Header /> <soapenv:Body > <tem:SaveResult > <!--Optional:--> <tem:ffTesterXmlRequest ><![CDATA[ <?xml version=\"1.0\" ?>  \n<BATCH TIM",
+      "chunk_index": 36,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 7
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p7_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf' | Chunk #37. Image on page 8 showing the \"flex\" logo: lowercase blue text on black background, with stylized \"x\" character (angled rightward extension), followed by registered trademark symbol (®). No additional text or interface elements visible.",
+      "raw_preview": "",
+      "chunk_index": 37,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p7_i0.jpg",
+      "metadata": {
+        "page": 7,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p7_img1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "XML/SOAP structure from FFTester interface document: Root `<s:Envelope>` with `xmlns:s=\"http://schemas.xmlsoap.org/soap/envelope/\"` contains `<s:Body>`, which includes `<SaveResultResponse>` (`xmlns:a=\"http://tempuri.org/\"`). Nested `<SaveResultResult>` uses `xmlns:a=\"http://schemas.datacontract.org/2004/07/Flex.FFTester\"`. Child elements: `<a:FFPartID>1</a:FFPartID>`, `<a:FFTestID>74</a:FFTestID>`, `<a:FFUnitID>1</a:FFUnitID>`, `<a:Id>0</a:Id>`, and `<a:Value>Success</a:Value>`. All elements and namespace URIs are explicitly defined in the SOAP message structure.",
+      "raw_preview": "",
+      "chunk_index": 38,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p7_i1.jpg",
+      "metadata": {
+        "page": 7,
+        "img_index": 1
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p8_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: \"FFTester - Interface Definition (External).pdf\", page 9 of 37, section \"FFTester – Web Service\".  \nKey content: SOAP request/response example for \"SaveResult\" operation.  \nRequest details:  \n- `ffTesterXmlRequest` contains XML test data with:  \n  - DUT (ID: \"UnitSN001\", PANEL: \"0\", SOCKET: \"1\", TIMESTAMP: \"2002-08-07 15:14:35.924127\", TESTTIME: \"20.107666\" seconds, ENDTIME: \"2002-08-07 15:14:56.031793\", STATUS: \"Passed\").  \n  - Nested GROUP (NAME: \"Lid Place\", STEPGROUP: \"Main\", GROUPINDEX: \"1\", LOOPINDEX: \"1\", MODULETIME: \"1\", TOTALTIME: \"1\", TIMESTAMP: \"2002-08-07 15:14:49.481373\", STATUS: \"Passed\").  \n  - Nested TEST (NAME: \"Lid Place\", DESCRIPTION: \"Lid Place\", RULE: \"EQ\", STATUS: \"Passed\"; all other attributes empty).  \n- Additional request parameters: `stationName` = \"ENP-Cover-Autotest\", `userId` = \"admin\", `extraData` = empty.  \nResponse details:  \n- `SaveResultResponse` returns `FFPartID` = 1 and `FFTestID` = 26 within `SaveResultResult`.  \nTechnical context: SOAP 1.1 envelope structure (xmlns:s=\"http://schemas.xmlsoap.org/soap/envelope/\"), with datacontract namespaces for response elements.",
+      "raw_preview": "Page 9 of 37 FFTester – Web Service  \n<DUT ID=\"UnitSN001\" COMMENT=\"\" PANEL=\"0\" SOCKET=\"1\" \nTIMESTAMP=\"2002-08-07 15:14:35.924127\" TESTTIME=\"20.107666\" \nENDTIME=\"2002-08-07 15:14:56.031793\" STATUS=\"Passed\"> <GROUP NAME=\"Lid Place\" STEPGROUP=\"Main\" GROUPINDEX=\"1\" \nLOOPINDEX=\"1\" TYPE=\"\" RESOURCE=\"\" MODULETIME=\"1\" \nTOTALTIME=\"1\" TIMESTAMP=\"2002-08-07 15:14:49.481373\" \nSTATUS=\"Passed\"> <TEST NAME=\"Lid ",
+      "chunk_index": 39,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 8
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p8_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: FFTester - Interface Definition (External), Chunk #40. XML snippet from SOAP 1.2 envelope (`s:Envelope`, `s:Body`) containing `SaveResultResponse` with `SaveResultResult`. Key elements: `FFPartID=1`, `FFTestID=26`, `FFUnitID=1004`, `Id=0`, `Value=\"Success\"`. Namespaces: `http://org/2004/07/Flex.FFTester.Utilities` (a), `http://www.w3.org/2001/XMLSchema-instance` (i). Technical structure: Web service response indicating successful save operation (Value=\"Success\") with identifiers tied to FFTester components (Part, Test, Unit) and result metadata (Id=0). Date reference: 2004/07 in namespace URI.",
+      "raw_preview": "org/2004/07/Flex.FFTester.Utilities\" \nxmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\" > <a:FFPartID >1</a:FFPartID > <a:FFTestID >26</a:FFTestID > <a:FFUnitID >1004</a:FFUnitID > \n <a:Id>0</a:Id> <a:Value>Success </a:Value> </SaveResultResult > </SaveResultResponse > </s:Body> \n</s:Envelope >",
+      "chunk_index": 40,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 8
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p8_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Image on page 9 of \"FFTester - Interface Definition (External).pdf\" displays the \"flex\" logo: stylized lowercase blue text on black background, with distinctive angular \"x\" design and registered trademark symbol (®) positioned to the right of the text. The logo features bold, rounded sans-serif typography with the \"x\" extending beyond standard character boundaries.",
+      "raw_preview": "",
+      "chunk_index": 41,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p8_i0.jpg",
+      "metadata": {
+        "page": 8,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p9_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "The REST API request for saving test results is a JSON object with top-level fields: `stationName` (string), `userId` (string), and `batch` (object). The `batch` object contains: `timestamp` (datetime), `sintaxRev` (string), `compatibleRev` (string), `factory` (object with `name`, `line`, `tester`, `fixture`, `shift`, `user`; all strings), `product` (object with `name`, `revision`, `family`, `customer`; all strings), `refs` (object with `seqRef`, `ftsRef`, `limRef`, `cfgRef`, `calRef`, `instrRef`; all strings), and `panel` (object with `id`, `comment`, `runMode`, `timestamp` (datetime), `testTime` (float), `waitTime` (float), `status` (string), and `dut` array). The `dut` array within `panel` contains objects with: `id`, `comment`, `panel`, `socket`, `timestamp` (datetime), `testTime` (float), `status` (string), and `group` (object with `name`, `stepGroup`, `type` (strings), `groupIndex` (integer), `loopIndex` (integer)). All string fields are explicitly defined, with numeric/dateTime types specified for timestamps, durations, and indices. The structure enforces hierarchical relationships: `batch` encapsulates `factory`, `product`, `refs`, and `panel`, while `panel` contains nested `dut` entries with grouped test parameters.",
+      "raw_preview": "Page 10 of 37 FFTester – Web Service  \nb. REST \nExample of the Request: \n--Save Result— JSON Request \n{ \"stationName\" : \"string\" , \"userId\" : \"string\" , \"batch\" : { \"timestamp\" : \"datetime\" , \"sintaxRev\" : \"string\" , \"compatibleRev\" : \"string\" , \"factory\" : { \"name\": \"string\" , \"line\": \"string\" , \"tester\" : \"string\" , \"fixture\" : \"string\" , \"shift\" : \"string\" , \"user\": \"string\" \n}, \"product\" : { \"",
+      "chunk_index": 42,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 9
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p9_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf' | Chunk #43. Image on page 10: blue \"flex\" logo (stylized lowercase text) on black background, featuring registered trademark symbol (®) positioned to right of \"x\". Logo consists of four characters: \"f\", \"l\", \"e\", \"x\" with distinctive angular design, particularly in the \"x\" character. No additional text, numerical data, or interface elements visible in this image chunk. Document context indicates external interface definition for FFTester system.",
+      "raw_preview": "",
+      "chunk_index": 43,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p9_i0.jpg",
+      "metadata": {
+        "page": 9,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p10_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Page 11/37 of FFTester Web Service interface document defines a JSON structure with top-level fields: \"resource\" (string), \"moduleTime\" (float), \"totalTime\" (float), \"timeStamp\" (string), \"status\" (string), \"extra\" (object containing \"groupextra\" string), and \"groups\" (array). The \"groups\" array contains two object types: (1) with \"tests\" array (fields: \"name\", \"description\", \"unit\", \"value\", \"hilim\", \"lolim\", \"status\", \"rule\", \"target\", all strings), plus \"name\" (string), \"stepGroup\" (string), \"groupIndex\" (integer), \"loopIndex\" (integer), \"type\" (string), \"moduleTime\" (float), \"totalTime\" (float), \"timestamp\" (string), \"status\" (string); (2) identical to type 1 but with \"timestamp\" (datetime) and no \"tests\" array. An additional empty \"extra\" object is present at the structure's end. All numeric fields use float/integer types; string fields include status values, identifiers, and limits (hilim/lolim). Timestamp formats vary between string and datetime.",
+      "raw_preview": "Page 11 of 37 FFTester – Web Service \"resource\": \"string\", \"moduleTime\": \"float\" , \"totalTime\": \"float\" , \"timeStamp\": \"string\", \"status\": \"string\", \"extra\": { \"groupextra\": \"string\" }, \"groups\": [ { \"name\": \"string\", \"stepGroup\": \"string\", \"groupIndex\": \"integer\", \"loopIndex\": \"integer\", \"type\": \"string\", \"moduleTime\": \"float\" , \"totalTime\": \"float\" , \"timestamp\": \"string\", \"status\": \"string\", \"t",
+      "chunk_index": 44,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 10
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p10_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf', Chunk #45 (page 11) contains an image of the \"flex\" logo. The logo features the lowercase word \"flex\" in blue, with a stylized \"x\" (diagonal stroke forming the right arm), set against a black background. A registered trademark symbol (®) appears to the right of the text. No additional text, numbers, dates, or technical specifications are present in the image.",
+      "raw_preview": "",
+      "chunk_index": 45,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p10_i0.jpg",
+      "metadata": {
+        "page": 10,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p11_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service (Page 12/37) defines two key components:  \n1. **Save Result JSON Response**: Returns object with fields:  \n   - `id` (string), `value` (string), `ffUnitId` (long), `ffTestId` (long), `ffPartId` (long).  \n2. **Generic Function Method**:  \n   - Purpose: Executes custom steps on FF Autotest stations (e.g., UDP calls, custom DLL operations, validations) before recording test results.  \n   - Parameters:  \n     - `@FunctionName`: Name of custom procedure.  \n     - `@SPInputParameter`: Data from request parameter `spInputParameter`.  \n     - `@StationName`: Incoming station from request.  \n     - `@UserID`: User ID from `ffEmployee` table (identifies requester).  \n     - `@Output`: Output parameter populated by stored procedure, returned in response.  \n     - `@ErrorDescription`: Output parameter for error details in response.  \n   - Usage: Enables custom test processes via stored procedures; SOAP request example referenced but not detailed.  \nAll elements are technical specifications for FFTester's web service interface.",
+      "raw_preview": "Page 12 of 37 FFTester – Web Service  \nExample of the response: \n--Save Result— JSON Response { \"id\": \"string\" , \"value\" : \"string\" , \"ffUnitId\" : \"long\", \"ffTestId\" : \"long\", \"ffPartId\" : \"long\" \n} \n3. Generic Function. The Generic Function method is being used for a customized step on the FF Autotest \nstations such as calling an UDP or a customized DLL and perform different kind of \nvalidations/",
+      "chunk_index": 46,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 11
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p11_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "@ErrorDescription: output parameter visible in response. SOAP request example for ExecuteGenericFunction under namespace tem=\"http://tempuri.org/\" with soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\". Request includes optional parameters: functionName=\"GenericFunctionName\" and spInputParameter=\"InputParametersInXmlFormat\" (XML-formatted input). Parameters marked as optional in request structure.",
+      "raw_preview": "se \n@ErrorDescription: another output parameter which is also visible within the response. a. SOAP Example of the Request: \n--GenericFunction— Request <soapenv:Envelope \nxmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" \nxmlns:tem=\"http://tempuri.org/\"> \n <soapenv:Header/> <soapenv:Body> <tem:ExecuteGenericFunction> <!--Optional:--> <tem:functionName>GenericFunctionName</tem:functionName> ",
+      "chunk_index": 47,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 11
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p11_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf', page 12. Content: Image displaying the \"flex\" logo (lowercase blue text on black background) with a registered trademark symbol (®) positioned to the right of the \"x\".",
+      "raw_preview": "",
+      "chunk_index": 48,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p11_i0.jpg",
+      "metadata": {
+        "page": 11,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p12_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service interface (page 13/37) defines the `ExecuteGenericFunction` SOAP 1.1 operation. **Request structure**: SOAP envelope with `<tem:ExecuteGenericFunction>` (namespace `http://tempuri.org/`) containing optional elements: `<tem:stationName>` (string, e.g., \"StationName\"), `<tem:userId>` (string, e.g., \"Username\"), `<tem:output>` (string, empty example), and `<tem:errorDescription>` (string, empty example). **Response structure**: SOAP envelope with `<ExecuteGenericFunctionResponse>` (namespace `http://tempuri.org/`) containing:  \n- `<ExecuteGenericFunctionResult>` (namespace `http://schemas.datacontract.org/2004/07/Flex.FFTester.Utilities`):  \n  - `<a:FFPartID>` (nullable, `i:nil=\"true\"`),  \n  - `<a:FFTestID>` (nullable, `i:nil=\"true\"`),  \n  - `<a:FFUnitID>` (nullable, `i:nil=\"true\"`),  \n  - `<a:Id>` (integer, value `0`),  \n  - `<a:Value>` (string, e.g., \"returned value\").  \n- Direct children of response: `<output>` (string, e.g., \"Response Output Message from Stored Procedure + DLL\"), `<errorDescription>` (string, empty example).  \n**Namespaces**: `soapenv/s` (`http://schemas.xmlsoap.org/soap/envelope/`), `tem` (`http://tempuri.org/`), `a` (`http://schemas.datacontract.org/2004/07/Flex.FFTester.Utilities`), `i` (`http://www.w3.org/2001/XMLSchema-instance`). All parameters are optional; response includes stored procedure/DLL output and error handling fields.",
+      "raw_preview": "Page 13 of 37 FFTester – Web Service <!--Optional:--> <tem:stationName>StationName</tem:stationName> <!--Optional:--> <tem:userId>Username</tem:userId> <!--Optional:--> <tem:output></tem:output> <!--Optional:--> <tem:errorDescription></tem:errorDescription> </tem:ExecuteGenericFunction> </soapenv:Body> \n</soapenv:Envelope> Example of the response: \n--GenericFunction— Response <s:Envelope xmlns:s=\"",
+      "chunk_index": 49,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 12
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p12_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Image on page 13 of \"FFTester - Interface Definition (External).pdf\" displays the \"flex\" logo: lowercase blue text with a stylized \"x\" (right arm as a diagonal line), a registered trademark symbol (®) to the right of the text, and a black background.",
+      "raw_preview": "",
+      "chunk_index": 50,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p12_i0.jpg",
+      "metadata": {
+        "page": 12,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p13_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Page 14 of 37: FFTester Web Service. REST example for GenericFunction: JSON request includes functionName (string), spInputParameter (string), stationName (string), userId (string). JSON response includes id (string), value (string), ffUnitId (long), ffTestId (long), ffPartId (long). XML Cache File Format: Output cache files between FTS_RES.DLL and external hook applications constitute a major FTS framework interface; must not be radically changed to maintain backward compatibility with existing hook applications. XML (eXtensible Markup Language) basis with FTS-specific tags; sample structure: <?xml version=\"1.0\"?> <BATCH TIMESTAMP=\"…\" SYNTAX_REV=\"…\" COMPATIBLE_REV=\"…\" COMMENT=\"…\"> <FACTORY NAME=\"…\" LINE=\"…\">.",
+      "raw_preview": "Page 14 of 37 FFTester – Web Service  \nb. REST Example of the Request: \n--GenericFunction— JSON Request { \"functionName\" : \"string\" , \"spInputParameter\" : \"string\" , \"stationName\" : \"string\" , \"userId\" : \"string\"  \n} Example of the response: \n--GenericFunction— JSON Response \n{ \"id\": \"string\" , \"value\" : \"string\" , \"ffUnitId\" : \"long\", \"ffTestId\" : \"long\", \"ffPartId\" : \"long\" \n} 4. XML Cache File ",
+      "chunk_index": 51,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 13
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p13_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf' | Chunk #52 | Page 14 image. Contains the \"flex\" logo: lowercase blue text \"flex\" on black background, with registered trademark symbol (®) positioned to the right of the \"x\" character. The \"x\" features a distinctive diagonal stroke design. No additional text or interface elements visible in the image.",
+      "raw_preview": "",
+      "chunk_index": 52,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p13_i0.jpg",
+      "metadata": {
+        "page": 13,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p14_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Page 15 of 37 of \"FFTester – Interface Definition (External).pdf\" specifies an XML-based interface structure with hierarchical elements and attributes: `<TESTER>` (attributes: TESTER, FIXTURE, SHIFT, TESTCATEGORY, SYSTEMTYPE, USER); `<PRODUCT>` (NAME, REVISION, FAMILY, CUSTOMER); `<REFS>` (SEQ_REF, FTS_REF, APP_REF, LIM_REF, CFG_REF, CAL_REF, INSTR_REF); `<PANEL>` (ID, COMMENT, RUNMODE, TIMESTAMP, TESTTIME, WAITTIME, STATUS) containing nested `<DUT>` (ID, COMMENT, PANEL, SOCKET, TIMESTAMP, TESTTIME, STATUS), which in turn contains `<GROUP>` (NAME, STEPGROUP, GROUPINDEX, LOOPINDEX, TYPE, RESOURCE, MODULETIME, TOTALTIME, TIMESTAMP). All attribute values are placeholder ellipses (\"…\"), indicating required parameters. Key technical details include hierarchical nesting (PANEL→DUT→GROUP), time-tracking fields (TIMESTAMP, TESTTIME, WAITTIME, MODULETIME, TOTALTIME), reference identifiers (REFS attributes), system configuration parameters (RUNMODE, RESOURCE, SYSTEMTYPE), and structural relationships (e.g., DUT's PANEL attribute referencing parent PANEL ID). The structure supports test execution metadata, product specifications, reference tracking, and group-level test sequencing.",
+      "raw_preview": "Page 15 of 37 FFTester – Web Service TESTER=\"…\" FIXTURE =\"…\" SHIFT =\"…\" TESTCATEGORY =”” SYSTEMTYPE =”” USER =\"…\" /> <PRODUCT NAME=\"…\" REVISION =\"…\" FAMILY =\"…\" CUSTOMER =\"…\" /> <REFS SEQ_REF=\"…\" FTS_REF =\"…\" APP_REF =\"…\" LIM_REF =\"…\" CFG_REF =\"…\" CAL_REF =\"…\" INSTR_REF =\"…\" /> < PANEL ID =\"…\" COMMENT =\"…\" RUNMODE =\"…\" TIMESTAMP =\"…\" TESTTIME =\"…\" WAITTIME =\"…\" STATUS =\"\"> <DUT ID =\"…\" COMMENT =\"…",
+      "chunk_index": 53,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 14
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p14_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: \"FFTester - Interface Definition (External).pdf\" | Chunk: #54 | Page: 15 | Content: Image of \"flex\" logo (lowercase blue sans-serif text on black background, with registered trademark symbol \"®\" positioned to the right of the \"x\").",
+      "raw_preview": "",
+      "chunk_index": 54,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p14_i0.jpg",
+      "metadata": {
+        "page": 14,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p15_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester XML interface (page 16/37) defines a hierarchical structure: BATCH element (contains exactly one FACTORY, one ELEMENT, one REFS, and one or more PANEL elements) → PANEL (contains one or more DUT elements) → DUT (contains one or more GROUP elements) → GROUP (contains sub-GROUPs and/or TEST elements). TEST element attributes: NAME, DESCRIPTION, UNIT, VALUE, HILIM, LOLIM, STATUS, RULE, TARGET, DATATYPE. Identical syntax applies to PANEL files (multiple DUTs) and DUT files (requiring mandatory panel wrapper around DUT block). Multiple PANEL blocks per file are permitted (e.g., for daily shift results) but not required for temporary cache files; optional for permanent XML storage via hook application. BATCH groups all PANELs with factory/test system metadata.",
+      "raw_preview": "Page 16 of 37 FFTester – Web Service STATUS =\"…\"> <TEST NAME=\"…\" DESCRIPTION =\"…\" UNIT =\"…\" VALUE =\"…\" HILIM =\"…\" LOLIM =\"…\" STATUS =\"…\" RULE =\"…\" \" TARGET =\"…\" DATATYPE =\"…\" /> <GROUP> (Sub Groups) </ GROUP> </GROUP> <GROUP> (More groups) </ GROUP> </DUT> <DUT> (More duts) </ DUT> </PANEL> <PANEL> (More panels) </ PANEL> </BATCH> This same syntax can be used for both PANEL files (containing data ",
+      "chunk_index": 55,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 15
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p15_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf' | Chunk #56. Page 16 contains an image of the \"flex\" logo: lowercase blue text on black background, with registered trademark symbol (®) positioned to the right of the \"x\". No additional text or technical details present in this image-only chunk.",
+      "raw_preview": "",
+      "chunk_index": 56,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p15_i0.jpg",
+      "metadata": {
+        "page": 15,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p16_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service interface (Page 17/37) defines attributes and FACTORY element. Attributes: SYNTAX_REV (text, not DB-stored) specifies FTS cache file syntax revision (e.g., \"1.2\"). COMPATIBLE_REV (text, not DB-stored) indicates backward-compatible revision (e.g., \"1.1\"); compatibility maintained if only new attributes/elements added, unaffected by hooks dependent on attributes. TIMESTAMP (automatic date+time, N/A size) records test time with time zone (e.g., \"2001-10-11 18:44:14.01232345\") as test station local time. COMMENT (optional text, tbd size) stores user free-text notes (e.g., failing hardware, equipment changes, weather). FACTORY element describes factory/test setup: NAME (text, tbd size) for manufacturing site code (e.g., \"PL/TCW\", \"SE/VAS\", \"FI/KYR\"), LINE (text, tbd size) for production line ID (e.g., \"HFU2-4\"), and TESTER (text, tbd size) for hardware ID. All attributes except TIMESTAMP are user-defined; COMPATIBLE_REV logic excludes hook dependencies.",
+      "raw_preview": "Page 17 of 37 FFTester – Web Service  \nAttribute Type Ma\nx \nsiz\ne Explanation General: \nSYNTAX_REV  text (not \nto \ndata-\nbase) Revision of FTS cache file syntax used (e.g. “1.2”). COMPATIBLE \n_REV text (not \nto \ndata-\nbase) Revision that this file is compatible with (e.g. “1.1”). As long as only new attributes or elements are added, \nnew files are compatible. Individual hooks that \ndepend on attri",
+      "chunk_index": 57,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 16
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p16_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Examples: PL/TCW, SE/VAS, FI/KYR. Fields: LINE (text, tbd, production line ID, e.g., \"HFU2-4\"); TESTER (text, tbd, hardware ID, e.g., \"KYR-C01432\", typically PC machine name); FIXTURE (optional text, tbd, fixture identity for panel testing, required only if tester has multiple independent fixtures); SHIFT (optional text, tbd, operator's work shift/team ID); USER (text, tbd, operator ID, e.g., TestStand login name); TESTCATEGORY (optional text, tbd, test type performed, useful for multiple tests on same product with different programs). All fields marked \"tbd\" (to be determined).",
+      "raw_preview": "g. “PL/TCW”, “SE/VAS””, “FI/KYR” ). LINE text (tbd) Production line ID within the factory (e.g. “HFU2-\n4”) \nTESTER text (tbd) Tester hardware ID (e.g. “KYR-C01432” ) Usually \nthe machine name of the PC in the tester. FIXTURE text \n(optional) (tbd) Identity of the fixture that was used to test the \npanel. Only needed when a tester has more than one independent fixtures. SHIFT text \n(optional)  (tbd",
+      "chunk_index": 58,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 16
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p16_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf', Chunk #59, Page 17. Content: Image of the \"flex\" logo. Logo features lowercase \"flex\" in blue, with a stylized \"x\" (right segment as a diagonal line), followed by a registered trademark symbol (®). Background is solid black.",
+      "raw_preview": "",
+      "chunk_index": 59,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p16_i0.jpg",
+      "metadata": {
+        "page": 16,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p17_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "**Dense Factual Summary:**  \nPage 18 of 37 of \"FFTester – Interface Definition (External).pdf\" details the FFTester Web Service structure. **SYSTEMTYPE** (optional text, max size tbd) defines identical test stations. **PRODUCT element** stores tested product information; may occur at **BATCH level** (if all products identical) or within **PANEL/DUT level** (if multiple product types). Attributes:  \n- **NAME** (text, required, max size tbd): Product name/codename.  \n- **REVISION** (text, required, max size tbd): Product revision (e.g., PCB layout, processor model changes).  \n- **FAMILY** (optional text, max size tbd): Product family name/codename.  \n- **CUSTOMER** (optional text, max size tbd): Customer name/codename.  \n**REFS element** contains test application and system configuration data (e.g., program revisions, instrumentation, calibration). Attributes:  \n- **FTS_REF** (text, automatic, max size tbd): FTS system reference (distribution version & release date).  \n- **SEQ_REF** (text, max size tbd; description truncated).  \nAll max sizes marked \"tbd\" (to be determined). Element hierarchy and optionality are explicitly defined for structural context.",
+      "raw_preview": "Page 18 of 37 FFTester – Web Service  \nstation. SYSTEMTYPE text \n(optional) (tbd) The system type. All test stations with the same \ntype are identical. PRODUCT element: The PRODUCT element keeps information about the product that was tested. This \nelement may occur in the top BATCH level, if all products test were tested was the \nsame, but it may also be specified within the PANEL or DUT level if ",
+      "chunk_index": 60,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 17
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p17_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FTS_REF: text type, max size automatic (tbd), FTS system reference (distribution version & release date?); SEQ_REF: text type, max size tbd, test application reference (program code version & date); APP_REF: text type, max size optional (tbd), optional application reference excluding SEQ_REF, LIM_REF, CFG_REF; LIM_REF: text type, max size tbd, limits file reference (version & date). All attributes use text data type with max size specifications marked as \"tbd\" (to be determined), except FTS_REF (automatic) and APP_REF (optional). Explanations include version/date references for FTS system, test application, and limits file, with APP_REF explicitly excluding SEQ_REF, LIM_REF, and CFG_REF.",
+      "raw_preview": "on. Attribute Type Ma\nx \nsiz\ne Explanation \nFTS_REF text \n(automatic) (tbd) FTS system reference (distribution version & release \ndate?) \nSEQ_REF text (tbd) Test application reference (program code version & \ndate) \nAPP_REF text \n(optional) (tbd) Optional application reference other than SEQ_REF, \nLIM_REF, CFG_REF. LIM_REF text (tbd) Limits file reference (version & date)",
+      "chunk_index": 61,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 17
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p17_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf' | Chunk #62. Page 18 contains an image of the \"flex\" logo: lowercase blue text \"flex\" on black background, with registered trademark symbol (®) positioned to the right of the \"x\". The logo features a stylized \"x\" with a diagonal stroke. No additional text or interface elements are present in this image chunk.",
+      "raw_preview": "",
+      "chunk_index": 62,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p17_i0.jpg",
+      "metadata": {
+        "page": 17,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p18_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service (Page 19/37): CFG_REF (text, tbd) specifies configuration files reference (version & date). CAL_REF (optional text, tbd) specifies calibration reference (person name & calibration date). INSTR_REF (optional text, tbd) specifies instrument reference (serial numbers of key instruments). PANEL element identifies tested panels; if no panels used, wraps single DUT entities. Contains ≥1 DUT element and optionally PRODUCT element. PANEL attributes: ID (optional text, tbd) for panel identifier (e.g., serial number); TIMESTAMP (automatic date+time, e.g., \"2001-10-11 18:44:14.01232345\") records test station local time (including time zone); RUNMODE (text, tbd) specifies test execution mode (\"PRODUCTION\", \"DEBUG\", \"GOLDEN\", \"SELFTEST\") for database tagging to restrict analysis to specific test types.",
+      "raw_preview": "Page 19 of 37 FFTester – Web Service  \nCFG_REF text (tbd) Configuration files reference (version & date) \nCAL_REF text \n(optional) (tbd) Calibration reference (person name & calibration \ndate) \nINSTR_REF  text \n(optional) (tbd) Instrument reference (serial numbers of key \ninstruments etc.) PANEL element: The PANEL element identifies a panel that were tested. If the DUT are single entities \nand no ",
+      "chunk_index": 63,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 18
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p18_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Database tags: \"PRODUCTION\", \"DEBUG\", \"GOLDEN\", \"SELFTEST\" (and others) for filtering analysis (e.g., excluding debugging sessions from production test yield). Fields: WAITTIME (float, seconds; time between end of previous TESTTIME and start of current plate arrival); TESTTIME (float, seconds; total plate test duration from first DUT start to last DUT end); COMMENT (optional text, tbd; user-entered free text for hardware failures, equipment changes, weather, etc.); STATUS (text, tbd; values: \"Passed\", \"Failed\", \"Terminated\", \"Aborted\", \"Error\", \"Done\", \"Skipped\", \"Intermediate\", \"Planned\").",
+      "raw_preview": "“PRODUCTION”, “DEBUG”, “GOLDEN”, \n“SELFTEST”... This is used to tag the data in the database, so that \nanalysis can be made only on production tests. We \ndon’t want to include debugging sessions in the test \nyield for example. WAITTIME  float N/A Time spent waiting for the plate to arrive  \n(from end of previous TESTTIME to the beginning of this one)  \nTESTTIME  float N/A Total testtime of the pla",
+      "chunk_index": 64,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 18
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p18_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Image on page 19 of \"FFTester - Interface Definition (External).pdf\" displays the \"flex\" logo: lowercase blue text with a stylized \"x\" (angled rightward), a registered trademark symbol (®) to the right of \"flex\", set against a solid black background.",
+      "raw_preview": "",
+      "chunk_index": 65,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p18_i0.jpg",
+      "metadata": {
+        "page": 18,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p19_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "DUT element identifies tested Device Under Test (DUT), including panel position (if panel-mounted) and test socket used; contains one or more GROUP elements representing the test. Attributes:  \n- **ID**: text (tbd), identifier (e.g., serial number)  \n- **TIMESTAMP**: date+time (automatic), N/A max size, test station local time with time zone (sample: \"2001-10-11 18:44:14.01232345\")  \n- **PANEL**: integer (optional), N/A max size, DUT index in panel PCB (1...N), omitted if single DUT per panel  \n- **SOCKET**: integer, N/A max size, test socket number (0...N-1)  \n- **TESTTIME**: float, N/A max size, test duration in seconds  \n- **STATUS**: text (tbd), values: \"Passed\", \"Failed\", \"Terminated\", \"Aborted\", \"Error\", \"Done\", \"Skipped\", \"Intermediate\", \"Planned\"  \n\nGROUP element groups TEST elements and reflects test program architecture; may contain nested TEST or GROUP elements.",
+      "raw_preview": "Page 20 of 37 FFTester – Web Service  \nDUT element: The DUT element identifies the DUT that were tested, including which panel position it \nhas (if panel mounted) and in which test socket were used. The test that was performed \nis represented in one or many the underlying GROUP elements. Attribute Type Ma\nx \nsiz\ne Explanation \nID text (tbd) Identifier (e.g. serial number) for the Device Under \nTes",
+      "chunk_index": 66,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 19
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p19_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "The GROUP element groups TEST elements and reflects test program architecture, containing TEST or GROUP elements to represent executed logical groupings (e.g., code modules or test executive groupings). Attributes:  \n- **NAME**: Text (max size tbd), short unchangeable post-production identifier.  \n- **DESCRIPTION**: Optional text (max size tbd), user-facing/report display field (changeable, not for automation).  \n- **STEPGROUP**: Optional text, denotes test executive-defined parts (e.g., Setup, Main, Cleanup).  \n- **GROUPINDEX**: Integer, index position within parent element.  \nAll attributes except GROUPINDEX are text-based; NAME is immutable after production start.",
+      "raw_preview": "element is for grouping TEST elements and also used for reflecting the \ntest program architecture. A GROUP element may contain TEST or GROUP elements. A GROUP element represents the logical grouping that was used in the test program. This can be either a code module that were executed or the test executives grouping \nfeature. In both case, the GROUP element represents something that were executed.",
+      "chunk_index": 67,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 19
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p19_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf' | Page 20 contains an image displaying the \"flex\" logo in blue text on a black background, with a registered trademark symbol (®) positioned to the right of the text. The logo features lowercase lettering with the \"x\" character stylistically extended.",
+      "raw_preview": "",
+      "chunk_index": 68,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p19_i0.jpg",
+      "metadata": {
+        "page": 19,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p20_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service GROUP element attributes: LOOPINDEX (integer; loop iteration index for looping groups, -1 for non-looping/cumulative groups); TYPE (text; group type name); RESOURCE (optional text; executed resource description, e.g., VI/function name); MODULETIME (float; pure code module execution time excluding verification/setup overhead); TOTALTIME (float; total test group duration in seconds); TIMESTAMP (date+time; automatic local test station time in \"YYYY-MM-DD HH:MM:SS.ffffffff\" format, e.g., \"2001-10-11 18:44:14.01232345\"); STATUS (text; values: \"Passed\", \"Failed\", \"Terminated\", \"Aborted\", \"Error\", \"Done\", \"Skipped\", \"Intermediate\", \"Planned\"); COMMENT (optional text; user-entered free-text remarks); TEST element (listed but undefined in this chunk). All fields are part of the GROUP structure definition.",
+      "raw_preview": "Page 21 of 37 FFTester – Web Service  \nr GROUP \nLOOPINDEX intege\nr  If the group is a looping GROUP, this is the loop \niteration. If the GROUP is not looping or the group represents \nthe cumulative result for a looping GROUP the \nLOOPINDEX  = -1 \nTYPE text A name representing the type of the GROUP that \nwere executed. RESOURCE text \n(optional)  A textual description of the resource that were \nexec",
+      "chunk_index": 69,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 20
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p20_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Dense factual summary of FFTester Interface Definition (External) Chunk #70:  \n- **Free text comments**: User-inserted (tbd) free text for remarks (e.g., failing hardware descriptions, equipment changes, weather).  \n- **TEST element**: Contains verified value and limits. Attributes:  \n  - `NAME`: Text (tbd); short test ID; **must not change after production start**.  \n  - `DESCRIPTION`: Optional text (tbd); informative test name.  \n  - `STATUS`: Text (tbd); enumerated values: \"Passed\", \"Failed\", \"Terminated\", \"Aborted\", \"Error\", \"Done\", \"Skipped\", \"Intermediate\", \"Planned\".  \n  - `VALUE`: Text (tbd); raw measured data without units.  \n  - `LOLIM`: Text (tbd); low comparison limit; for unary comparisons (\"GT\", \"LE\"), defines the value limit (explanation truncated).  \nAll attributes marked \"(tbd)\" for type/size.",
+      "raw_preview": "onal) (tbd) Free text comments inserted by the user (e.g. description of failing hardware, remark of changed \nequipment, weather etc...) TEST element: The TEST element contains the actual value that is verified and its limits. Attribute Type Ma\nx \nsiz\ne Explanation \nNAME text (tbd) Short name (ID) for the test \nMust NOT be changed once production has started! DESCRIPTION text \n(optional) (tbd) A m",
+      "chunk_index": 70,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 20
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p20_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf' | Chunk #71 | Page 21 image: Blue \"flex\" text logo on black background with registered trademark symbol (®) following text.",
+      "raw_preview": "",
+      "chunk_index": 71,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p20_i0.jpg",
+      "metadata": {
+        "page": 20,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p21_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service XML structure (Page 22/37) defines key elements and attributes:  \n- **HILIM**: Optional text attribute; high limit for comparison (unused in unary comparisons like \"GT\"/\"LE\").  \n- **RULE**: Text attribute; specifies comparison rule (\"LT\", \"GT\", \"LE\", etc.).  \n- **TARGET**: Optional text attribute; lower limits (excludes unit).  \n- **DATATYPE**: Text attribute; defines data type for Value, Lo/Hi-Lim, and Target.  \n- **UNIT**: Text attribute; unit of measured value.  \n- **ERROR element**: Reports runtime errors; position in XML indicates error location. Attributes:  \n  - *DESCRIPTION*: Text (tbd); clear error description.  \n  - *VALUE*: Integer (tbd); numeric error code.  \n- **EXTRA element**: Supports proprietary fields; valid within BATCH, PANEL, DUT, and GROUP elements. Accepts any attribute name (text type, tbd).  \nAll attributes marked \"(tbd)\" require future specification. Unary comparisons exclude HILIM. ERROR element location contextualizes error origin. EXTRA enables custom extensions without predefined schema constraints.",
+      "raw_preview": "Page 22 of 37 FFTester – Web Service  \ncompared to. HILIM text \n(optional) (tbd) The high limit in the comparison. If a unary \ncomparison (“GT”, “LE”) HILIM is not used. RULE text (tbd) Comparison rule used in the test (“LT”/”GT”/”LE”/...) \nTARGET text \n(optional)  (tbd) Lower limits (without unit part) \nDATATYPE text (tbd) Specifies data type of Value, Lo/Hi-Lim and Target \nUNIT text (tbd) The un",
+      "chunk_index": 72,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 21
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p21_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Interface Definition (External), chunk 73: Fragment \"ment\" may occur within BATCH, PANEL, DUT, and GROUP elements. Attribute table headers: Attribute, Type, Max size, Explanation. Row specifies Attribute=<ANY>, Type=\"text (tbd)\", Explanation: \"Any attribute name is valid. Its up to the test engineer to set up and identify the content of the <EXTRA> element.\"",
+      "raw_preview": "ment may occur within the BATCH, PANEL, DUT and GROUP \nelements. Attribute Type Ma\nx \nsiz\ne Explanation \n<ANY> text (tbd) Any attribute name is valid. Its up to the test engineer \nto set up and identify the content of the <EXTRA> \nelement.",
+      "chunk_index": 73,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 21
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p21_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: \"FFTester - Interface Definition (External).pdf\" | Chunk #74 | Page 22 image content: Blue \"flex\" logo (lowercase letters) on black background, featuring stylized \"x\" with diagonal stroke, followed by registered trademark symbol (®). No additional text or interface elements visible.",
+      "raw_preview": "",
+      "chunk_index": 74,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p21_i0.jpg",
+      "metadata": {
+        "page": 21,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p22_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service (p.23/37) XML cache semantics for FTS: BATCH wraps panels started simultaneously; PANEL serves as a placeholder for DUTs and RUNMODE; DUT represents tested devices; GROUP represents a step (sequence/code module execution initiated by SequenceCall Step); TEST holds values for status expression evaluation. Example: GROUP (NAME=\"Numeric Limit Test \", STEPGROUP=\"Main\", GROUPINDEX=\"3\", LOOPINDEX=\"-1\", TYPE=\"NumericLimitTest \", RESOURCE=\"\", MODULETIME=\"0.000000\", TOTALTIME=\"0.000210\", TIMESTAMP=\"2002-09-12 06:57:16.335747\", STATUS=\"Passed\") with underlying TEST represents a NumericLimitTest step.",
+      "raw_preview": "Page 23 of 37 FFTester – Web Service  \n5. XML cache file Semantics Even though the XML syntax is specified, it is not quite obvious how it is used. Dependent on the test executive the XML might be used in different ways. This chapter defined how FTS uses the XML and defines the data that goes into \ndifferent attributes.  The BATCH element wraps “all panels that were started at the same time”.  T",
+      "chunk_index": 75,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 22
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p22_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Chunk #76 details a NumericLimitTest (TYPE) with EX=-1, empty RESOURCE, MODULETIME=0.000000, TOTALTIME=0.000210, TIMESTAMP=2002-09-12 06:57:16.335747, STATUS=Passed. The test (NAME=\"Numeric Limit Test\") has VALUE=15, HILIM=100, LOLIM=0, empty DESCRIPTION and UNIT, and STATUS=Passed. All time values are in seconds, with TOTALTIME reflecting test execution duration. HILIM/LOLIM define numeric pass thresholds (0–100), and VALUE=15 falls within range.",
+      "raw_preview": "EX =\"-1\" TYPE=\"NumericLimitTest \" RESOURCE =\"\" MODULETIME =\"0.000000\" TOTALTIME =\"0.000210\" TIMESTAMP =\"2002-09-12 06:57:16.335747 \" STATUS =\"Passed\"> < TEST NAME=\"Numeric Limit Test \" DESCRIPTION =\"\" UNIT=\"\"  \n VALUE =\"15\" HILIM =\"100\" LOLIM =\"0\" STATUS =\"Passed\"",
+      "chunk_index": 76,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 22
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p22_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf' | Chunk #77. Page 23 contains an image of the \"flex\" logo: lowercase blue text on black background, with a stylized \"x\" featuring a diagonal line extension; registered trademark symbol (®) appears to the right of the logo. No additional text or interface elements present.",
+      "raw_preview": "",
+      "chunk_index": 77,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p22_i0.jpg",
+      "metadata": {
+        "page": 22,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p23_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service defines BATCH as representing all PANELs (DUTs) started simultaneously. Current FTS version uses a single Asynchronous Parallel execution model, allowing only one DUT start at a time (resulting in one PANEL per BATCH). Next FTS version will support multiple simultaneous PANEL starts (e.g., 100 units in a burn-in chamber, each in parallel test sockets, initiated via one button press, completing when all sockets finish testing). DUT element contains test execution data for the BATCH; typically one GROUP element per test run when user starts. Test NAME attribute derives from process model sequence call step \"MainSequence Callback\" (not locatable in application sequence). XML example includes rule: RULE=\"GELE\", TARGET=\"\", DATATYPE=\"Number\" within GROUP structure. Key concepts: BATCH (aggregates co-started PANELs/DUTs), PANEL (single DUT instance), DUT element (test results container), GROUP (test execution unit). Technical details: current single-DUT limitation, future multi-DUT parallel execution, and \"MainSequence Callback\" as NAME source.",
+      "raw_preview": "Page 24 of 37 FFTester – Web Service RULE =\"GELE\" TARGET=\"\" DATATYPE =\"Number\" />  \n</GROUP> The BATCH will represent all PANELs (DUTs) that were started at the same time. In \nthis version of FTS, we only have one Asynchronous Parallel execution model that \nmeans that only one DUT is started at once. So only one PANEL will exist in the \nBATCH. But in the next version, we will have BATCH support in",
+      "chunk_index": 78,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 23
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p23_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "The document chunk describes a process model element named \"MainSequence Callback\" (with trailing space), which appears unlocated in the application sequence but executes the sequence specified by its RESOURCE attribute (\"MainSequence\"). Key attributes from the <GROUP> tag include: STEPGROUP=\"Main\", GROUPINDEX=38, LOOPINDEX=-1, TYPE=\"SequenceCall\", MODULETIME=1.480148, TOTALTIME=1.480853, TIMESTAMP=2002-09-12 06:57:15.880882, and STATUS=\"Passed\". The remainder of groups and tests is omitted.",
+      "raw_preview": "ted in the process model and is called \n“MainSequence Callback”. This might look weird, as it cannot be located anywhere in \nthe application sequence. But the RESOURCE attribute contains “MainSequence” \nand is the sequence that is executed. <GROUP NAME=\"MainSequence Callback \" STEPGROUP =\"Main\" GROUPINDEX =\"38\" LOOPINDEX =\"-1\" TYPE=\"SequenceCall \" RESOURCE =\"MainSequence \" MODULETIME =\"1.480148\" T",
+      "chunk_index": 79,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 23
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p23_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "⚠️ Unexpected error: 500 — model 'qwen3-vl:235b' error: Internal Server Error. Installed: ['glm-4.6', 'gpt-oss:20b', 'minimax-m2', 'ministral-3:3b', 'devstral-2:123b', 'devstral-small-2:24b', 'gemma3:4b', 'gemma3:27b', 'kimi-k2.5', 'ministral-3:8b', 'ministral-3:14b', 'cogito-2.1:671b', 'glm-5', 'qwen3-coder:480b', 'nemotron-3-nano:30b', 'mistral-large-3:675b', 'rnj-1:8b', 'glm-4.7', 'deepseek-v3.2', 'deepseek-v3.1:671b', 'gpt-oss:120b', 'gemini-3-flash-preview', 'gemma3:12b', 'qwen3-coder-next', 'qwen3-vl:235b', 'minimax-m2.1', 'kimi-k2-thinking', 'qwen3-next:80b', 'minimax-m2.5', 'kimi-k2:1t', 'qwen3-vl:235b-instruct', 'qwen3.5:397b']",
+      "raw_preview": "",
+      "chunk_index": 80,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p23_i0.jpg",
+      "metadata": {
+        "page": 23,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p24_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "TestStand supports looping steps until conditions are met, such as \"Loop until pass then consider the test passed\" or \"Loop 157 times and then consider test passed if 37% failed\". For looping, a top-level **GROUP** element with **LOOPINDEX=\"-1\"** (no first-level **TEST** elements) is inserted, reporting the test **STATUS** (e.g., \"Passed\") and cumulative loop time. Inside this, iteration **GROUP** elements (with **LOOPINDEX** values **0, 1, 2, ..., n-1**) contain per-iteration **TEST** or **GROUP** elements (e.g., **TEST** with **NAME=\"Numeric Limit Test_2\"**, **VALUE=\"0\"**, **HILIM=\"5\"**, **LOLIM=\"2\"**), preserving all measurements without database processing. If per-iteration results are disabled (via TestStand option), only the empty cumulative **GROUP** (LOOPINDEX=\"-1\") is present, representing the test status. Example structure: cumulative **GROUP** NAME=\"Numeric Limit Test_2\", LOOPINDEX=\"-1\", STATUS=\"Passed\" enclosing iteration **GROUP** NAME=\"Numeric Limit Test_2\", LOOPINDEX=\"0\", STATUS=\"Failed\" with nested **TEST** data.",
+      "raw_preview": "Page 25 of 37 FFTester – Web Service In TestStand, it is possible to let thee sequencer loop on a step until a certain condition \nis met. This condition can be “Loop until pass then consider the test passed” or \n“Loop157 times and then consider test passed if 37% failed”. In this looping case, one \nGROUP element with LOOPINDEX = -1 and without any first level TEST elements is \ninserted. This eleme",
+      "chunk_index": 81,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 24
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p24_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "\"Numeric Limit Test_2\" test group (RULE=\"GELE\", LOLIM=2, HILIM=5, DATATYPE=\"Number\") results: LOOPINDEX 0 (VALUE=0, STATUS=\"Failed\"), LOOPINDEX 1 (VALUE=1, STATUS=\"Failed\", TARGET=\"\"), LOOPINDEX 2 (VALUE=2, STATUS=\"Passed\"), LOOPINDEX 9 (VALUE=9, STATUS=\"Failed\", TARGET=\"\"). Groups for LOOPINDEX 3-8 omitted. All TEST elements share identical RULE, limits, and DATATYPE; TARGET attribute present only for LOOPINDEX 1 and 9 (empty string).",
+      "raw_preview": "ATUS=\"Passed\"> <GROUP NAME =\"Numeric Limit Test_2 \" LOOPINDEX =\"0\" STATUS=\"Failed\"> <TEST  NAME=\"Numeric Limit Test_2 ” VALUE=\"0\" HILIM=\"5\" \nLOLIM=\"2\" STATUS =\"Failed\" RULE=\"GELE\" DATATYPE=\"Number\"/>  \n </GROUP> <GROUP NAME =\"Numeric Limit Test_2 \" LOOPINDEX =\"1\"  STATUS=\"Failed\"> <TEST  NAME=\"Numeric Limit Test_2 \" VALUE=\"1\" HILIM=\"5\" LOLIM=\"2\" STATUS =\"Failed\" RULE=\"GELE\" TARGET=\"\" \nDATATYPE=\"Nu",
+      "chunk_index": 82,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 24
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p24_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Chunk #83 of \"FFTester - Interface Definition (External).pdf\" references page 25 containing an image displaying the word \"flex\" in blue lowercase letters on a black background, with a registered trademark symbol (®) positioned adjacent to the letter \"x\".",
+      "raw_preview": "",
+      "chunk_index": 83,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p24_i0.jpg",
+      "metadata": {
+        "page": 24,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p25_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service: Each step includes a ReportText sub-property inserted as an `<EXTRA>` element within its containing group (e.g., `<EXTRA ReportText=\"This is written in the Step.Result.ReportText\" />`). Runtime errors occur when `Step.Result.Error.Occurred` is `True`, resulting in a `<GROUP>` with `STATUS=\"Error\"` containing an `<ERROR>` element (with `DESCRIPTION` and `VALUE` attributes, e.g., `<ERROR DESCRIPTION=\"A runtime error occurred\" VALUE=\"42\" />`) instead of `<TEST>` or nested `<GROUP>` elements. For the `<TEST>` element, the `NAME` attribute specifies the test name (typically matching the step name but may differ, e.g., in `MultipleNumericLimit` tests where separate names apply to distinct values).",
+      "raw_preview": "Page 26 of 37 FFTester – Web Service  \nEach step, by default, contains a ReportText sub property. This content is intended to \ngo into the report in some way. So, FTS takes the value of the sub property and inserts \nit as an EXTRA element inside the containing group. Example: \n<EXTRA ReportText=\"This is written in the Step.Result.ReportText \" /> Runtime errors can occur in a sequence. This is when",
+      "chunk_index": 84,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 25
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p25_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Step name typically matches step name but may differ (e.g., MultipleNumericLimit test allows separate names per value). DESCRIPTION: sourced from step if lookup provided, else step comment. STATUS: directly from TestStand; typically \"Passed\" or \"Failed\", but other statuses (especially custom steps) are transparently inserted into XML. VALUE: raw measured data without unit, taken directly from step. LOLIM and HILIM: limits taken directly from step. RULE: one of TestStand's comparison rules.",
+      "raw_preview": "lly the same as the step \nname, but it can differ, for example in the \nMultipleNumericLimit test, separate names can be set \nfor the different values. DESCRIPTION The description of a step is taken from the step, if a \nlookup for it is provided, otherwise it is taken from the \ncomment of the step  \nSTATUS The status is transparently taken from TestStand, that \nmeans that it will be either “Passed”",
+      "chunk_index": 85,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 25
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p25_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf' | Chunk #86. Page 26 contains an image of the \"flex\" logo: lowercase blue text on black background, with a stylized \"x\" (diagonal stroke extending rightward), followed by a registered trademark symbol (®). No additional text or interface elements present.",
+      "raw_preview": "",
+      "chunk_index": 86,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p25_i0.jpg",
+      "metadata": {
+        "page": 25,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p26_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service (Page 27/37) defines XML elements for test results. For the **TEST** element:  \n- Operators: `GE`, `GT`, `LE`, `LT`, `EQ`, `NE`, `GTLT`, `GTLE`, `GELT`, `GELE`, `LIMITS`, `MATCH`.  \n- `NONE` case: No `TEST` element appears in XML.  \n- `TARGET`: Unused.  \n- `DATATYPE`: One of `\"String\"`, `\"Boolean\"`, `\"Number\"`, or `\"FtsWaveform_t\"`.  \n- `UNIT`: Directly from step (if present).  \n\n**GROUP** element attributes:  \n- `NAME`: Calling step name (for `SequenceCall`, step name; executed sequence in `RESOURCE`).  \n- `DESCRIPTION`: No test description used.  \n- `STEPGROUP`: TestStand step group (`\"Setup\"`, `\"Main\"`, `\"Cleanup\"`).  \n- `GROUPINDEX`: Step index within its sequence.  \n- `LOOPINDEX`: `-1` for non-looping/cumulative results; `0` to `n` for loop iterations.  \n- `TYPE`: Executing step type (e.g., `NumericLimitTest`).  \n- `RESOURCE`: Executed code module (e.g., VI, DLL function, sequence file).  \n- `MODULETIME`: Code module execution time (excludes verification, setup, pre/post actions).",
+      "raw_preview": "Page 27 of 37 FFTester – Web Service  \nprescribes \nGE, GT, LE, LT, EQ, NE, GTLT, GTLE, GELT, GELE, \nLIMITS, MATCH For the NONE case, no TEST element will appear in \nthe XML. TARGET Not used \nDATATYPE Will be one of “String”, “Boolean”, ”Number” or \n“FtsWaveform_t”  \nUNIT Taken directly from the step, if any. GROUP element Attribute  Explanation  \nNAME Is the name of the calling step. For the Seque",
+      "chunk_index": 87,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 26
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p26_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "MODULETIME: Code module execution time excluding verification, setup, pre/post actions overhead. TOTALTIME: Total test time in seconds for test group. TIMESTAMP: ISO8601-formatted date/time with time zone (e.g., \"2001-10-11T18:44:14.01232345+01:00\"). STATUS: Step status copied from TestStand; standard values: \"Passed\", \"Failed\", \"Done\", \"Error\"; custom steps may introduce additional statuses.",
+      "raw_preview": "equence file) were executed. MODULETIME The time it took to execute the code module, excluded \noverhead for verification, setup, pre and post actions. TOTALTIME Total testtime of the group of tests in seconds \nTIMESTAMP  Date and time (including time zone) when step were \nexecuted expressed in ISO8601 format. Sample contents: “2001-10-\n11T18:44:14.01232345+01:00”  \nSTATUS Will be the status for th",
+      "chunk_index": 88,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 26
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p26_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Page 27 of \"FFTester - Interface Definition (External).pdf\" contains an image of the \"flex\" logo: the word \"flex\" rendered in blue lowercase letters (with stylized \"f\" and \"x\" characters) on a black background, accompanied by a registered trademark symbol (®) to the right of the text.",
+      "raw_preview": "",
+      "chunk_index": 89,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p26_i0.jpg",
+      "metadata": {
+        "page": 26,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p27_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "**FFTester Web Service Interface Definition (Chunk #90, Page 28/37)**  \n**DUT Element Attributes:**  \n- `ID`: DUT serial number entered via FTS UI.  \n- `TIMESTAMP`: Step execution time in ISO8601 format (e.g., \"2001-10-11T18:44:14.01232345+01:00\").  \n- `PANEL_POS`: Always `0` (FTS lacks PANEL support).  \n- `SOCKET`: Test socket index (0-based, range `0` to `N-1`).  \n- `TESTTIME`: DUT test duration in seconds.  \n- `COMMENT`: Free text comments from FTS UI.  \n\n**PANEL Element Attributes:**  \n- `ID`: Not used.  \n- `TIMESTAMP`: Step execution time in ISO8601 format (e.g., \"2001-10-11T18:44:14.01232345+01:00\").  \n- `RUNMODE`: Test run mode (e.g., \"PRODUCTION\", \"DEBUG\", \"GOLDEN\", \"SELFTEST\").  \n- `WAITTIME`: Not used; set to `0`.  \n- `TESTTIME`: Matches DUT `TESTTIME` (in seconds).  \n- `COMMENT`: Not used.  \n\n**BATCH Element:**  \n- Referenced but no attributes defined in this chunk.  \n\n**Key Technical Details:**  \n- All timestamps use ISO8601 with timezone (e.g., `+01:00`).  \n- `PANEL_POS` fixed at `0` due to FTS design constraints.  \n- `SOCKET` indices start at `0`.  \n- `WAITTIME` and unused `COMMENT`/`ID` fields explicitly set to `0` or omitted.  \n- `RUNMODE` values are case-sensitive strings.  \n- DUT `COMMENT` originates from FTS UI; PANEL `COMMENT` is inactive.",
+      "raw_preview": "Page 28 of 37 FFTester – Web Service  \nCOMMENT  Free text comments inserted by the user form the FTS \nUI DUT element Attribute  Explanation  \nID The serial number for the DUT that was entered in \nthe user interace. TIMESTAMP  Date and time (including time zone) when step were \nexecuted expressed in ISO8601 format. Sample contents: “2001-10-\n11T18:44:14.01232345+01:00”  \nPANEL_POS  As FTS don’t hav",
+      "chunk_index": 90,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 27
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p27_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Test modes: PRODUCTION, DEBUG, GOLDEN, SELFTEST. WAITTIME: unused, set to 0. TESTTIME: identical to DUT. COMMENT: unused. BATCH element attributes: SYNTAX_REV (RES subsystem-defined, format \"1.2\"), COMPATIBLE_REV (RES subsystem-defined, format \"1.1\"), TIMESTAMP (ISO8601 format with time zone, e.g., \"2001-10-\").",
+      "raw_preview": "g test \n“PRODUCTION”, “DEBUG”, “GOLDEN”, \n“SELFTEST”... WAITTIME  Not used, set to 0  \nTESTTIME  Same as for the DUT  \nCOMMENT  Not used BATCH element Attribute  Explanation  \nSYNTAX_REV  Defined by RES subsytem on format “1.2” \nCOMPATIBLE_REV  Defined by RES subsytem on format “1.1” \nTIMESTAMP  Date and time (including time zone) when step \nwere executed expressed in ISO8601 format. Sample conten",
+      "chunk_index": 91,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 27
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p27_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: \"FFTester - Interface Definition (External).pdf\" | Chunk #92. Page 28 contains an image displaying the \"flex\" logo in blue lowercase letters on a black background, with a registered trademark symbol (®) positioned to the right of the \"x\". The logo features stylized typography where the \"x\" has a distinctive angular design. This visual element appears within the context of an external interface definition document for FFTester.",
+      "raw_preview": "",
+      "chunk_index": 92,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p27_i0.jpg",
+      "metadata": {
+        "page": 27,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p28_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service document (page 29/37) specifies the unused FACTORY element with attributes: NAME (manufacturing site code, e.g., \"PL/TCW\", \"SE/VAS\", \"FI/KYR\"; format \"<Country>/<City>\"; Flextronics standard query; defined in [StationOptions]), PRODLINE (production line ID, e.g., \"HFU2-4\"; [StationOptions]), TESTER (tester hardware ID, e.g., \"KYR-C01432\"; [StationOptions]), FIXTURE (fixture identity for panel testing; set during test program load or runtime via fixture ID reading and system settings update), SHIFT (work shift/team ID; [StationOptions] unless runtime-defined), and USER (operator ID). Includes example timestamp \"11T18:44:14.01232345+01:00\". All attributes except FIXTURE and SHIFT (partially) are configured in [StationOptions]; FIXTURE is set during test load/runtime, SHIFT may be runtime-defined.",
+      "raw_preview": "Page 29 of 37 FFTester – Web Service  \n11T18:44:14.01232345+01:00”  \nCOMMENT  Not used FACTORY element: Attribute  Explanation  \nNAME Name or code of the manufacturing site (e.g. “PL/TCW”, “SE/VAS””, “FI/KYR” ). The name should be something like \n“<Country>/<City>”. Does an Flextronics standard exist? Specified in the [StationOptions] section in the \nconfiguration subsystem. PRODLINE  Production l",
+      "chunk_index": 93,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 28
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p28_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "USER ID: TestStand login name of tester user; specified in [StationOptions] configuration subsystem section unless defined at runtime. SYSTEMTYPE: sourced from test station configuration [StationOptions] SystemType. TESTCATEGORY: obtained during test program loading.",
+      "raw_preview": "to. Specified in the [StationOptions] section in the \nconfiguration subsystem, unless defined during \nruntime. USER ID of the person using the tester. This is the \nTestStand login name  \nSYSTEMTYPE Taken from the test station configuration \n[StationOptions] SystemType  \nTESTCATEGORY Information obtained during test program loaing.",
+      "chunk_index": 94,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 28
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p28_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: \"FFTester - Interface Definition (External).pdf\" | Chunk #95 | Page 29 image: \"flex\" logo with blue sans-serif text on black background; stylized \"x\" featuring diagonal stroke; registered trademark symbol (®) positioned to right of text.",
+      "raw_preview": "",
+      "chunk_index": 95,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p28_i0.jpg",
+      "metadata": {
+        "page": 28,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p29_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Page 30 of 37: FFTester Web Service documentation. PRODUCT element attributes: NAME (product name from program database during test program load), REVISION (product name from program database during test program load), FAMILY (product name from program database during test program load), CUSTOMER (product name from program database during test program load). REFS element attributes: FTS_REF (FTS system reference aligning subsystem versions, e.g., \"PM:v043,INT:V037 (CFG:V1.0, RES:1.01, LIM:V1.0)\"), APP_REF (full path of sequence file), LIM_REF (full path of limit file), CFG_REF (full path of config file), CAL_REF (not used), INSTR_REF (not used). Validation: FTSRES-XML validated via .xsd files; FTSRes-v1.2.xsd defines version 1.2, FTSRes-v1.3.xsd defines version 1.3.",
+      "raw_preview": "Page 30 of 37 FFTester – Web Service  \nPRODUCT element: Attribute  Explanation  \nNAME Name of the product specified during test program \nload. Usually from the program database. REVISION  Name of the product specified during test program \nload. Usually from the program database. FAMILY Name of the product specified during test program \nload. Usually from the program database. CUSTOMER  Name of the",
+      "chunk_index": 96,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 29
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p29_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Page 30 of \"FFTester - Interface Definition (External).pdf\" (Chunk #97) displays an image of the \"flex\" logo: lowercase blue text on a black background, with a registered trademark symbol (®) adjacent to the right of the \"x\".",
+      "raw_preview": "",
+      "chunk_index": 97,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p29_i0.jpg",
+      "metadata": {
+        "page": 29,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p29_img1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf', Chunk #98 (page 30) contains an image of the pixelated blue Internet Explorer logo (stylized lowercase \"e\" with a ring), a widely recognized symbol for Microsoft’s Internet Explorer web browser. The logo appears in low-resolution/pixelated form, consistent with legacy software interface assets. No additional text, numerical data, or technical specifications are present in this image-only chunk.",
+      "raw_preview": "",
+      "chunk_index": 98,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p29_i1.jpg",
+      "metadata": {
+        "page": 29,
+        "img_index": 1
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p29_img2",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: \"FFTester - Interface Definition (External).pdf\" | Chunk #99. Page 30 contains a pixelated image featuring a graphic with distinct colored sections: red, green, blue, yellow, and white. The image appears to be a low-resolution icon or logo displayed within the document's interface definition context. No text content, numerical data, dates, or technical specifications accompany the image in this chunk. The visual element consists of blocky, pixelated color regions arranged in a non-rectangular formation against a white background within the document layout.",
+      "raw_preview": "",
+      "chunk_index": 99,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p29_i2.jpg",
+      "metadata": {
+        "page": 29,
+        "img_index": 2
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p30_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service FTSRes-v1.4.xsd (v1.4 FTSRES-XML) specifies error codes for GetUnitInfo/SaveResult: success=0. Errors include: 120110005 (NextStateID non-numeric), 120110010 (serial numbers map to multiple UnitIDs), 120110050 (NULL value for nonexistent unit), 120111010 (UnitID non-integer), 180020100 (StatusID missing in luProductionOrderStatus), 180020600 (ffProductionOrder update failure), 180020700 (production order missing in ffProductionOrder), 180020800 (ffProductionOrderHistory insertion failure), 180020810 (ffLineOrder Priority=0 update failure), 180020830 (ffLineOrder priority shift failure), 180030001 (missing \"infromatin\" in PackageSettingsXMLstring), 180030050 (production order missing in ffProductionOrder), 180030060 (@Name not supplied), 180030080 (@Name undefined in luProductionOrderDetailDef), 180030090 (value missing in ffPartDetail), 180040001 (ffUnit update error). All errors pertain to database operations (ffProductionOrder, ffLineOrder, ffPartDetail, ffUnit tables) or XML validation.",
+      "raw_preview": "Page 31 of 37 FFTester – Web Service FTSRes-v1.4.xsd defines version 1.4 of the FTSRES-XML. FTSRes-v1.4.xsd 7. Error Messages \nFor GetUnitInfo and SaveResult, it will return 0 for success. For failure, these error codes will be \nreturned. 120110005 NextStateID must be numeric. 120110010 The serial numbers should not be matched to multiple UnitID. 120110050 Cannot take NULL field value for nonexist",
+      "chunk_index": 100,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 30
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p30_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Error codes and descriptions: 0080 (Name undefined in luProductionOrderDetailDef table); 180030090 (Value nonexistent in ffPartDetail table); 180040001 (ffUnit update error); 180040200 (UnitSerianumber not found in DB); 180040300 (Unit not belonging to any production order); 180040400 (Invalid Production Order); 180040500 (Production order has incompatible status); 180040600 (Invalid Line ID); 180040700 (Quantity addition exceeds allowed line quantity); 180040800 (ffLineOrder table quantity update failure); 180040900 (Parameters incorrectly filled; note: (DW) 26.08.04); 180050001 (Active ID missing in luProductionOrderStatus table); 180050002 (Released ID missing in luProductionOrderStatus table); 180050003 (Line lacks highest-priority production order definition); 180050004 (Line production order lacks part ID); 230010010 (Incoming UnitStateID NULL); 230010020 (Incoming StationTypeID NULL); 230010030 (Routing error: wrong station entered); 230010040 (RouteID not found); 230010045 (Unit in scrap/hold status); 230010050 (Station disallows NULL incoming state). Key tables: luProductionOrderDetailDef, ffPartDetail, ffUnit, ffLineOrder, luProductionOrderStatus. Concepts: production order status incompatibility, unit-state validation, routing constraints, quantity limits, parameter validation. Date: 26.08.04 (26 August 2004). Technical details include NULL checks, ID lookups, status validations, and table-specific errors.",
+      "raw_preview": "0080 @Name is not defined in luProductionOrderDetailDef table. 180030090 Value does not exist in ffPartDetail table. 180040001 Error updating ffUnit.. 180040200 UnitSerianumber not found in DB. 180040300 The unit does not belong to any production order. 180040400 Invalid Production Order. 180040500 The production order has incompatible status. 180040600 Invalid Line ID. 180040700 Cannot add the qu",
+      "chunk_index": 101,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 30
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p30_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf', Chunk #102 (page 31). Content: Image of the \"flex\" logo, featuring lowercase blue text on a black background, with a registered trademark symbol (®) positioned to the right of the \"x\".",
+      "raw_preview": "",
+      "chunk_index": 102,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p30_i0.jpg",
+      "metadata": {
+        "page": 30,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p30_img1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: \"FFTester - Interface Definition (External).pdf\" | Chunk #103 | Page 31 image content: Pixelated graphic displaying \"<XD>\" with blue angular brackets (<>) and red \"XD\" characters in blocky, low-resolution pixel art style. The image features distinct color separation: blue for delimiters, red for central text, on white background. No additional text, metadata, or contextual information present in the image itself. Document appears to be an external interface definition specification for FFTester system.",
+      "raw_preview": "",
+      "chunk_index": 103,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p30_i1.jpg",
+      "metadata": {
+        "page": 30,
+        "img_index": 1
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p31_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service error codes and descriptions: 250010010 (Incoming UnitStateID NULL), 250010020 (Incoming StationTypeID NULL), 250010030 (StateDescription not found in luOutputStateDef table), 250010040 (RouteID not found), 250010050 (Multiple next unit states unresolved for current station), 250010070 (Next outgoing unit state not found for current station), 270001000 (Group entry points to nonexistent parent in @GROUP), 270001100 (Parent points to itself in @GROUP), 270001200 (Group entry points to nonexistent @DUT), 270001300 (Test entry points to nonexistent @DUT), 270001400 (Test entry points to nonexistent @GROUP), 270001410 (TextExtra entry has no parent), 270001420 (GroupExtra entry has no parent), 270001430 (DUTExtra entry has no parent), 270001500 (#GROUP rows missing parent), 270001600 (Unit serial number not found in ffUnit table), 270001700 (Invalid station description in FACTORY element's TESTER attribute), 270001710 (LineID not found for station), 270001890 (ffTestRef table insertion failure), 270001900 (DUT panel routing error), 270001910 (StartToPO undefined for frmTestSaveResult function).",
+      "raw_preview": "Page 32 of 37 FFTester – Web Service  \n250010010 Incoming UnitStateID is NULL. 250010020 Incoming StationTypeID is NULL. 250010030 Cannot find StateDescription in luOutputStateDef table. 250010040 Unable to find a RouteID. 250010050 Cannot resolve multiple next unit state for current station. 250010070 Cannot find next outgoing unit state for current station. 270001000 Some group entry points to n",
+      "chunk_index": 104,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 31
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p31_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Error codes 270001900–270003100 document system failures: 270001900 (DUT panel routing error); 270001910/1920/1940 (StartToPO, ChangePartNumber, CompleteToPO undefined in basic function frmTestSaveResult); 270001930 (reverse part number lookup failure during part number downgrade); 270001950 (luJig table insertion failure); 270002000/2100/2300/2400/2590/2700/2800/3000 (SQL Server insert failures into ffTestPanel, ffTestPanelExtra, ffTest, ffTestExtra, ffTESTSTEPPASS, ffTestStepPassExtra, ffMeasurementDetailPass, ffMeasurementDetailPassExtra tables); 270002500/2600/2900/3100 (SQL Server update failures on @DUT, @GROUP, @TEST tables). All errors relate to database operations, function definitions, or part-number routing within FFTester's external interface.",
+      "raw_preview": "sert to ffTestRef table. 270001900 One of the DUT in panel has routing error. 270001910 StartToPO is not defined for basic function frmTestSaveResult. 270001920 ChangePartNumber is not defined for basic function \nfrmTestSaveResult. 270001930 Failed to find reverse part number when downgrade part number. 270001940 CompleteToPO is not defined for basic function frmTestSaveResult. 270001950 Cannot in",
+      "chunk_index": 105,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 31
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p31_t2",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Error codes 270003000–270003600 and 280000026–280000027 detail SQL Server failures and business logic errors: 270003000 (insert ffMeasurementDetailPassExtra fail), 270003100 (update @GROUP fail), 270003200 (insert ffTestStepFailExtra fail), 270003300 (insert ffMeasurementDetailFail fail), 270003400 (update @TEST fail), 270003410 (insert ffMeasurementDetailFailExtra fail), 270003500 (update ffUnitDetail fail), 270003505 (non-trivial test value required for ffSerialNumber), 270003510/270003521 (insert ffSerialNumber fail), 270003515 (update ffSerialNumber fail), 270003520 (DUT ffSerialNumber value conflict), 270003600 (uspEXTTestSaveResult call fail), 280000026 (PartID resolution fail), 280000027 (@PartID mismatch with ffImportProduct). Includes table operations, stored procedure errors, and data validation rules.",
+      "raw_preview": "update @TEST table. 270003000 SQL Server failed to insert into ffMeasurementDetailPassExtra table. 270003100 SQL Server failed to update @GROUP table. 270003200 SQL Server failed to insert into ffTestStepFailExtra table. 270003300 SQL Server failed to insert into ffMeasurementDetailFail table. 270003400 SQL Server failed to update @TEST table. 270003410 SQL Server failed to insert into ffMeasureme",
+      "chunk_index": 106,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 31
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p31_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Image on page 32 of 'FFTester - Interface Definition (External).pdf' (chunk #107) displaying the \"flex\" logo: blue lowercase text \"flex\" on black background with registered trademark symbol (®). Document title: FFTester - Interface Definition (External).pdf. Chunk identifier: #107. Page number: 32. Visual elements: blue typography, black background, registered trademark symbol (®) positioned to the right of \"flex\" text. No additional text, numerical data, dates, or technical specifications present in the image.",
+      "raw_preview": "",
+      "chunk_index": 107,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p31_i0.jpg",
+      "metadata": {
+        "page": 31,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p32_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service error codes (page 33/37):  \n280000029: Input @PartID ≠ ffUnit.PartID.  \n280000030: Unit already exists; cannot recreate.  \n280000031: Input @PartID ≠ ffImportProduct.PartID.  \n280000034: PartID not found due to @PartID NULL, @ProductionOrderID NULL, and no data from ffImportProduct/ffUnit.  \n280000035: Invalid RMANumber received.  \n280000036: Input @PartID ≠ ffUnit.PartID.  \n280000037: RMA already closed; new RMA# required.  \n280000038: PartID retrieval failed.  \n280000045: RMA number ≠ ffImportProduct table value; note: 03/16/2005 added @AllowLoopers=1.  \n280000050: Incoming unit state ID not found for current station.  \n280000051: Unit serial number pattern check failed.  \n280000060: SQL Server failed to insert unit into ffUnit table.  \n280000070: SQL Server failed to insert unit into ffUnitDetail table.  \n280000080: SQL Server failed to update ffUnit table for RMA project type.  \n280000083: Failure to insert failure code into ffTest table.  \n280000084: Failure to insert record into ffTest table.  \n280000085: Looper unit StatusID must be 1 upon return.  \nAll entries reference FFTester database tables (ffUnit, ffImportProduct, ffTest) and parameters (@PartID, @ProductionOrderID, @AllowLoopers).",
+      "raw_preview": "Page 33 of 37 FFTester – Web Service  \n280000029 The input @PartID is not equal to PartID from ffUnit. 280000030 Unit already exists. Cannot create it again.. 280000031 The input @PartID is not equal to PartID from ffImportProduct. 280000034 Cannot find PartID because @PartID is NULl, @ProductionOrderID is \nnull and no info from ffImportProduct and ffUnit. 280000035 Invalid RMANumber being receive",
+      "chunk_index": 108,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 32
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p32_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Error codes 280000084 (failed insert into ffTest), 280000085 (looper unit StatusID must be 1 on return), 280000090 (SQL Server failed update ffUnitDetail for RMA project type), 280000091/280000092 (failed update ffImportProduct), 280000100 (failed insert into ffHistory), 280011000 (StatusID missing for Quarantine in luUnitStatus), 280012000 (StatusID missing for Processing in luUnitStatus), 280012100 (invalid unit status in @xmlAllowedStatus), 280013000 (StatusID missing for Active in fsStatus), 280013100 (invalid part status in @xmlAllowedStatus), 280014000 (StatusID missing for Active in luProductionOrderStatus), 280015000 (StatusID missing for Released in luProductionOrderStatus), 280015100 (invalid Production Order status in @xmlAllowedStatus), 280016000 (invalid unit), 280017000 (unit not in allowed status to run), 280017100 (unit not in given status), 280018000 (unit lacks allowed part status), 280019000 (production order not active/released), 280019100 (unit lacks production order in allowed status).",
+      "raw_preview": "re code into ffTest table. 280000084 Failed to insert record into ffTest table. 280000085 For a looper the unit StatusID must be 1 when it comes back. 280000090 SQL Server failed to update ffUnitDetail for RMA project type. 280000091 Failed updating ffImportProduct. 280000092 Failed updating ffImportProduct. 280000100 Failed to insert ffHistory table. 280011000 Cannot find StatusID for Quarantine ",
+      "chunk_index": 109,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 32
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p32_t2",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "280019000: Production order not in active/released status; 280019100: Unit has production order in allowed status; 280030010: NULL field name invalid; 280030020: Column definition not found for field name; 280030050: Unit not found in ffUnit table; 280030060: @ImpFieldName cannot be NULL; 280030062: Multiple rows in ffImportProduct for unit; 280030066: No row in ffImportProduct for unit; 280030067: ffImportProduct table read failure; 280030070: Data field not defined as ffUnitDetail column; 280031010: Invalid UnitID passed; 280050010: Nonexistent UnitID in uspUNTGetSSN; 280050030: Nonexistent Serial Numnber Name in uspUNTGetSSN; 280050050: Unit not in ffUnit table; 280050060: @SNName not supplied; 280050070: @SNValue not supplied; 280050080: luSerialNumber table insert failure.",
+      "raw_preview": "owed part status. 280019000 The production order is not in active or released status. 280019100 The unit does have production order in allowed status. 280030010 Cannot pass in NULL as field name. 280030020 Cannot find column definition for field name. 280030050 Cannot find Unit in ffUnit table. 280030060 @ImpFieldName cannot be NULL. 280030062 More than one row is found in ffImportProduct for this",
+      "chunk_index": 110,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 32
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p32_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf', page 33. Content: Image of the \"flex\" logo, featuring lowercase blue text \"flex\" on a black background, with a stylized \"x\" and a registered trademark symbol (®) positioned to the right of the \"x\".",
+      "raw_preview": "",
+      "chunk_index": 111,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p32_i0.jpg",
+      "metadata": {
+        "page": 32,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p33_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service error codes: 280050090 (serial number type exists for unit); 280050100 (failed update serial number data); 280050110 (failed insert ffSerialNumber table); 280060020 (unit not found in ffUnit); 280060030 (failed generate serial number for ObtainValueBy=1); 280060040 (failed call stored procedure for ObtainValueBy=5); 280060050 (external stored procedure nonzero return); 280060060 (ObtainValueBy out of range 1-6); 280060070 (failed update ffUnitDetail table); 280060080 (ID not found in ffSNFormat table); 280060170 (failed insert ffUnitDetail [uspUNTGenField]); 280060180 (generated field value mismatch in ffSerialNumber verification [uspUNTGenField]); 280060190 (generated field value mismatch in ffUnitDetail verification [uspUNTGenField]); 280070100 (failed update ffUnit table); 280070101 (cannot find \"Completed\" status in luUnitStatus); 280070105 (cannot find \"Processing\" status in luUnitStatus); 280070200 (failed insert ffHistory table).",
+      "raw_preview": "Page 34 of 37 FFTester – Web Service  \n280050090 A serial number of given serial number type already exists for this \nunit. 280050100 Failed when update serial number data for unit. 280050110 Failed to insert ffSerialNumber table. 280060020 Cannot find unit in ffUnit. 280060030 Failed to generate serial number for ObtainValueBy=1. 280060040 Failed to call stored procedure for ObtainValueBy=5. 2800",
+      "chunk_index": 112,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 33
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p33_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Error codes and descriptions: 280070105 (luUnitStatus table \"Completed\" status), 280070200 (cannot find luUnitStatus table \"Processing\" status), 280100130 (ffHistory table insert failure), 280100150 (SQL Server update failure for reserved_xx columns in ffUnitDetail table), 280100190 (ffUnitDetail table insert failure), 280200050 (downgrade partnumber requires target production order to be NULL), 280200100 (cannot find luUnitStatus table \"Processing\" status), 280200200 (cannot find production order StatusID for \"released\"), 280200300 (cannot find production order StatusID for \"active\"), 280200400 (invalid StationID), 280200500 (invalid ProductionOrderID), 280200600 (current production order must be \"active\" or \"released\" status), 280200700 (new production order must define \"IncomingPartNumber\" in detail table for part upgrade), 280200710 (cannot find PartID for IncomingPartNumber in ffProductionOrderDetail), 280200800 (unit not found in ffUnit table), 280200900 (unit cannot be assigned twice to same production order).",
+      "raw_preview": "\"Completed\" status in luUnitStatus table. 280070105 Cannot find \"Processing\" status in luUnitStatus table. 280070200 Failed to insert ffHistory table. 280100130 SQL Server failed to update reserved_xx columns in ffUnitDetail \ntable. 280100150 Some field name is not defined in fsFieldDefinition table. 280100190 Failed to insert into ffUnitDetail table. 280200050 When downgrade the partnumber for a ",
+      "chunk_index": 113,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 33
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p33_t2",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Error codes and validation rules: 280200800 (unit not found in ffUnit table), 280200900 (unit cannot be assigned twice to same production order), 280201000 (unit status must be 'Processing' or 'ReProcess' for counting/moving to production order), 280201100 (unit must have part number), 280201200 (production order status must be 'active' or 'released' when @DecrementOldPO is enabled), 280201300 (current production order containing unit must have IncomingPartNumber), 280201310 (PartID not found for IncomingPartNumber in ffProductionOrderDetail), 280201400 (new production order requires incoming part number if PartID differs from unit's), 280201500 (unit part number must match new production order's IncomingPartNumber). All rules enforce unit-production order integrity, status requirements, part number consistency, and database table references (ffUnit, ffProductionOrderDetail).",
+      "raw_preview": "ined in \nffProductionOrderDetail. 280200800 Unit does not exist in ffUnit table. 280200900 Unit cannot be assigned twice to the same production order. 280201000 Unit must have status 'Processing' or 'ReProcess' to be counted or \nmoved to a production order. 280201100 Unit must have a part number. 280201200 Unit production order must be in \"active\" or \"released\" status when \n@DecrementOldPO is on. ",
+      "chunk_index": 114,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 33
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p33_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: \"FFTester - Interface Definition (External).pdf\", Chunk #115, Page 34. Content: Image of the \"flex\" logo featuring lowercase blue text on a black background, with a stylized \"x\" (angled rightward, resembling a checkmark), and a registered trademark symbol (®) positioned to the right of the text. Key elements: document title, chunk number, page number, logo text (\"flex\"), color scheme (blue text, black background), stylized \"x\" design, registered trademark symbol (®).",
+      "raw_preview": "",
+      "chunk_index": 115,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p33_i0.jpg",
+      "metadata": {
+        "page": 33,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p34_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service (p.35/37): Error codes and conditions: 280201600 - Downgrade unit part number must match current PO's incomingPartNumber when assigned to new PO; 280201800 - Unit part number must match new production order; 280202000 - Failed to update ffUnit with new production order; 280202010 - Failed to update ffUnitDetail with new production order; 280202100/280202110 - Failed to update ffLineOrder with new started quantity; 280202200 - ffLineOrder started quantity reached limit or line order does not exist; 280202300/280202310 - Failed to update ffLineOrder with new started quantity; 280202400 - ffLineOrder started quantity zero or unit not in line order; 280221020 - BTSAUTO must supply serial number; 280221030 - Multiple imatching PartID found for BTSAuto; 280221040 - CANNOT find matching PartID for BTSAuto; 600140100 - Cannot find StationID for given station; 600140200 - Cannot find @StationTypeID for given station. References to tables: ffUnit, ffUnitDetail, ffLineOrder; entities: PO (production order), BTSAUTO, PartID, StationID, StationTypeID.",
+      "raw_preview": "Page 35 of 37 FFTester – Web Service  \n280201600 When downgrade unit's part number and assign it to a new PO, the new \npart number of the new PO must be consistent with that of current \nPO's incomingPartNumber. 280201800 The unit part number must be consistent with that of the new \nproduction order. 280202000 Failed to update ffUnit with new production order. 280202010 Failed to update ffUnitDetai",
+      "chunk_index": 116,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 34
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p34_t1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Error codes 600140100–600141500 document system errors: 600140100 (\"ANNOT find any matching PartID for BTSAuto\"), 600140200/600141100 (\"Cannot find StationID for given station\"), 600140300/600141200 (\"Cannot find @StationTypeID for given station\"), 600140400 (\"Cannot find LineID for given station\"), 600140500/600141300 (\"Cannot find default task group for nonexistent unit\"), 600140600/600141500 (\"Cannot find task group 'frmGetUnitInfo' based on existing unit info\"), 600140700 (\"StartToPO is not defined for basic function frmGetUnitInfo\"), 600140800 (\"UnitPattern is not defined for basic function frmGetUnitInfo\"), 600140850 (\"ChangePartNumber is not defined for basic function frmGetUnitInfo\"), 600140870 (\"SectionHeader is not defined for basic function frmGetUnitInfo\"), 600140900 (\"Cannot find SectionHeader ID in ffSectionHeader table\"), 600141000 (\"Unit serial number does not match UnitPattern\"), 600141210 (\"Invalid user ID\"), 600141220 (\"The user is not allowed to enter this station\"), 600141400 (\"Cannot find RouteID for default task group\"). All errors reference station/unit validation, task group resolution, or frmGetUnitInfo function parameters (StartToPO, UnitPattern, ChangePartNumber, SectionHeader), with ffSectionHeader table and BTSAuto as technical entities.",
+      "raw_preview": "ANNOT find any matching PartID for BTSAuto. 600140100 Cannot find StationID for given station. 600140200 Cannot find @StationTypeID for given station. 600140300 Cannot find LineID for given station. 600140400 Cannot find default task group for nonexistent unit. 600140500 Cannot find task group \"frmGetUnitInfo\" based on existing unit info. 600140600 StartToPO is not defined for basic function frmGe",
+      "chunk_index": 117,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 34
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p34_t2",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Dense factual summary of document chunk #118 from \"FFTester - Interface Definition (External).pdf\":  \n\"nonexistent unit\" description; error codes 600141400 (RouteID not found for default task group), 600141500 (task group \"frmGetUnitInfo\" not found based on unit info), 600141600 (next unit state ID not found for task group frmGetUnitInfo), 600141700–600142250 (7 errors: LineHasPO, PNSource, UnitPattern, PNValidate, SectionHeader, ChangePartNumber, AllowCreate undefined for basic function frmGetUnitInfo), 600142300 (SectionHeader ID not found in ffSectionHeader table), 600142400 (unit serial number mismatch with UnitPattern), 600142500 (line requires PO when part number derived from PO or part number change), 600142600 (PartID not found for @PNSource=1), 600142700 (part number source must be specified for unit creation). All errors reference unit/task group validation, parameter definitions, and part number logic.",
+      "raw_preview": "nonexistent unit. 600141400 Cannot find RouteID for default task group. 600141500 Cannot find task group \"frmGetUnitInfo\" based on existing unit info. 600141600 Cannot find next unit state ID for task group frmGetUnitInfo. 600141700 LineHasPO is not defined for basic function frmGetUnitInfo. 600141800 PNSource is not defined for basic function frmGetUnitInfo. 600141900 UnitPattern is not defined f",
+      "chunk_index": 118,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 34
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p34_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf', Chunk #119, Page 35. Content: Image of the \"flex\" logo featuring lowercase blue text with a stylized \"x\" (diagonal stroke), a registered trademark symbol (®) to the right of the text, all set against a solid black background.",
+      "raw_preview": "",
+      "chunk_index": 119,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p34_i0.jpg",
+      "metadata": {
+        "page": 34,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p35_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester Web Service error codes: 600142800 (part number of unit created ≠ line PO part number), 600142900 (unit part number ≠ line PO part number), 600143000 (part number of unit created ≠ line PO IncomingPartNumber), 600143100 (unit part number ≠ line PO IncomingPartNumber), 600143200 (part number of unit created not in line PO PartID or IncomingPartNumber), 600143300 (unit part number not in line PO PartID or IncomingPartNumber), 600143350 (unit creation blocked: AllowCreate flag off), 600143400 (reverse part number lookup failure during downgrade), 600143500 (ffUnit update failure during downgrade). SOAP UI Configuration: tool for test execution/response visualization; requires new SOAP project creation with WSDL endpoint of running service specified in Initial WSDL textbox.",
+      "raw_preview": "Page 36 of 37 FFTester – Web Service  \n600142800 Part number of unit being created does not equal to that of the line \nPO's. 600142900 Unit part number is not the same as that the line PO's. 600143000 Part number of unit being created does not equal to \nIncomingPartNumber of the line PO. 600143100 Unit part number is not the same as the IncomingPartNumber of the \nline PO. 600143200 Part number of ",
+      "chunk_index": 120,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 35
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p35_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: 'FFTester - Interface Definition (External).pdf', Chunk #121, Page 36 contains an image of the Flex logo. The logo features the word \"flex\" in lowercase blue sans-serif typeface on a black background, with a registered trademark symbol (®) positioned to the right of the \"x\". The \"x\" character incorporates a distinctive diagonal stroke design. No additional text, numerical data, dates, or technical specifications are present in the image.",
+      "raw_preview": "",
+      "chunk_index": 121,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p35_i0.jpg",
+      "metadata": {
+        "page": 35,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p35_img1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "SoapUI 5.5.0 interface showing the File menu dropdown: options include \"Create Empty Project\", \"New SOAP Project\" (highlighted with red circle, shortcut Ctrl-N), \"New REST Project\" (Ctrl+Alt-N), \"Import Project\" (Ctrl-I), \"Import Packed Project\", \"Import Remote Project\", \"Import Postman Collection\", \"Save All Projects\" (Ctrl+Alt-S), \"Open All Closed Projects\" (disabled), \"Close All Open Projects\", \"Rename Workspace\" (F2), \"New Workspace\", and \"Switch Workspace\". Menu bar items: File (active), Project, Suite, Case, Step, Tools. Version 5.5.0 displayed at top.",
+      "raw_preview": "",
+      "chunk_index": 122,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p35_i1.jpg",
+      "metadata": {
+        "page": 35,
+        "img_index": 1
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p36_t0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTester - Interface Definition (External).pdf, Chunk #123, Page 37 of 37: FFTester Web Service section states that after project creation, available functions are observable. Key elements: document title \"FFTester - Interface Definition (External).pdf\", chunk identifier #123, page number 37 (final page), FFTester Web Service component, project creation prerequisite, and observable available functions post-creation.",
+      "raw_preview": "Page 37 of 37 FFTester – Web Service When the project has been created, we could observe our available functions .",
+      "chunk_index": 123,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 36
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p36_img0",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Document: \"FFTester - Interface Definition (External).pdf\" | Chunk #124 | Page 37 contains an image displaying the \"flex\" logo in blue text on a black background, with a registered trademark symbol (®) positioned to the right of the text. The logo features stylized lowercase lettering with the \"x\" character incorporating a distinctive angular design element.",
+      "raw_preview": "",
+      "chunk_index": 124,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p36_i0.jpg",
+      "metadata": {
+        "page": 36,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p36_img1",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "FFTesterService Service confirmation: service created; testing requires client creation to call service. Command: `svcutil.exe http://gdlm02205:4450/?wsdl` (URL highlighted). Service description accessible as single file via `http://gdlm02205:4450/?singleWsd1`. Host: gdlm02205, port: 4450, query parameters: `?wsdl`, `?singleWsd1`. Executable: svcutil.exe.",
+      "raw_preview": "",
+      "chunk_index": 125,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p36_i1.jpg",
+      "metadata": {
+        "page": 36,
+        "img_index": 1
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p36_img2",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Dialog: \"New SOAP Project\" (creates WSDL/SOAP-based project in workspace). Fields: Project Name = \"FFTester\"; Initial WSDL = \"http://gdlm02205:4450/?wsdl\" (with \"Browse...\" button). Checkboxes: \"Create Requests\" (checked, label: \"Create sample requests for all operations?\"); \"Create TestSuite\" (unchecked, label: \"Creates a TestSuite for the imported WSDL\"); \"Relative Paths\" (unchecked, label: \"Stores all file paths in project relatively to project file (requires save)\"). Buttons: \"OK\", \"Cancel\", help icon. Purpose: Configures new SOAP project with specified WSDL, sample requests, and path settings.",
+      "raw_preview": "",
+      "chunk_index": 126,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p36_i2.jpg",
+      "metadata": {
+        "page": 36,
+        "img_index": 2
+      }
+    },
+    {
+      "id": "6287d4db5faec2_p36_img3",
+      "doc_id": "6287d4db5faec2",
+      "doc_name": "FFTester - Interface Definition (External).pdf",
+      "content": "Projects section displays \"FFTester\" as the main project. Under FFTester, the highlighted service is \"BasicHttpBinding_IFFTesterService\" (indicating a Basic HTTP binding for the IFFTesterService interface). Nested under this service are five expandable methods: \"ExecuteGenericFunction\", \"GetOfflineTests\", \"GetProductStructure\", \"GetUnitInfo\", and \"SaveResult\", each marked with a plus icon (expandable) and a circular arrow icon (denoting operational methods). The green double arrow adjacent to \"BasicHttpBinding_IFFTesterService\" signifies the binding type.",
+      "raw_preview": "",
+      "chunk_index": 127,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\6287d4db5faec2_p36_i3.jpg",
+      "metadata": {
+        "page": 36,
+        "img_index": 3
+      }
+    }
+  ]
+}
