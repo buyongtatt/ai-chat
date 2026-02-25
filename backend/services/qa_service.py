@@ -18,6 +18,42 @@ from typing import AsyncGenerator
 from core.memory_store import Chunk, MemoryStore
 from services.ollama_client import OllamaClient
 
+import socket
+from urllib.parse import urlparse, urlunparse
+
+def _get_current_ip() -> str:
+    """
+    Best-effort LAN IP detection.
+    This does not send traffic; connect() just selects an outbound interface.
+    """
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    try:
+        s.connect(("10.255.255.255", 1))
+        return s.getsockname()[0]
+    except Exception:
+        return "127.0.0.1"
+    finally:
+        s.close()
+
+def _rewrite_localhost_url(url: str, ip: str) -> str:
+    """
+    If url is http(s) and host is localhost/127.0.0.1, replace host with ip.
+    Keeps scheme, port, path, query, fragment.
+    """
+    if not url:
+        return url
+    if not (url.startswith("http://") or url.startswith("https://")):
+        return url
+
+    u = urlparse(url)
+    host = (u.hostname or "").lower()
+
+    if host in ("localhost", "127.0.0.1"):
+        netloc = f"{ip}:{u.port}" if u.port else ip
+        return urlunparse((u.scheme, netloc, u.path, u.params, u.query, u.fragment))
+
+    return url
+
 logger = logging.getLogger(__name__)
 
 # Max doc images to pass to the vision model alongside user's question
@@ -118,6 +154,8 @@ class QAService:
         """Return relevant sources + image URLs for the frontend to preview."""
         chunks = self.store.search(question, top_k=8)
 
+        current_ip = _get_current_ip()
+
         seen_docs: set[str] = set()
         sources    = []
         image_urls = []
@@ -130,9 +168,11 @@ class QAService:
                     "doc_name":    c.doc_name,
                     "source_type": c.source_type,
                 })
+
             if c.source_type == "image" and c.image_url:
+                fixed_url = _rewrite_localhost_url(c.image_url, current_ip)
                 image_urls.append({
-                    "url":      c.image_url,
+                    "url":      fixed_url,
                     "doc_name": c.doc_name,
                     "page":     c.metadata.get("page", 0),
                     "summary":  c.content[:120] + "..." if len(c.content) > 120 else c.content,
