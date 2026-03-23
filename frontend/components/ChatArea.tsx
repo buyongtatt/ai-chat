@@ -1,22 +1,27 @@
-'use client';
-import { useState, useRef, useCallback, useEffect } from 'react';
-import { v4 as uuid } from 'uuid';
-import { Message, AttachedFile } from '@/types';
-import { streamAnswer, cancelSession, fetchSources } from '@/lib/api';
-import MessageBubble from '@/components/MessageBubble';
-import InputBar from '@/components/InputBar';
-import TopBar from '@/components/TopBar';
-import styles from './ChatArea.module.css';
-import { BookOpen } from 'lucide-react';
+"use client";
+import { useState, useRef, useCallback, useEffect } from "react";
+import { v4 as uuid } from "uuid";
+import { Message, AttachedFile } from "@/types";
+import { streamAnswer, cancelSession, StreamMetadata } from "@/lib/api";
+import MessageBubble from "@/components/MessageBubble";
+import InputBar from "@/components/InputBar";
+import TopBar from "@/components/TopBar";
+import styles from "./ChatArea.module.css";
+import { BookOpen } from "lucide-react";
 
 interface Props {
-  theme: 'dark' | 'light';
+  theme: "dark" | "light";
   onToggleTheme: () => void;
   onToggleSidebar: () => void;
   apiOnline: boolean;
 }
 
-export default function ChatArea({ theme, onToggleTheme, onToggleSidebar, apiOnline }: Props) {
+export default function ChatArea({
+  theme,
+  onToggleTheme,
+  onToggleSidebar,
+  apiOnline,
+}: Props) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isStreaming, setIsStreaming] = useState(false);
   const [activeSessionId, setActiveSessionId] = useState<string | null>(null);
@@ -24,95 +29,121 @@ export default function ChatArea({ theme, onToggleTheme, onToggleSidebar, apiOnl
   const abortRef = useRef<AbortController | null>(null);
 
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
+    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
-  const handleSend = useCallback(async (question: string, file: File | null) => {
-    if (!question.trim() || isStreaming) return;
+  const handleSend = useCallback(
+    async (question: string, file: File | null) => {
+      if (!question.trim() || isStreaming) return;
 
-    const sessionId = uuid();
-    setActiveSessionId(sessionId);
+      const sessionId = uuid();
+      setActiveSessionId(sessionId);
 
-    // Build user message
-    let attachedFile: AttachedFile | undefined;
-    if (file) {
-      attachedFile = {
-        name: file.name,
-        type: file.type.startsWith('image/') ? 'image' : 'document',
-        previewUrl: file.type.startsWith('image/') ? URL.createObjectURL(file) : undefined,
-        size: file.size,
+      let attachedFile: AttachedFile | undefined;
+      if (file) {
+        attachedFile = {
+          name: file.name,
+          type: file.type.startsWith("image/") ? "image" : "document",
+          previewUrl: file.type.startsWith("image/")
+            ? URL.createObjectURL(file)
+            : undefined,
+          size: file.size,
+        };
+      }
+
+      const userMsg: Message = {
+        id: uuid(),
+        role: "user",
+        content: question,
+        timestamp: new Date(),
+        attachedFile,
       };
-    }
 
-    const userMsg: Message = {
-      id: uuid(),
-      role: 'user',
-      content: question,
-      timestamp: new Date(),
-      attachedFile,
-    };
+      const aiMsgId = uuid();
+      const aiMsg: Message = {
+        id: aiMsgId,
+        role: "assistant",
+        content: "",
+        timestamp: new Date(),
+        isStreaming: true,
+      };
 
-    const aiMsg: Message = {
-      id: uuid(),
-      role: 'assistant',
-      content: '',
-      timestamp: new Date(),
-      isStreaming: true,
-    };
+      setMessages((prev) => [...prev, userMsg, aiMsg]);
+      setIsStreaming(true);
 
-    setMessages(prev => [...prev, userMsg, aiMsg]);
-    setIsStreaming(true);
+      const abortController = new AbortController();
+      abortRef.current = abortController;
+      let accum = "";
 
-    // Fetch sources in parallel (for image chips)
-    fetchSources(question).then(data => {
-      setMessages(prev =>
-        prev.map(m =>
-          m.id === aiMsg.id
-            ? { ...m, sources: data.sources, sourceImages: data.images }
-            : m
-        )
-      );
-    });
-
-    // Stream
-    const abortController = new AbortController();
-    abortRef.current = abortController;
-    let accum = '';
-
-    try {
-      for await (const token of streamAnswer(question, sessionId, file, abortController.signal)) {
-        accum += token;
-        const captured = accum;
-        setMessages(prev =>
-          prev.map(m => (m.id === aiMsg.id ? { ...m, content: captured } : m))
+      // Called once the stream finishes — updates with only cited images
+      const handleMetadata = (meta: StreamMetadata) => {
+        setMessages((prev) =>
+          prev.map((m) =>
+            m.id === aiMsgId
+              ? {
+                  ...m,
+                  sources: meta.sources,
+                  // Map cited_images to SourceImage shape
+                  sourceImages: meta.cited_images.map((img) => ({
+                    url: img.url,
+                    doc_name: img.doc_name,
+                    page: img.page,
+                    summary: img.label,
+                    label: img.image_label,
+                  })),
+                }
+              : m,
+          ),
         );
-      }
-    } catch (err: unknown) {
-      if (err instanceof Error && err.name === 'AbortError') {
-        // cancelled
-      } else {
-        accum += '\n\n⚠️ Connection error. Is the API running?';
-        setMessages(prev =>
-          prev.map(m => (m.id === aiMsg.id ? { ...m, content: accum } : m))
+      };
+
+      try {
+        for await (const token of streamAnswer(
+          question,
+          sessionId,
+          file,
+          abortController.signal,
+          handleMetadata,
+        )) {
+          accum += token;
+          const captured = accum;
+          setMessages((prev) =>
+            prev.map((m) =>
+              m.id === aiMsgId ? { ...m, content: captured } : m,
+            ),
+          );
+        }
+      } catch (err: unknown) {
+        if (err instanceof Error && err.name === "AbortError") {
+          // cancelled — leave as-is
+        } else {
+          accum += "\n\n⚠️ Connection error. Is the API running?";
+          setMessages((prev) =>
+            prev.map((m) => (m.id === aiMsgId ? { ...m, content: accum } : m)),
+          );
+        }
+      } finally {
+        setMessages((prev) =>
+          prev.map((m) =>
+            m.id === aiMsgId ? { ...m, isStreaming: false } : m,
+          ),
         );
+        setIsStreaming(false);
+        setActiveSessionId(null);
+        abortRef.current = null;
       }
-    } finally {
-      setMessages(prev =>
-        prev.map(m => (m.id === aiMsg.id ? { ...m, isStreaming: false } : m))
-      );
-      setIsStreaming(false);
-      setActiveSessionId(null);
-      abortRef.current = null;
-    }
-  }, [isStreaming]);
+    },
+    [isStreaming],
+  );
 
   const handleCancel = useCallback(async () => {
     if (!activeSessionId) return;
-    // Signal cancellation both ways
     abortRef.current?.abort();
     await cancelSession(activeSessionId);
-    setMessages(prev =>
-      prev.map(m => (m.isStreaming ? { ...m, isStreaming: false, cancelled: true } : m))
+    setMessages((prev) =>
+      prev.map((m) =>
+        m.isStreaming ? { ...m, isStreaming: false, cancelled: true } : m,
+      ),
     );
     setIsStreaming(false);
     setActiveSessionId(null);
@@ -138,9 +169,7 @@ export default function ChatArea({ theme, onToggleTheme, onToggleSidebar, apiOnl
         {messages.length === 0 ? (
           <EmptyState />
         ) : (
-          messages.map(msg => (
-            <MessageBubble key={msg.id} message={msg} />
-          ))
+          messages.map((msg) => <MessageBubble key={msg.id} message={msg} />)
         )}
         <div ref={bottomRef} />
       </div>
@@ -163,14 +192,16 @@ function EmptyState() {
       </div>
       <h2>DocMind</h2>
       <p>Ask anything about your document library.</p>
-      <p>Powered by qwen3-vl running locally.</p>
+      <p>Powered by local AI — fully offline.</p>
       <div className={styles.suggestions}>
         {[
-          'Summarize the main findings',
-          'What images are in the documents?',
-          'List all key dates mentioned',
-        ].map(s => (
-          <span key={s} className={styles.suggestionChip}>{s}</span>
+          "Summarize the main findings",
+          "What images are in the documents?",
+          "List all key dates mentioned",
+        ].map((s) => (
+          <span key={s} className={styles.suggestionChip}>
+            {s}
+          </span>
         ))}
       </div>
     </div>

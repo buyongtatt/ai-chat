@@ -7,7 +7,7 @@ import asyncio
 import logging
 from typing import Optional
 
-from fastapi import APIRouter, File, Form, HTTPException, UploadFile
+from fastapi import APIRouter, File, Form, HTTPException, Request, UploadFile
 from fastapi.responses import StreamingResponse
 
 from core.memory_store import MemoryStore
@@ -35,7 +35,7 @@ async def stats():
     return {
         "total_documents": s.total_documents(),
         "total_chunks": s.total_chunks(),
-        "model": "qwen3-vl",
+        "model": "llama3.2-vision",
     }
 
 
@@ -43,6 +43,7 @@ async def stats():
 
 @router.post("/ask")
 async def ask(
+    request: Request,
     question: str = Form(...),
     session_id: str = Form(...),
     file: Optional[UploadFile] = File(None),
@@ -74,6 +75,7 @@ async def ask(
             except Exception:
                 pass
 
+    client_host = request.client.host if request.client else None
     svc = QAService()
 
     async def generate():
@@ -84,6 +86,7 @@ async def ask(
                 user_image_ext=user_image_ext,
                 user_text_attachment=user_text,
                 cancel_event=cancel_event,
+                client_host=client_host,
             ):
                 if cancel_event.is_set():
                     yield "\n\n_[Response cancelled by user]_"
@@ -119,12 +122,13 @@ async def cancel(session_id: str):
 # ── Source preview ──────────────────────────────────────────────────────────
 
 @router.get("/sources")
-async def get_sources(q: str):
+async def get_sources(q: str, request: Request):
     """Return source docs + relevant image URLs for a given query."""
     if not q.strip():
         return {"sources": [], "images": []}
     svc = QAService()
-    return svc.get_sources_and_images(q)
+    client_host = request.client.host if request.client else None
+    return svc.get_sources_and_images(q, client_host=client_host)
 
 
 @router.get("/document/{doc_id}/images")
@@ -144,4 +148,49 @@ async def document_images(doc_id: str):
             for c in img_chunks
             if c.image_url
         ],
+    }
+
+
+# ── Debug / diagnostics ─────────────────────────────────────────────────────
+
+@router.get("/debug")
+async def debug():
+    """
+    Shows exactly which models are installed and what config is loaded.
+    Hit this first when something breaks: http://localhost:8000/api/v1/debug
+    """
+    from core.config import (
+        OLLAMA_LOCAL_URL, OLLAMA_LOCAL_MODEL,
+        OLLAMA_CLOUD_URL, OLLAMA_CLOUD_MODEL, OLLAMA_CLOUD_API_KEY,
+    )
+    from services.ollama_client import OllamaClient
+
+    local  = OllamaClient.local()
+    cloud  = OllamaClient.cloud()
+
+    local_models  = await local.list_models()
+    local_resolved = await local.resolve_model()
+
+    return {
+        "local": {
+            "url":            OLLAMA_LOCAL_URL,
+            "configured_model": OLLAMA_LOCAL_MODEL,
+            "resolved_model":   local_resolved,
+            "installed_models": local_models,
+            "status":          "ok" if local_models else "unreachable",
+        },
+        "cloud": {
+            "url":             OLLAMA_CLOUD_URL,
+            "configured_model": OLLAMA_CLOUD_MODEL,
+            "api_key_set":      bool(OLLAMA_CLOUD_API_KEY),
+        },
+        "memory": {
+            "documents": MemoryStore.get_instance().total_documents(),
+            "chunks":    MemoryStore.get_instance().total_chunks(),
+        },
+        "hint": (
+            "Set OLLAMA_LOCAL_MODEL in .env to one of the installed_models above"
+            if local_models and local_resolved not in local_models
+            else "Config looks good"
+        ),
     }

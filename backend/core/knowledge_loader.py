@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import json
 import logging
+import time
 from pathlib import Path
 
 from core.memory_store import Chunk, DocMeta, MemoryStore
@@ -30,8 +31,10 @@ class KnowledgeLoader:
             )
             return
 
+        load_start = time.perf_counter()
         for cache_file in cache_files:
             try:
+                t0 = time.perf_counter()
                 data = json.loads(cache_file.read_text(encoding="utf-8"))
                 doc_id = data["doc_id"]
                 doc_name = data["doc_name"]
@@ -67,6 +70,9 @@ class KnowledgeLoader:
                     )
                     store.add_chunk(chunk)
 
-                logger.info(f"  📄 {doc_name} — {len(chunks_data)} chunks ({image_chunks} images)")
+                elapsed = time.perf_counter() - t0
+                logger.info(f"  📄 {doc_name} — {len(chunks_data)} chunks ({image_chunks} images) loaded in {elapsed:.3f}s")
             except Exception as e:
                 logger.error(f"  ❌ Failed: {cache_file.name} — {e}")
+        total = time.perf_counter() - load_start
+        logger.info(f"  🏁 Knowledge base loaded in {total:.3f}s — {store.total_documents()} docs, {store.total_chunks()} chunks")

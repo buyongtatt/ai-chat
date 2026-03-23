@@ -106,6 +106,38 @@ class MemoryStore:
         scored.sort(key=lambda x: x[0], reverse=True)
         return [c for _, c in scored[:top_k]]
 
+    def search_images(self, query: str, top_k: int = 8) -> list[Chunk]:
+        """TF-IDF search restricted to image-type chunks only.
+        Runs independently of search() so image chunks are never
+        crowded out by higher-scoring text chunks."""
+        image_only = [c for c in self._chunks.values() if c.source_type == "image"]
+        if not image_only:
+            return []
+
+        query_terms = _tokenize(query)
+        if not query_terms:
+            return image_only[:top_k]
+
+        total = max(len(image_only), 1)
+        idf: dict[str, float] = {}
+        for term in set(query_terms):
+            df = sum(1 for c in image_only if term in _tokenize(c.content + " " + c.raw_preview))
+            idf[term] = math.log((total + 1) / (df + 1)) + 1.0
+
+        scored: list[tuple[float, Chunk]] = []
+        for chunk in image_only:
+            doc_terms = _tokenize(chunk.content + " " + chunk.raw_preview)
+            doc_len   = max(len(doc_terms), 1)
+            score     = sum(
+                (doc_terms.count(t) / doc_len) * idf.get(t, 1.0)
+                for t in query_terms
+            )
+            # give all image chunks a small base score so they always appear
+            scored.append((score + 0.01, chunk))
+
+        scored.sort(key=lambda x: x[0], reverse=True)
+        return [c for _, c in scored[:top_k]]
+
     def get_image_chunks_for_doc(self, doc_id: str) -> list[Chunk]:
         """Get all image chunks belonging to a specific document."""
         chunk_ids = self._doc_chunks.get(doc_id, [])

@@ -24,6 +24,7 @@ import logging
 import re
 import sys
 from pathlib import Path
+import time
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
@@ -81,9 +82,11 @@ class DocumentIndexer:
                 continue
             logger.info(f"  Processing: {fp.name}")
             try:
+                t0 = time.perf_counter()
                 chunks = await self._dispatch(fp, doc_id)
                 self._save(doc_id, fp, chunks)
-                logger.info(f"    -> {len(chunks)} chunks saved")
+                elapsed = time.perf_counter() - t0
+                logger.info(f"    -> {len(chunks)} chunks saved in {elapsed:.1f}s")
             except Exception as e:
                 logger.error(f"    ERROR {fp.name}: {e}", exc_info=True)
 

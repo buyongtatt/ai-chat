@@ -1,6 +1,6 @@
 export interface Message {
   id: string;
-  role: 'user' | 'assistant';
+  role: "user" | "assistant";
   content: string;
   timestamp: Date;
   attachedFile?: AttachedFile;
@@ -12,8 +12,8 @@ export interface Message {
 
 export interface AttachedFile {
   name: string;
-  type: 'image' | 'document';
-  previewUrl?: string;   // object URL for images
+  type: "image" | "document";
+  previewUrl?: string; // object URL for images
   size: number;
 }
 
@@ -28,6 +28,7 @@ export interface SourceImage {
   doc_name: string;
   page: number;
   summary: string;
+  label?: string; // e.g. "Image 2" — matches [Image N] in model answer
 }
 
 export interface Document {

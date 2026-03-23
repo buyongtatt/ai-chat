@@ -1,0 +1,99 @@
+Shipment Error:
+
+Error Pallet Not fit to SO of Load!
+2) Check Item match or not
+3) Check Qty
+4) If 1 & 2 match, then the scanning sequence is not in sequence. 
+
+--> Packages By Delivery VS Load to SO line preassignment (check item mismatch)
+
+Error "Shipment is locked : shipment lines still be added" 
+--> check Application Locks and check the shipment num in error message. 
+
+Error "Transfer price could not be retrieved for Intra company invoicing"
+--> Chitra to update (price book)
+
+Error SO not release to warehouse
+1) ask PM(Catherine / thaicini) to release 
+2) if cannot, check the TM Line Status for that Load&SO in fxsls0109m002 (Load to SO Line Preassignment)
+3) ask planner to unassign and reassign Load back
+
+Error Cannot Create Packing Header
+1) check the SO type in tdsls4500m000 (Sales Orders)
+2) See the SO type and see the sold to business partner. 
+3) Go to warehouse order type
+4) Packing Master Data -> Setup D04 same as D01
+
+Error Shortage 
+1) User give LoadID and error shortage. [Error shortage is regarding component]
+2) Go to check Load to SO Line Preassignement and take warehouse and item number. 
+3) Go to check the Inventory by Item and warehouse. 
+4) There is inventory but shortage error still. 
+5) Go to Sales Order Lines and search the SO num.
+6) Double click the line and browse to Warehouse tab. 
+7) Then check the Invent.Issue.Sts it should be "Issue Main Item" not "Issue Components" (Yoga to change in SO).
+
+Error Packing Started for this SO. Updation/Deletion is not allowed
+1) Check Load to SO Line Preassignment and see LoadID.
+2) Then check the Packages by Delivery for that LoadID. 
+3) there is packages then they need to unassign first. 
+
+
+Error Cannot confirm shipment line failed:
+1) Reason: Waybill must be populated. -> Supasinni Manugaram/Siti Suzana Binti Rasit(Shipment person MIS) to update waybill info in Load.
+
+Error: Cannot confirm shipment
+1) Based on the error, Logistic analyst need to update tracking num (?)
+2) 
+
+Error in truck management : 'L91003781' is selected by other user
+1) fxfmi0122m002 and search Load, then click line and remove lock
+
+Error: Tax Code is not define
+- Check tdsls4101s000(Sales-Order Lines) and input SO
+- Go to Invoicing tab and See Tax Code (Tax Code Country: CZ)
+- Go to Tax Codes by Country (input Tax Code)
+
+
+Shipment Note:
+come in - appl_to
+go out - appl_form
+yang dah process - store send / store rec
+
+Transfer issue -> 1 masuk 1 keluar 
+
+Error Creating Packing Header
+1)check sales order type -> D04
+Warehouse Order type
+Packing Master Data -> Setup D04 same as D01
+
+SR - Shipping Request
+Create SO - GBS (Yoga / Pooja)
+SO to Load - Planner (Sampson)
+Release so to warehouse - PM (Catherine or Thachaini)
+
+
+----------------------------------------------------------------------------------------------------------------------
+Error : Receiving cannot print GRN and FIFO label 
+1) Confirm receipt (whinh3520m000 , whinh3520mc001)
+2) Perform approval 
+3) Perform Putaways
+
+Cannot perform putaway
+1) Go to Receipt session whinh3520m000 
+2) then go to Inbound Advice whinh2515m000 and check from and to location (from location need to be 'IAA' only then can putaway)
+3) ask them to perform putaway physically
+4) after that will appear in Approval whinh3522m000
+
+Cannot proceed transaction for warehouse J91300:
+1)Check PO given by user in Purchase Order session tdpur4500m000
+2)Double click that order and go to general tab to see Shipping Warehouse 
+3) Go to Receiving tab to see Receiving Warehouse.
+4) Go to session Pallet/Box label per Warehouse/Printer fxwmd0112m000 and see if user exist
+5) if user not exist then need to ask @Sangaran Muniandy need to maintain the new user
+Note: J91300 (300 is P3) and J92800 (800 is P8)
+
+Sample:
+GRN no :109678825
+PO : J91B90373
+Receipt -> Advice Putaway -> Physical Putaway -> Approval

@@ -1,0 +1,1160 @@
+{
+  "doc_id": "cc0701fc2d32e8",
+  "doc_name": "zt600 edit.pdf",
+  "doc_type": "pdf",
+  "source_path": "D:\\ai-chat\\backend\\knowledge_base\\zt600 edit.pdf",
+  "chunks": [
+    {
+      "id": "cc0701fc2d32e8_p0_t0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document 'zt600 edit.pdf' Chunk #0 covers Printer Setup and Operation. ESIC Label and Ribbon Part Number Example table: Item 1 Outer box label, P/N FPS-506-D0001527 -101, Description Label,Carton label,Bigfoot 2100W; Item 2 blank label, P/N FPS-501-D0000187 -101, Description Label Blank,For Carton,L152.4mmxW101.6mm; Item 3 Ribbon, P/N FPS-099-D0000073 -101, Description Other Indirect Material,Ribbon,Ricoh B110CR W110mm,300m/Roll,HF. Load Media Caution: Remove metallic objects (rings, watches, hanging necklaces, identification badges) near open printhead to prevent contact; printer power off not required but Zebra recommends precaution. Insert Media into Printer: Illustrations primarily show roll media; loading path identical for roll and fanfold media. Procedure: 1. Raise media door. 2. Remove/discard tags/labels torn, dirty, or held by adhesives/tape.",
+      "raw_preview": "Printer  Setup  and Operation  \n1 MUST FOLLOW ESIC LABEL AND RIBBON PART NUMBER EXAMPLE:  \nITEM  Location  P/N Description  \n1 Outer box label  FPS-506-D0001527 -101 Label,Carton label,Bigfoot 2100W  \n2 blank label  FPS-501-D0000187 -101 Label Blank,For Carton,L152.4mmxW101.6mm  \n3 Ribbon  FPS-099-D0000073 -101 Other Indirect Material,Ribbon,Ricoh B110CR W110mm,300m/Roll,HF Load  the Media Caution",
+      "chunk_index": 0,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 0
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p0_img0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document:** 'zt600 edit.pdf' | **Chunk:** #1\n**Summary:**\nTechnical illustration of a **Zebra ZT600 series industrial printer** (inferred from filename and Zebra logo), depicting an **exploded view of the top cover assembly**. The diagram shows the **top media cover** separated above the main printer chassis, featuring a distinct **yellow latch or handle** on the top edge. A curved **black arrow** indicates the rotational movement or attachment path of the top cover onto the main unit. The main printer body displays a **control panel** on the left side with an LCD screen and keypad, a central media compartment, and a **dashed outline** on the right side representing a side access door or panel. The image serves as a visual guide for printer assembly, cover removal, or media loading access.",
+      "raw_preview": "",
+      "chunk_index": 1,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p0_i0.png",
+      "metadata": {
+        "page": 0,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p1_t0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document 'zt600 edit.pdf' Chunk #2 details Printer Setup and Operation. Step 3 (marked '2 3') instructs inserting roll or fanfold media into the printer. For Roll Media, place the roll on the media supply spindle and push the roll as far back as it will go. The procedure applies to Tear-Off Mode.",
+      "raw_preview": "Printer  Setup  and Operation  \n2 3. Insert  roll or fanfold  media  into the printer. Roll Media  \nPlace  the roll  of media  on the media supply  spindle. Push the roll  as far back  as it will go. Tear -Off Mode",
+      "chunk_index": 2,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 1
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p1_img0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document:** 'zt600 edit.pdf' | **Page:** 2\n\n**Summary:**\nTechnical line diagram illustrating the media loading path for a ZT600 series printer. The image depicts a large roll of media (labels or tags) positioned on the right side, featuring a central core and wound material. A strip of media extends from the roll towards a mechanical assembly on the left. Two directional arrows (one above and one below the media path) indicate the feed direction is from right to left, moving from the supply roll into the print mechanism. The mechanical assembly on the left displays a housing bracket containing a roller (likely a platen roller) and internal print engine components. The schematic visualizes the spatial relationship and orientation required between the media supply roll and the printer's internal mechanism for operation.",
+      "raw_preview": "",
+      "chunk_index": 3,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p1_i0.png",
+      "metadata": {
+        "page": 1,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p1_img1",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Chunk: #4 | Page: 2. Content Type: Image/Graphic. Visual Description: Abstract iconography composed of concentric circles; outer rings are cyan/light blue, surrounding a dark center with red/pink pixelation at the core. Resembles a target, signal, or focus symbol. Textual Data: No legible text, numbers, or dates embedded within the visual graphic itself. Key Identifiers: Filename references 'zt600' (model/product indicator), Chunk #4, Page 2. Relationship: Image is embedded on page 2 of the specified PDF document. Technical Details: Digital graphic, pixelated appearance, multi-color composition (blue, black, red).",
+      "raw_preview": "",
+      "chunk_index": 4,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p1_i1.png",
+      "metadata": {
+        "page": 1,
+        "img_index": 1
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p1_img2",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Page 2 | Chunk #5\nContent Type: Image\nVisual Status: Completely black/blank; no discernible pixels containing information.\nExtractable Data: None.\nDetails:\n- No legible text, typography, or labels visible.\n- No diagrams, schematics, tables, or graphical elements present.\n- No numerical values, dates, or proper names identified.\n- No technical specifications, logos, or concepts discernible.\n- No entities or relationships can be established.\nConclusion: The chunk contains no factual information due to the absence of visual data.",
+      "raw_preview": "",
+      "chunk_index": 5,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p1_i2.png",
+      "metadata": {
+        "page": 1,
+        "img_index": 2
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p1_img3",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document metadata identifies the source as **'zt600 edit.pdf'**, specifically **Page 2, Chunk #6**. The content consists of a low-resolution graphical image featuring a high-contrast **white angular shape** (resembling a right-angle bracket, frame corner, or geometric border element) against a **black background**. No **textual information**, **numerical values**, **dates**, **names**, or **technical specifications** are legible within this visual fragment. The filename implies association with **ZT600 series** hardware documentation (likely industrial printing equipment). The image serves as a visual design element, header/footer fragment, or partial diagram crop without standalone semantic data beyond its geometric form and document location.",
+      "raw_preview": "",
+      "chunk_index": 6,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p1_i3.png",
+      "metadata": {
+        "page": 1,
+        "img_index": 3
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p1_img4",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document 'zt600 edit.pdf', Page 2, Chunk #7 contains a monochrome graphical image featuring a white tilted quadrilateral shape with a diagonal segmentation at the lower-left corner against a black background, resembling a stylized label, document, or media fragment icon. No legible text, numerals, dates, names, or technical specifications are visible within the image bounds. Filename metadata associates the content with ZT600 series hardware (typically Zebra Technologies industrial printers). The graphic functions as an illustrative element, icon, or diagram fragment within the technical documentation structure.",
+      "raw_preview": "",
+      "chunk_index": 7,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p1_i4.png",
+      "metadata": {
+        "page": 1,
+        "img_index": 4
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p1_img5",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Page 2 of 'zt600 edit.pdf' features a technical diagram illustrating the media and ribbon loading paths for a ZT600 series printer. A blue line traces the media path, originating from the supply spindle on the right (highlighted by a blue circle), passing beneath a tension arm and through the print mechanism before exiting to the left. A red line traces the ribbon path, routing from the supply area over two circular sensors (one with a yellow ring, one with a red ring) and winding onto the ribbon take-up spindle located at the top left (outlined in red, featuring a yellow cross-shaped hub). Small white arrows indicate the direction of material flow through the system, detailing the internal configuration for thermal transfer printing.",
+      "raw_preview": "",
+      "chunk_index": 8,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p1_i5.png",
+      "metadata": {
+        "page": 1,
+        "img_index": 5
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p2_t0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document 'zt600 edit.pdf' Chunk #9 details Printer Setup and Operation step 3 1. Conditional instruction requires following instructions in section Insert the Media into the Printer if not already done. Safety Caution warns printhead may be hot and could cause severe burns; mitigation requires allowing printhead to cool. Mechanical operation specifies opening printhead assembly by rotating printhead-open lever upward.",
+      "raw_preview": "Printer  Setup  and Operation  \n3 1. If you have  not already done  so, follow  the instructions  in the section  Insert  the Media  into the Printer  \n. Caution  • The printhead  may be hot and could  cause  severe  burns. Allow  the printhead  to cool. Open  the printhead  assembly  by rotating  the printhead -open  lever  upward.",
+      "chunk_index": 9,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 2
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p2_img0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document 'zt600 edit.pdf', Page 3, Chunk #10 contains a monochromatic graphical icon consisting of three vertical, parallel wavy lines set against a black background. The symbol visually represents heat, thermal energy, steam, vibration, or signal waves. Contextualized by the document filename 'zt600', the icon is associated with the ZT600 model series (typically Zebra ZT600 industrial printers), indicating relevance to thermal printing technology, printhead temperature status, heating element operation, or a hot surface safety warning. The image contains no visible alphanumeric text, numerical values, dates, proper names, or specific labels, functioning solely as a symbolic technical indicator within the document's visual content.",
+      "raw_preview": "",
+      "chunk_index": 10,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p2_i0.png",
+      "metadata": {
+        "page": 2,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p2_img1",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document:** 'zt600 edit.pdf' | **Page:** 3 | **Chunk:** #11\n\n**Visual Content:** Technical line drawing (white vector lines on black background) depicting a side-profile view of a mechanical structural component, likely a chassis rail or frame part for a ZT600 series device.\n\n**Key Structural Features:**\n*   **Main Body:** Elongated horizontal rail with varying thickness/profile.\n*   **Left Section:** Features an angled upward projection at the far left edge. Below the main rail, slightly left of center, is a downward-protruding rectangular bracket containing two circular mounting holes (fasteners/pivots) aligned horizontally. Directly above this bracket on the top edge of the main rail are two small rectangular blocks/protrusions.\n*   **Right Section:** The horizontal rail extends to the right, terminating in a recessed area containing a single circular mounting hole.\n*   **Lower Edge:** Specific notches or cutouts are visible along the bottom edge of the main body, particularly near the left bracket and right mounting hole.",
+      "raw_preview": "",
+      "chunk_index": 11,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p2_i1.png",
+      "metadata": {
+        "page": 2,
+        "img_index": 1
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p2_img2",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf', Page 3, Chunk #12. Content consists of a low-resolution grayscale image displaying a repeating hexagonal lattice or honeycomb pattern. Visual structure features dark hexagonal cells bordered by lighter, thick interconnecting lines forming a continuous mesh. No alphanumeric text, numerical values, dates, labels, measurements, or technical annotations are discernible within the image frame. The fragment depicts a geometric grid structure without explicit contextual identifiers or accompanying descriptive text.",
+      "raw_preview": "",
+      "chunk_index": 12,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p2_i2.png",
+      "metadata": {
+        "page": 2,
+        "img_index": 2
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p2_img3",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Page: 3 | Chunk: #13. Content consists of a low-resolution, monochrome graphical image. Visual structure features a central dark circular void surrounded by a diffuse, light-gray ring or halo effect against a black background. No legible text, numerical values, dates, labels, or specific technical annotations are visible within the image itself. The graphic appears to be a schematic element, icon, or cropped detail shot associated with the ZT600 subject matter indicated by the document filename.",
+      "raw_preview": "",
+      "chunk_index": 13,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p2_i3.png",
+      "metadata": {
+        "page": 2,
+        "img_index": 3
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p2_img4",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document:** 'zt600 edit.pdf' | **Page:** 3 | **Chunk:** #14\n**Content Type:** Low-resolution monochrome graphical fragment (schematic/diagram crop).\n**Visual Elements:**\n*   **Left Structure:** Vertical rectangular housing containing a concentric circular design (central dot surrounded by a ring), resembling a mechanical component (e.g., sensor, roller, bearing, lens) or a technical icon.\n*   **Right Structure:** Fragmented white linear shapes and pixels against a black background, suggesting connecting lines, adjacent components, or partial text.\n**Legibility:** No alphanumeric text, numerical values, dates, or specific labels are discernible due to resolution and cropping.\n**Contextual Inference:** Filename ('zt600') indicates association with ZT600 series industrial equipment (likely Zebra Technologies printer documentation). Page 3 placement suggests introductory diagrams, component views, or feature overviews.\n**Key Entities:** ZT600, Page 3, Technical Diagram, Mechanical Component/Sensor Representation.",
+      "raw_preview": "",
+      "chunk_index": 14,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p2_i4.png",
+      "metadata": {
+        "page": 2,
+        "img_index": 4
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p2_img5",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf', Page 3, Chunk #15. Content: High-contrast, binary (white-on-black) technical illustration depicting a mechanical hardware detail. Visual elements include a hexagonal fastener head (upper right) with a central circular drive recess; a diagonal structural bar or lever arm extending from the upper left; and curved housing or linkage contours along the right edge and bottom left. No alphanumeric text, part numbers, dimensions, or dates are legible within the image graphic itself. Contextual association: ZT600 series printer hardware (inferred from filename), likely illustrating a specific fastener location, locking mechanism, or internal assembly interface.",
+      "raw_preview": "",
+      "chunk_index": 15,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p2_i5.png",
+      "metadata": {
+        "page": 2,
+        "img_index": 5
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p2_img6",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Image from page 3 of 'zt600 edit.pdf' featuring a vertical, high-contrast graphic of the text \"ZT600\" rendered in a white, 3D block-style font against a black background. The logo is cropped narrowly, emphasizing the depth and perspective of the lettering, identifying the subject matter as the ZT600 series (typically industrial thermal printers by Zebra Technologies).",
+      "raw_preview": "",
+      "chunk_index": 16,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p2_i6.png",
+      "metadata": {
+        "page": 2,
+        "img_index": 6
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p2_img7",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Location: Page 3, Chunk #17. Content Type: Monochrome image crop. Visual Description: High-contrast binary graphic featuring a white curved line forming an upper edge or boundary with a sharp angular vertex on the left side, set against a solid black background. Textual Data: None visible; no names, numbers, dates, labels, or technical specifications are legible within this fragment. Contextual Metadata: Filename 'zt600' suggests association with ZT600 series product documentation, though the image lacks identifiable schematic components, data points, or diagnostic details.",
+      "raw_preview": "",
+      "chunk_index": 17,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p2_i7.png",
+      "metadata": {
+        "page": 2,
+        "img_index": 7
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p2_img8",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document:** 'zt600 edit.pdf' | **Page:** 3 | **Chunk:** #18\n\n**Summary:**\nTechnical line drawing depicting a mechanical assembly, likely from a Zebra ZT600 series industrial printer. The illustration highlights a specific mechanism featuring a **yellow, elongated oval housing** containing a **spring-loaded pin or rod**. Attached to the left side of this yellow component is a vertical, **metallic, comb-like or linked structure** (resembling a grounding strap or sensor arm). A **curved black arrow** indicates an upward and rightward trajectory, suggesting the direction of movement for a panel or the installation path of the assembly. To the right, a large **cylindrical roller or spindle** is visible, featuring a circular end cap with radial notches or gear teeth. The components are mounted on a metal chassis secured with multiple **screws and fasteners**. The diagram serves as a visual guide for assembly, maintenance, or component identification.",
+      "raw_preview": "",
+      "chunk_index": 18,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p2_i8.png",
+      "metadata": {
+        "page": 2,
+        "img_index": 8
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_t0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document 'zt600 edit.pdf' | Chunk #19 details Printer Setup and Operation procedures. Step 3 instructs rotating the media guide adjustment knob until the media guide slides all the way out. Step 4 includes a Caution warning that the printhead may be hot and could cause severe burns, requiring the printhead to cool before handling. Media loading instructions specify feeding media from the media spindle (1), under the dancer assembly (2), through the media sensor (3), and under the printhead assembly (4). Final alignment requires sliding the media back until it touches the inside back wall of the media sensor. Component reference numbers 4, 3, 2, 1 correspond to the printhead assembly, media sensor, dancer assembly, and media spindle respectively.",
+      "raw_preview": "Printer  Setup  and Operation  \n4 3. Rotate  the media  guide  adjustment  knob  as shown until  the media guide  slides  all the way out. 4. Caution  • The printhead  may be hot and could  cause  severe  burns. Allow  the printhead  to cool. From the media spindle ( 1), feed the media under the dancer assembly ( 2), through the media \nsensor  (3), and under  the printhead  assembly  (4). Slide  t",
+      "chunk_index": 19,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 3
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Chunk #20 | Page 4.\n**Visual Content:** Monochrome graphic icon consisting of three vertical, parallel wavy lines (sinusoidal pattern) ascending from a single solid horizontal baseline.\n**Color/Style:** Light gray or white lines against a solid black background; low-resolution raster image.\n**Technical Context:** Filename 'zt600' suggests association with Zebra ZT600 series industrial printers.\n**Symbolic Interpretation:** The wavy line motif typically represents heat, thermal energy, steam, or signal transmission; in this specific hardware context, likely indicates a heating element, thermal print head component, or hot surface warning symbol.\n**Text/Data:** No alphanumeric characters, numerals, dates, or labels are visible within the image boundaries.\n**Relationships:** Image serves as a visual indicator or schematic symbol within the technical documentation structure.",
+      "raw_preview": "",
+      "chunk_index": 20,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i0.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img1",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document:** 'zt600 edit.pdf' | **Page:** 4 | **Chunk:** #21\n\n**Summary:**\nTechnical line diagram (white on black) depicting the internal mechanical assembly of a device, consistent with the print mechanism of a Zebra ZT600 series printer. The image highlights a large cylindrical platen roller assembly on the right side. Below and adjacent to the roller is a movable mechanism secured by two distinct **yellow locking levers** featuring serrated, gear-like edges for grip. **Black directional arrows** indicate operational instructions: one arrow points directly to the lower yellow lever, while a curved arrow demonstrates a rotational or lifting motion required to open or adjust the assembly. To the left, a ribbed structural plate (possibly a heat sink) is visible, fastened with multiple screws/bolts. A smaller arrow points to a specific mounting hole or screw location above the main linkage arm. The diagram focuses on the latch/release mechanism for accessing the print zone or replacing components.",
+      "raw_preview": "",
+      "chunk_index": 21,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i1.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 1
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img2",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Chunk #22 | Page 4. Contains a monochrome schematic icon depicting a tracked vehicle, structurally resembling a tank or industrial crawler. Visual elements include a rectangular main chassis, two circular track assemblies positioned at the bottom corners (featuring internal spiral details), and two rectangular protrusions along the upper surface. Rendered in white line art against a black background. Contextually associated with the ZT600 series (likely Zebra Technologies industrial printers), potentially symbolizing ruggedness, industrial deployment environments, or serving as a sample graphic for print verification. No textual data present within the image itself.",
+      "raw_preview": "",
+      "chunk_index": 22,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i2.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 2
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img3",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Source Metadata: Document 'zt600 edit.pdf', Chunk #23, Page 4. Image Type: Monochrome schematic line drawing (white vectors on black background). Subject: Industrial equipment chassis, contextually linked to ZT600 series hardware (inferred from filename). Physical Components: Rectangular main body housing; two circular caster wheels visible at bottom-right base indicating mobility; two rectangular blocks mounted on top surface; single elongated arm/guide extending diagonally upward-left from chassis. Functional Indicators: Diagram illustrates form factor, mobility configuration (wheeled base), and media path or attachment geometry. No textual annotations, dimensions, or labels present within the image itself.",
+      "raw_preview": "",
+      "chunk_index": 23,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i3.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 3
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img4",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Page: 4 | Chunk: #24. **Visual Content:** Low-resolution grayscale image featuring a circular, spiral-like pattern with a dark central core surrounded by lighter, concentric ridges or whorls (morphologically resembling a fingerprint, maze, or abstract logo). **Legible Data:** None; no alphanumeric text, numerical values, dates, proper names, or technical specifications are discernible due to significant blur and pixelation. **Context:** Filename implies association with the ZT600 series (typically industrial printing hardware), though the image itself lacks explicit technical diagrams, hardware representations, or readable data points. **Technical Details:** None extractable from visual content.",
+      "raw_preview": "",
+      "chunk_index": 24,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i4.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 4
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img5",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Source:** 'zt600 edit.pdf', Page 4 (Chunk #25).\n**Content Summary:** Technical line drawing illustrating a mechanical profile or rail assembly, likely associated with the ZT600 system. The image depicts a horizontal structural element with a specific stepped cross-sectional geometry. Two key hardware components are highlighted: (1) a fastening assembly consisting of a hex nut and bolt/washer situated within a recessed channel of the profile, and (2) a roller or wheel carriage mechanism attached to the lower right edge of the rail. The schematic details the spatial relationship between the mounting hardware and the linear motion component (roller) relative to the main profile structure.",
+      "raw_preview": "",
+      "chunk_index": 25,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i5.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 5
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img6",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document:** 'zt600 edit.pdf' | **Page:** 4 | **Chunk:** #26\n**Image Type:** Technical line drawing (white vector lines on black background).\n**Subject:** Vertical mounting bracket or stand assembly, contextually linked to the **Zebra ZT600** series (inferred from filename).\n\n**Structural Details:**\n*   **Geometry:** Tall, vertical flat plate structure transitioning into a flared, triangular/pyramidal base for stability.\n*   **Top Section:** Features a horizontal lip or extension extending to the left; the right side angles slightly inward at the top.\n*   **Alignment:** A vertical dashed line runs through the lower section of the vertical plate, indicating a hidden edge, center line, or fold.\n\n**Hardware & Fasteners:**\n*   **Top Left:** Hexagonal nut or bolt head attached to the horizontal lip.\n*   **Top Center:** Circular fastener head (likely a screw) on the upper vertical face.\n*   **Mid-Section:** Circular fastener head centered on the vertical plate.\n*   **Lower Section:** Circular fastener head located just above the junction with the base.\n*   **Floating Left:** An isolated hexagonal nut/bolt head appears to the left of the main structure.\n\n**Additional Features:**\n*   **Cable Management:** The top-right corner depicts a looping line resembling a **cable tie** or wire retention loop securing a cable to the bracket frame.",
+      "raw_preview": "",
+      "chunk_index": 26,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i6.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 6
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img7",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document 'zt600 edit.pdf', Page 4, Chunk #27 contains a low-resolution grayscale graphic depicting a central dark hexagonal shape surrounded by lighter linear boundaries forming a hexagonal lattice or frame structure. No legible text, numbers, dates, names, or labels are present within the image. Visual geometry suggests a technical schematic, molecular diagram, or mechanical component detail. The image serves as a visual element within the technical documentation without extractable alphanumeric data.",
+      "raw_preview": "",
+      "chunk_index": 27,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i7.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 7
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img8",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Page: 4 | Chunk: #28\nContent Type: Embedded Graphic/Image\nVisual Description: Low-resolution grayscale bitmap featuring a circular or spiral motif. Structure consists of a central dark focal point surrounded by concentric, irregular rings or swirl arms forming a vortex-like shape. Image quality is heavily pixelated and blurred, obscuring fine details.\nTextual/Data Content: No legible text, alphanumeric characters, numerical values, dates, names, or labels are discernible within the image bounds.\nContextual Metadata: Filename 'zt600' implies association with ZT600 series equipment (likely industrial printing hardware), though the graphic itself contains no explicit branding, model numbers, or technical schematics visible at this resolution.\nSemantic Tags: ZT600, PDF, Page 4, Graphic, Icon, Spiral, Circular Pattern, Grayscale, No Text, Low Resolution.",
+      "raw_preview": "",
+      "chunk_index": 28,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i8.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 8
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img9",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf'. Location: Page 4, Chunk #29. Content Type: Embedded Grayscale Image. Visual Description: Low-resolution graphic featuring a pattern of irregular concentric rings or spirals radiating from a solid dark central core. Morphology resembles a target, ripple effect, topographical contour, or diffraction pattern. Technical Attributes: Monochromatic (black/white/gray), high pixelation, significant blur, bitmap structure. Textual Data: None; no legible names, numbers, dates, labels, or alphanumeric characters are visible within the image boundaries. Contextual Identifiers: Associated with 'zt600' model or project reference via document filename. Function: Unspecified visual element (potential logo, schematic component, watermark, or test pattern) within the document structure.",
+      "raw_preview": "",
+      "chunk_index": 29,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i9.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 9
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img10",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf'. Chunk ID: #30. Page Number: 4. Content Type: Graphical image. Description: Low-resolution, highly pixelated square 2D barcode (visually consistent with a Data Matrix code). Visual Features: Monochrome (black/white), concentric pattern structures, finder markers indistinct due to blur. Data Integrity: Encoded information is illegible/unscannable. Contextual Association: Filename 'zt600' indicates likely relation to Zebra Technologies ZT600 series industrial printers. Explicit Text/Numbers: None visible within the image boundaries.",
+      "raw_preview": "",
+      "chunk_index": 30,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i10.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 10
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img11",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Page 4 | Chunk #31\nContent Type: Monochrome Technical Graphic\n\n**Visual Description:**\n*   **Style:** High-contrast line art (white elements on black background).\n*   **Structure:** Depicts a mechanical component or schematic fragment. Features a vertical linear element on the left connected to an angled bracket or arm structure.\n*   **Geometry:** Terminates in a circular or spiral-shaped element on the right side, resembling a hinge, roller, coiled spring, or mounting bracket detail.\n*   **Text/Data:** No alphanumeric text, numerical dimensions, dates, part numbers, or labels are visible within the image boundaries.\n\n**Contextual Metadata:**\n*   **Source Association:** Linked to the 'zt600' model designation via the source document filename.\n*   **Location:** Embedded image on Page 4 of the PDF.\n*   **Function:** Likely serves as a technical illustration, diagram detail, or icon within the broader document context.",
+      "raw_preview": "",
+      "chunk_index": 31,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i11.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 11
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img12",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document 'zt600 edit.pdf', Page 4, Chunk #32 contains a low-resolution, grayscale image. The graphic displays a pixelated, light-colored abstract form centered on a dark background, visually resembling a spiral, coil, or stylized character (potentially a letter like 'G' or 'e'). No legible text, names, numbers, dates, or technical specifications are visible within the image. The visual quality indicates significant compression artifacts or enlargement, preventing definitive identification of any logo, symbol, or specific technical diagram.",
+      "raw_preview": "",
+      "chunk_index": 32,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i12.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 12
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img13",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Chunk #33 | Page 4\n\n**Visual Content Summary:**\nImage fragment displaying a predominantly black background. The left side features indistinct vertical white/grey streaks or line artifacts, resembling graphical noise or the cropped edge of a larger figure.\n\n**Informational Content:**\n*   **Text/Typography:** None visible.\n*   **Numerical Data:** None visible.\n*   **Dates/Names:** None visible.\n*   **Technical Details:** No diagrams, logos, labels, or specifications are discernible within this specific image crop.\n*   **Semantic Value:** The image lacks extractable semantic information, appearing as an obscured graphical element without identifiable context beyond its source file metadata.",
+      "raw_preview": "",
+      "chunk_index": 33,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i13.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 13
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img14",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Page 4 | Chunk #34. Content: Low-resolution grayscale image depicting a graphical chart, resembling a bar graph or histogram. Visual structure features vertical bright bars against a dark background: two tall adjacent bars on the left, a single medium-height bar in the center, and a shorter, wider rectangular block on the right. Image quality is heavily blurred/pixelated. No legible text, axis labels, numerical values, dates, names, or specific technical specifications are discernible. Context implies association with ZT600 series documentation, but specific data points and metrics are unreadable.",
+      "raw_preview": "",
+      "chunk_index": 34,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i14.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 14
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img15",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf'. Chunk ID: #35. Location: Page 4. Content Type: Image. Visual Description: Predominantly black background featuring a faint white angular line or border fragment in the upper-right corner. Data Content: No legible text, numerical values, dates, names, relationships, or technical specifications are discernible. Classification: Graphical layout element or cropping artifact lacking extractable semantic information.",
+      "raw_preview": "",
+      "chunk_index": 35,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i15.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 15
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img16",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Source: 'zt600 edit.pdf', Page 4, Chunk #36. Visual content: High-contrast, monochrome close-up of device branding oriented vertically. Text elements: 'ZT600' (model number) stacked above 'ZEBRA' (manufacturer). Context: Identifies the hardware as a Zebra Technologies ZT600 series industrial printer. Visual details: White typography on black background, likely depicting the side panel or front bezel of the unit.",
+      "raw_preview": "",
+      "chunk_index": 36,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i16.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 16
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img17",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf', Page 4, Chunk #37. Content Type: Image. Context: ZT600 series (derived from filename). Visual Description: Predominantly black field featuring a faint, blurred white curved line segment in the upper-left quadrant. Extractable Information: None. No legible text, names, numbers, dates, technical specifications, diagrams, relationships, or hardware components are visible within this image crop. The visual data appears to be a low-contrast fragment or negative space, providing no semantic data regarding the ZT600 printer's operation, configuration, or physical attributes.",
+      "raw_preview": "",
+      "chunk_index": 37,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i17.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 17
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p3_img18",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document:** 'zt600 edit.pdf' | **Page:** 4 | **Chunk:** #38\n\n**Summary:**\nTechnical line diagram illustrating the media and ribbon transport mechanism of a thermal transfer printer (likely Zebra ZT600 series). The image features a white-on-black CAD-style drawing highlighting the following components and relationships:\n\n*   **Media Path:** A large media supply roll is positioned on the right, outlined in thick blue. A blue arrow and strip indicate the media feeds from this roll, moving leftward over a guide roller and through the central print mechanism.\n*   **Print Mechanism:** The central assembly depicts the print head and platen roller interface. Above this assembly is a ribbon supply spindle (top center), indicating a thermal transfer configuration.\n*   **Safety Warning:** A yellow triangular warning symbol containing three vertical wavy lines (standard ISO symbol for \"Hot Surface\") is located on the lower left of the print head assembly. A black arrow points from this symbol directly to the print head element, indicating high operating temperatures.\n*   **Callouts:** Multiple thin blue leader lines extend from specific components (media roll hub, print mechanism base, media exit path) toward the bottom edge, implying a corresponding legend or parts list not visible in this crop.\n*   **Mechanical Details:** Visible components include mounting screws, gear assemblies, chassis brackets, and the media exit tray on the far left.",
+      "raw_preview": "",
+      "chunk_index": 38,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p3_i18.png",
+      "metadata": {
+        "page": 3,
+        "img_index": 18
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p4_t0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Chunk #39 | Section: Introduction. Content details procedural steps 5 and 6 for hardware configuration. Step 5: Rotate media guide adjustment knob until media guide just touches edge of media (visual reference: \"as shown\"). Step 6: Rotate printhead-open lever downward until it locks printhead in place. Key components: media guide adjustment knob, media guide, media, printhead-open lever, printhead. Actions: rotate, touch, lock. Directional specification: downward. State outcome: printhead locked in place.",
+      "raw_preview": "Introduction  \n5 5. Rotate  the media  guide  adjustment  knob  as shown  until the media  guide  just touches  the edge  of the \nmedia. 6. Rotate  the printhead -open  lever  downward  until it locks  the printhead  in place.",
+      "chunk_index": 39,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 4
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p4_img0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Source Metadata:** Document 'zt600 edit.pdf', Page 5, Chunk #40.\n**Visual Content:** Low-resolution monochrome graphic featuring thick, white concentric curved lines or arcs forming a partial spiral or circular pattern against a black background.\n**Legible Data:** No text, names, numbers, dates, or technical specifications are discernible within the image due to resolution and abstraction.\n**Contextual Inference:** Filename indicates association with Zebra Technologies ZT600 series industrial printer documentation; graphic may represent a connectivity icon (e.g., Wi-Fi/radar), logo, or diagram fragment, though specific identity is unconfirmed visually.\n**Structure:** High-contrast binary image (black/white), curved geometric shapes.",
+      "raw_preview": "",
+      "chunk_index": 40,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p4_i0.png",
+      "metadata": {
+        "page": 4,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p4_img1",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document 'zt600 edit.pdf', Chunk #41, Page 5. Image presents a monochromatic diagram fragment featuring white line art on a black background. Key visual elements include a partial vertical rectangular outline encompassing a circular shape or ring, and a directional arrow segment in the upper right corner pointing toward the rectangle. No legible alphanumeric text, numerical data, dates, component labels, or technical specifications are visible within this specific image crop.",
+      "raw_preview": "",
+      "chunk_index": 41,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p4_i1.png",
+      "metadata": {
+        "page": 4,
+        "img_index": 1
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p4_img2",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document Source:** 'zt600 edit.pdf' | Page 5 | Chunk #42\n**Image Type:** Technical line drawing (white vector lines on black background).\n**Subject:** Internal mechanical assembly of a Zebra ZT600 series printer.\n\n**Key Visual Components & Details:**\n*   **Upper Right Assembly:** A large cylindrical component (likely the printhead assembly or platen roller mechanism) depicted in an elevated or open position. Features a circular face with concentric detailing and a side-mounted bracket with visible fastener holes.\n*   **Lower Left Assembly:** An angular mechanical structure featuring a section with parallel ribbing (suggesting a heatsink, media guide, or structural reinforcement). Attached is a hinged latch or lever mechanism secured with hex-head bolts and pivot points.\n*   **Upper Left Bracket:** A horizontal mounting bracket attached to the upper chassis frame, secured by two visible circular fasteners.\n*   **Relationships:** The drawing illustrates the spatial relationship between the cylindrical assembly and the lower mechanical latch/ribbed structure, likely demonstrating an open service position or internal component layout.\n*   **Text/Data:** No alphanumeric text, labels, or dates are visible within the image boundaries; context is derived solely from the filename ('zt600') and document metadata.",
+      "raw_preview": "",
+      "chunk_index": 42,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p4_i2.png",
+      "metadata": {
+        "page": 4,
+        "img_index": 2
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p4_img3",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Based on the image from page 5 of 'zt600 edit.pdf', here is the dense factual summary:\n\n**Document Context:** Page 5 of 'zt600 edit.pdf' (likely a manual for the Zebra ZT600 series printer).\n**Visual Subject:** Technical line drawing of a mechanical assembly, specifically a metal bracket or arm component, likely part of the print head lift or tension mechanism.\n**Key Components:**\n*   **Metal Bracket:** Features a long slotted cutout (possibly for a spring or latch mechanism) and multiple mounting holes/fasteners.\n*   **Adjustment Knob:** A distinct gold/yellow-colored dial or knob located at the bottom of the assembly.\n*   **Warning Symbol:** A standard caution icon (yellow triangle with a black exclamation mark) positioned directly above the adjustment knob.\n**Instructional Indicators:**\n*   **Rotation:** A curved black arrow wraps around the bottom knob, indicating a counter-clockwise turning direction.\n*   **Relationship:** A dashed black arrow points from a specific screw hole area on the main bracket down toward the adjustment knob, implying a mechanical linkage or that the knob controls the tension/position of that specific bracket area.\n**Function:** The diagram illustrates a specific hardware adjustment procedure involving the rotation of a tension or locking knob.",
+      "raw_preview": "",
+      "chunk_index": 43,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p4_i3.png",
+      "metadata": {
+        "page": 4,
+        "img_index": 3
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p4_img4",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document:** 'zt600 edit.pdf' | **Page:** 5 | **Chunk:** #44\n\n**Summary:**\nTechnical line drawing (white lines on black background) depicting a section of a device chassis, inferred to be the Zebra ZT600 printer series. The diagram illustrates an internal assembly view featuring a top-mounted hinge bracket secured by two screws and additional mounting points along the upper frame edge. A mouse cursor arrow points specifically to a screw or mounting hole near the top center. The left vertical frame member is marked with the letter \"T\". Scattered on the right side are various loose hardware components, including hex-head screws, washers, and clips, indicating a disassembly or exploded view context. A lever or latch mechanism is visible in the lower right quadrant. The image serves as a visual guide for component location and fastener removal/installation.",
+      "raw_preview": "",
+      "chunk_index": 44,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p4_i4.png",
+      "metadata": {
+        "page": 4,
+        "img_index": 4
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p4_img5",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Technical line drawing from page 5 of 'zt600 edit.pdf' (Chunk #45) depicting the internal mechanical assembly of a device, likely a Zebra ZT600 industrial printer. The schematic highlights a vertical, capsule-shaped component (colored yellow/orange) mounted on an angled plate, potentially a media sensor or guide. A black curved arrow indicates a downward/leftward trajectory, signifying media path direction or mechanical arm movement. The assembly includes large cylindrical rollers and gear mechanisms on the right side, connected via linkages and pivots to the central frame. Structural details include mounting holes, fasteners, and a vertical chassis element on the left. The illustration serves as a visual guide for component location or operational flow within the machinery.",
+      "raw_preview": "",
+      "chunk_index": 45,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p4_i5.png",
+      "metadata": {
+        "page": 4,
+        "img_index": 5
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p5_t0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document 'zt600 edit.pdf' (Chunk #46, Section: Introduction) outlines ZT600 printer media loading completion procedure steps 7-10. Step 7: Close media door. Step 8: Press PAUSE button to exit pause mode and enable printing. Step 9: Conditional printer behavior based on settings; performs label calibration or feeds a label. Step 10: Recommendation to calibrate printer for best results. Process status: Media loading complete.",
+      "raw_preview": "Introduction  \n6 7. Close the  media  door. 8. Press  PAUSE  to exit pause  mode  and enable  printing. 9. The printer may  perform  a label  calibration  or feed a label,  depending  on your settings. 10. For best results,  calibrate  the printer . Media  loading  is complete.",
+      "chunk_index": 46,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 5
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p5_img0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Diagram from page 6 of document 'zt600 edit.pdf' illustrating the assembly or installation process for a Zebra ZT600 series industrial printer. The image presents an exploded view where a separate upper module—depicted with dashed lines to reveal internal structure and featuring a yellow handle or latch on its top surface—is positioned above the main printer chassis. A large curved black arrow indicates the direction of installation, showing the top module being lowered or attached onto the rear/top section of the base unit. The main printer body features a vertical control panel on the left side with an LCD screen and keypad, the Zebra Technologies head logo on the top left corner, a central media exit path, ventilation grilles along the bottom front, a USB port icon on the lower left panel, and a matching yellow latch or release mechanism located on the bottom right front edge.",
+      "raw_preview": "",
+      "chunk_index": 47,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p5_i0.png",
+      "metadata": {
+        "page": 5,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p6_t0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document 'zt600 edit.pdf' | Chunk #48 covers Printer Setup and Operation, Section 7: Load the Ribbon. Applicable exclusively to printers with Thermal Transfer option installed. Ribbon is used only with thermal transfer labels; direct thermal labels do not require ribbon. Caution: Remove metallic objects (rings, watches, hanging necklaces, identification badges) near open printhead to prevent contact. Power off not mandatory when working near open printhead but Zebra recommends it as precaution; turning off power causes loss of temporary settings (e.g., label formats) requiring reload before resuming printing. Important technical requirements: Ribbon width must be wider than media to protect printhead from wear; ribbon must be coated on the outside. Procedure Step 1: Raise media door.",
+      "raw_preview": "Printer  Setup  and Operation  \n7 Load  the Ribbon Note • This section applies only to printers that have the Thermal Transfer option installed. Ribbon  is used  only with thermal  transfer  labels. For direct  thermal  labels,  do not load ribbon  in the printer. To determine if ribbon must be used with a particular media Caution • While performing any tasks near an open printhead, remove all rin",
+      "chunk_index": 48,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 6
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p6_img0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document:** 'zt600 edit.pdf' | **Chunk:** #49 | **Page:** 7\n**Content Type:** Image (Non-textual)\n**Summary:** This chunk corresponds to Page 7 of the document 'zt600 edit.pdf' and contains an image rather than extractable text. No specific names, numbers, dates, concepts, or technical details are present in the textual metadata provided for this chunk. The content is visually represented by a blue icon depicting a pencil overlaying a document form, indicating an editing, configuration, or form-filling context. The filename suggests the document pertains to 'zt600' (likely Zebra ZT600 series hardware) and editing procedures. No semantic text data is available for indexing beyond the document structure metadata.",
+      "raw_preview": "",
+      "chunk_index": 49,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p6_i0.png",
+      "metadata": {
+        "page": 6,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p6_img1",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document:** 'zt600 edit.pdf' | **Page:** 7 | **Chunk:** #50\n\n**Summary:**\nTechnical illustration depicting the removal of the media cover on a Zebra ZT600 series industrial printer. The diagram presents an exploded view where the outer media cover is shown detached and positioned above the main printer chassis. A large, curved black arrow indicates the removal trajectory, moving from the attached position (outlined in dashed lines on the main body) upwards and backwards. Key visual elements include:\n*   **Main Chassis:** Displays the control panel on the left (featuring an LCD screen and keypad), the internal print mechanism area, and the Zebra Technologies logo on the front.\n*   **Media Cover:** Features a rectangular media viewing window and a yellow highlighted bar on the top rear edge, likely indicating a release latch or handle location. A corresponding yellow marker is visible on the bottom right edge of the assembly.\n*   **Action:** The graphic instructs on lifting the cover off the unit, separating the outer shell from the internal components.",
+      "raw_preview": "",
+      "chunk_index": 50,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p6_i1.png",
+      "metadata": {
+        "page": 6,
+        "img_index": 1
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_t0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document 'zt600 edit.pdf' | Chunk #51: Printer Setup and Operation. Step 8 2 Caution: Printhead thermal hazard (may be hot, cause severe burns); mitigation (allow printhead to cool); access method (open printhead assembly by rotating printhead-open lever upward). Step 3: Ribbon installation (place roll of ribbon on ribbon supply spindle); orientation (loose end unrolling as shown); positioning (push roll back as far as it will go).",
+      "raw_preview": "Printer  Setup  and Operation  \n8 2. Caution  • The printhead  may be hot and could  cause  severe  burns. Allow  the printhead  to cool. Open  the printhead  assembly  by rotating  the printhead -open  lever  upward. 3. Place  the roll of ribbon  on the ribbon  supply  spindle  with the loose  end of the ribbon  unrolling  as \nshown. Push the roll back as far as it will go.",
+      "chunk_index": 51,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 7
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Chunk #52 | Page 8.\n**Content Type:** Monochrome graphical icon/image.\n**Visual Elements:** Three vertical, parallel, wavy dashed lines rendered in white against a black background, positioned above a faint horizontal baseline.\n**Context:** ZT600 series industrial printer documentation.\n**Semantic Meaning:** Iconography typically represents heat, thermal emission, airflow, or a hot surface warning indicator within hardware schematics.\n**Textual Data:** No alphanumeric text, labels, dates, part numbers, or numerical specifications are visible within this specific image crop.\n**Technical Detail:** Low-resolution raster graphic segment.",
+      "raw_preview": "",
+      "chunk_index": 52,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i0.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img1",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Source:** Page 8 of document 'zt600 edit.pdf'.\n**Content Type:** Technical line drawing (white vector lines on black background), likely a CAD schematic for a mechanical component.\n**Context:** Associated with the Zebra ZT600 series printer (inferred from filename).\n**Visual Description:**\n*   **Structure:** An elongated, horizontal mechanical rail or bracket.\n*   **Left Feature:** An angled connection point or hinge mechanism at the far left edge.\n*   **Central Feature:** A rectangular block protruding downwards from the main horizontal bar, containing two adjacent circular mounting holes (fastener points).\n*   **Right Feature:** A single circular mounting hole located further right within a recessed section of the main bar.\n*   **Annotations:** The image contains no text, dimensions, part numbers, or labels; it purely illustrates the geometric profile and mounting hole layout of the hardware part.",
+      "raw_preview": "",
+      "chunk_index": 53,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i1.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 1
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img2",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document Metadata:**\n*   **Filename:** 'zt600 edit.pdf'\n*   **Page:** 8\n*   **Chunk ID:** #54\n*   **Content Type:** Image/Figure\n\n**Visual Content Analysis:**\n*   **Pattern:** Hexagonal lattice or honeycomb structure.\n*   **Composition:** Central dark hexagonal region enclosed by lighter hexagonal boundaries/outlines.\n*   **Color Scheme:** Grayscale (black and white).\n*   **Contrast:** High contrast between the central dark hexagon and surrounding lighter grid lines.\n*   **Legibility:** No text, labels, numerical values, dates, proper names, or technical specifications are visible within the image due to low resolution/blur.\n*   **Concept:** Geometric arrangement, cellular structure, or grid pattern.\n\n**Summary:**\nPage 8 of document 'zt600 edit.pdf' (Chunk #54) contains a grayscale image depicting a hexagonal geometric pattern. The visual features a central dark hexagon surrounded by lighter hexagonal outlines, resembling a honeycomb or cellular lattice. No legible textual data, numbers, dates, or technical annotations are present in the image frame.",
+      "raw_preview": "",
+      "chunk_index": 54,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i2.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 2
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img3",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Source:** Document 'zt600 edit.pdf', Page 8, Chunk #55. **Content Type:** Low-resolution grayscale graphical image. **Visual Description:** Depicts a central dark circular region surrounded by a lighter, irregular ring or halo structure against a dark background. **Textual Data:** None visible; no legible names, numbers, dates, labels, dimensions, or technical specifications are present within the image frame. **Technical Context:** The geometric structure suggests a diagrammatic element, potentially representing a circular component, cross-section, seal, or optical feature within the document's context, though specific identification is indiscernible due to image blur and lack of annotation.",
+      "raw_preview": "",
+      "chunk_index": 55,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i3.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 3
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img4",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Page: 8 | Chunk: 56. Content: Low-resolution monochrome graphic fragment. Visual Elements: Left-aligned vertical rectangular frame enclosing a circle with a central dot (resembling an eye, camera lens, or status indicator). Right-aligned abstract geometric strokes resembling partial typography (potential characters 'E', 'F', 'T') and a tilde (~) symbol. Context: Filename indicates association with Zebra ZT600 series industrial printer documentation. Legibility: No distinct alphanumeric text or numerical values are clearly readable within the image graphic itself; functions as a symbolic icon, logo fragment, or technical diagram detail.",
+      "raw_preview": "",
+      "chunk_index": 56,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i4.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 4
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img5",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Page 8 | Chunk #57. Content: Monochrome technical illustration fragment. Visual elements include diagonal parallel linear structures (suggesting a structural rail, arm, or beam), a circular component with a central aperture (resembling a bolt head, screw, or pivot point), and curved serrated geometry (indicating a gear tooth, spring, or mechanical interface). Textual data: None (no names, numbers, dates, labels, or alphanumeric characters visible within this specific image crop). Context: Mechanical hardware assembly detail or schematic fragment associated with the ZT600 system.",
+      "raw_preview": "",
+      "chunk_index": 57,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i5.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 5
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img6",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document:** 'zt600 edit.pdf' | **Page:** 8 | **Chunk:** #58\n\n**Visual Content Summary:**\n*   **Image Type:** Vertical, high-contrast, monochromatic (black and white) graphic.\n*   **Structure:**\n    *   **Upper Section:** Features a long, thin, white diagonal line extending upwards against a black background, resembling a structural edge or antenna.\n    *   **Lower Section:** Contains a dense cluster of blocky, white geometric shapes on a black background.\n*   **Text/Logo:** The blocky shapes appear to be a highly stylized, vertically oriented representation of the text \"ZT600,\" consistent with the document filename. The characters are abstract and distorted, resembling a stencil or industrial marking.\n*   **Context:** Associated with the Zebra ZT600 Series (industrial printers), likely serving as a logo, watermark, or stylized product profile graphic within the document.\n*   **Quality:** Low resolution, pixelated edges, high contrast.",
+      "raw_preview": "",
+      "chunk_index": 58,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i6.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 6
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img7",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf', Chunk #59, Page 8. Visual content is a cropped monochrome graphic fragment displaying a white curved line on a black background, likely a segment of a larger diagram, graph, or schematic. No legible text, numerals, dates, names, axis labels, or technical specifications are visible within this specific image crop. The filename references 'zt600' (commonly associated with Zebra Technologies ZT600 series printers), but the image itself lacks contextual diagrammatic details, data points, model numbers, or configuration details for specific technical extraction beyond the graphical line geometry.",
+      "raw_preview": "",
+      "chunk_index": 59,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i7.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 7
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img8",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Diagram from page 8 of 'zt600 edit.pdf' illustrating the printhead assembly lift mechanism for a Zebra ZT600 printer. A black curved arrow indicates the upward rotational path for opening the printhead carriage. Key features include a yellow-highlighted release lever within a track, the vertical printhead element with a textured surface, and a large cylindrical media spindle on the right. The white-on-black line art details the hinge assembly, mounting screws, and mechanical linkage involved in accessing the print mechanism.",
+      "raw_preview": "",
+      "chunk_index": 60,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i8.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 8
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img9",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document Metadata:**\n*   **Filename:** 'zt600 edit.pdf'\n*   **Location:** Page 8, Chunk #61\n*   **Content Type:** Technical schematic icon / Illustration\n\n**Visual Description:**\n*   **Style:** High-contrast monochrome graphic (white line art on black background).\n*   **Primary Shape:** Horizontal rectangular chassis/body.\n*   **Lower Features:** Two circular elements positioned at the bottom corners, containing internal concentric or spiral detailing (visually resembling wheels, rollers, or adjustment knobs).\n*   **Upper Features:** Two rectangular protrusions or blocks aligned along the top edge (visually resembling vents, latches, covers, or module slots).\n\n**Contextual & Technical Interpretation:**\n*   **Subject Association:** Based on the document filename ('zt600'), the icon likely represents the **Zebra Technologies ZT600 series** industrial label printer or a specific hardware component (e.g., media roller assembly, cutter module, or printer chassis profile).\n*   **Function:** Serves as a visual identifier, status symbol, or diagrammatic element within the technical documentation.\n*   **Textual Data:** No alphanumeric text, numerical values, or dates are embedded within the image itself.",
+      "raw_preview": "",
+      "chunk_index": 61,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i9.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 9
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img10",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Chunk #62 | Page 8. Content: Technical schematic line drawing (white outlines on black background). Subject: ZT600 series hardware device (likely industrial printer side profile/mechanical assembly). Visual Components: Rectangular main chassis housing positioned right; base features two circular elements with concentric inner rings (indicating rollers, spindles, or wheels); top surface contains two distinct rectangular blocks/protrusions; left side features an extended arm assembly comprising a horizontal segment connected to the chassis and a distal segment angled sharply upward (suggesting media guide, supply arm, or structural support). Context: Hardware overview, mechanical diagram, assembly reference. No internal text labels visible within the graphic.",
+      "raw_preview": "",
+      "chunk_index": 62,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i10.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 10
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img11",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf'. Chunk: #63. Page: 8. Content Type: Grayscale image. Visual Quality: Extremely low resolution, heavily blurred, pixelated. Legible Content: None. No text, characters, numerals, dates, proper names, technical specifications, diagrams, or logos are discernible. Visual Structure: Indistinct arrangement of light and dark pixels forming an unidentifiable shape. Extractable Data: Null. Contextual Metadata: Filename references 'zt600', implying potential relation to ZT600 series hardware (likely Zebra printers), but image content yields no verifiable technical details, labels, or entities for indexing. Semantic Value: Limited to document metadata; visual data is unintelligible.",
+      "raw_preview": "",
+      "chunk_index": 63,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i11.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 11
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img12",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Chunk #64 | Page 8. Content is a monochrome technical schematic (white line art on black background) depicting a mechanical profile associated with the Zebra ZT600 Series industrial printer hardware. The diagram illustrates a structural frame edge featuring a horizontal line with a specific step-down recess or notch. Positioned below the recess are two component symbols: a spiral icon (indicating a screw head, sensor, or adjustment point) and a hexagonal nut. The far right side displays a roller or platen mechanism assembly equipped with a lever arm. No textual labels or dimensions are visible within the image itself. The visual likely serves to identify assembly points, fastener locations, or internal component positioning within the printer chassis for maintenance or installation purposes.",
+      "raw_preview": "",
+      "chunk_index": 64,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i12.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 12
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img13",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document:** 'zt600 edit.pdf' | **Page:** 8 | **Chunk:** #65\n\n**Summary:**\nTechnical line drawing (white on black) depicting a vertical metal bracket assembly, likely a media supply hanger or external support stand component for a Zebra ZT600 series printer. The structure consists of a tall, slender vertical arm with a slight angular bend near the top right, reinforced by a triangular gusset at the base. A horizontal bar extends from the top left. Assembly details indicate four mounted fasteners (screws or bolts) distributed along the vertical face and base junction, with a bolt-and-nut assembly securing the top horizontal bar. A separate hex nut or bolt head is shown floating to the left of the main assembly.",
+      "raw_preview": "",
+      "chunk_index": 65,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i13.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 13
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img14",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Page: 8 | Chunk: #66. Content consists of a low-resolution, heavily pixelated image featuring a single geometric hexagon. The shape displays a dark interior fill surrounded by a lighter-colored border. No alphanumeric text, numerals, dates, or legible technical labels are visible within the graphic. The document filename ('zt600') suggests context related to ZT600 series equipment (typically industrial printing hardware). The hexagonal graphic likely serves as a symbolic icon, network node, status indicator, or diagram component within the technical manual.",
+      "raw_preview": "",
+      "chunk_index": 66,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i14.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 14
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img15",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document Metadata:**\n*   **Filename:** 'zt600 edit.pdf'\n*   **Page:** 8\n*   **Chunk ID:** #67\n\n**Content Summary:**\n*   **Content Type:** Standalone graphical image/illustration; no accompanying text block visible in chunk.\n*   **Visual Characteristics:** Low-resolution, grayscale graphic featuring a central dark core surrounded by concentric, spiral-like rings or bands. The pattern fades from dark center to lighter outer edges against a black background.\n*   **Potential Function:** Resembles a logo, watermark, security seal, or printer calibration/test pattern (consistent with ZT600 industrial printer documentation context).\n*   **Legible Data:** No alphanumeric text, numbers, dates, names, or specific technical specifications are discernible within the image due to resolution and abstract nature.\n*   **Contextual Association:** Document title implies relation to ZT600 series hardware (likely Zebra Technologies industrial printers).",
+      "raw_preview": "",
+      "chunk_index": 67,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i15.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 15
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img16",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Page: 8 | Chunk: #68 | Content Type: Technical Schematic Diagram.\n\n**Summary:**\nThis chunk contains a monochrome, high-contrast technical illustration depicting a mechanical assembly component associated with the ZT600 series (contextually linked to Zebra Technologies industrial printers). The schematic features a vertical linear element (likely a lever or shaft) on the left side, connected to an angled, ribbed arm structure extending rightward. The assembly terminates in a circular component resembling a roller, knob, gear, or platen. A curved line beneath the mechanism suggests a housing boundary, chassis contour, or media path. The diagram serves as a visual reference for hardware configuration, likely representing a printhead lift mechanism, media feed linkage, or roller assembly used for maintenance, parts identification, or operational instructions. No legible text, part numbers, or dates are visible within the graphic itself; identification relies on the document filename context.\n\n**Key Entities & Concepts:**\n*   **Document:** 'zt600 edit.pdf'\n*   **Location:** Page 8, Chunk #68\n*   **Product Context:** ZT600 Series (Industrial Printer Hardware)\n*   **Visual Elements:** Vertical shaft/lever, angled ribbed arm, circular roller/knob, curved housing path.\n*   **Function:** Mechanical linkage, assembly diagram, maintenance illustration.\n*   **Style:** Monochrome schematic, high-contrast line art.",
+      "raw_preview": "",
+      "chunk_index": 68,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i16.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 16
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img17",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Chunk: #69 | Page: 8. Content consists of a single low-resolution, grayscale graphical image. The visual depicts a heavily blurred, pixelated abstract shape characterized by curved lines forming a spiral or circular loop, potentially representing a logo, icon, or stylized character. No legible alphanumeric text, numerical values, dates, or technical specifications are discernible within the graphic due to significant image degradation. The filename identifier 'zt600' serves as the primary textual context associated with this visual element.",
+      "raw_preview": "",
+      "chunk_index": 69,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i17.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 17
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img18",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document:** 'zt600 edit.pdf' | **Page:** 8 | **Chunk:** #70\n**Content Type:** Technical Line Drawing / Schematic\n\n**Summary:**\nHigh-contrast white-on-black technical schematic depicting a side-profile view of a mechanical assembly, contextually linked to the **Zebra ZT600** series (inferred from filename). The diagram illustrates the spatial relationship between three primary components:\n1.  **Left Vertical Assembly:** A tall, rectangular structure on the left edge featuring internal grid-like detailing, likely representing the printer chassis or control interface side.\n2.  **Upper Suspension:** A thin vertical line descends from a top horizontal frame element, terminating in a distinct **'T'-shaped symbol**, suggestive of a sensor, hanger, or mounting point.\n3.  **Angled Mechanism:** A large rectangular plane is positioned at an approximate 45-degree angle in the lower-right quadrant, hovering above a base structure.\n4.  **Base Structure:** Beneath the angled plane is a component featuring vertical parallel slats or grilles, indicative of a ventilation area, roller assembly, or media support.\n\nThe image serves as a visual guide for component placement, clearance, or mechanical configuration within the ZT600 hardware.",
+      "raw_preview": "",
+      "chunk_index": 70,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i18.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 18
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img19",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document:** 'zt600 edit.pdf' | **Page:** 8 | **Chunk:** #71\n**Visual Content:** Low-resolution, grayscale graphic icon.\n**Icon Description:** Depicts curved concentric lines radiating upward from a central base, visually resembling a wireless signal, Wi-Fi symbol, or RFID wave pattern.\n**Textual Data:** No legible names, numbers, dates, or alphanumeric text are visible within the image crop.\n**Technical Context:** Document title ('zt600') associates the graphic with the Zebra ZT600 Series industrial printer product line.\n**Functional Meaning:** The symbol technically signifies hardware connectivity specifications, likely indicating integrated wireless communication capabilities (Wi-Fi, Bluetooth) or RFID encoding features within the printer hardware architecture.\n**Usage:** Serves as a schematic visual indicator for communication options in the technical documentation.",
+      "raw_preview": "",
+      "chunk_index": 71,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i19.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 19
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img20",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf', Chunk #72, Page 8. Image is a low-resolution visual fragment, likely part of a technical diagram or illustration. Visual content consists of a predominantly black background with a single faint, blurred white curvilinear line or edge visible in the upper quadrant. No legible text, numerals, dates, names, labels, logos, or technical specifications are present. Metadata indicates association with 'zt600' series documentation. No specific hardware components, operational data, concepts, or semantic relationships are discernible within this specific image chunk.",
+      "raw_preview": "",
+      "chunk_index": 72,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i20.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 20
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img21",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document Metadata:** 'zt600 edit.pdf' | Chunk #73 | Page 8\n**Visual Content:** Low-resolution grayscale graphic icon.\n**Symbol Description:** Depicts a standard wireless signal indicator, consisting of a central solid dot with concentric curved lines (arcs) radiating upward/outward.\n**Technical Context:** Universally recognized symbol for Wi-Fi, RF, or wireless connectivity status. Based on the document filename ('zt600'), the icon pertains to Zebra Technologies ZT600 series industrial printer hardware, likely indicating wireless configuration options, status indicators, or connectivity features.\n**Textual Data:** No alphanumeric text, numerical values, dates, or specific technical specifications are visible within the image boundaries.\n**Function:** Serves as a visual marker for wireless communication capabilities or status within the device documentation.",
+      "raw_preview": "",
+      "chunk_index": 73,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i21.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 21
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img22",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document: 'zt600 edit.pdf' | Chunk #74 | Page 8\n**Content Type:** Monochrome schematic icon/graphic.\n**Subject:** Internal print mechanism of a ZT600 series industrial barcode printer (contextually inferred from document title).\n**Visual Elements:**\n*   **Media Supply:** Depicts a roll of label stock or ribbon mounted on a spindle.\n*   **Media Path:** Shows the trajectory of the media web feeding through the mechanism.\n*   **Print Engine:** Illustrates the printhead assembly and platen roller area where printing occurs.\n*   **Chassis:** Outlines the base housing or frame supporting the components.\n**Technical Context:** Represents the thermal transfer or direct thermal printing configuration. Likely used within the manual to indicate media loading orientation, component location, or print engine structure for the Zebra ZT600 printer series.\n**Key Identifiers:** ZT600, industrial printer, media spindle, printhead, schematic diagram, technical documentation.",
+      "raw_preview": "",
+      "chunk_index": 74,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i22.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 22
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p7_img23",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document:** 'zt600 edit.pdf' | **Page:** 8\n**Subject:** Technical schematic of a label printer media path and peeling assembly (likely Zebra ZT600 series).\n\n**Key Visual Elements & Mechanics:**\n*   **Media Supply:** A large roll of white media (label stock) is positioned on the right, featuring a visible internal core hub with structural spokes.\n*   **Media Path:** Black arrows indicate the direction of media travel, showing the material unwinding from the supply roll, moving upwards, and wrapping around a dark grey cylindrical guide roller.\n*   **Roller Assembly:** Central to the image is a complex roller mechanism. This includes the aforementioned dark grey guide roller and a larger, lighter-colored roller assembly (possibly a platen or drive roller) housed within a structural frame containing visible fasteners and mounting points.\n*   **Peel/Dispense Mechanism:** On the left side, a specialized mechanical assembly features a prominent, angled flat plate (peel bar). This component is positioned to separate the label from its backing liner as the media exits the roller assembly.\n*   **Structural Details:** The diagram displays detailed mechanical engineering elements, including mounting brackets, screws/bolts, and internal housing structures supporting the rollers and peel bar.\n*   **Function:** The illustration depicts the \"peel-off\" or label dispensing mode, tracing the physical trajectory of the label stock from the supply roll through the print/peel zone.",
+      "raw_preview": "",
+      "chunk_index": 75,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p7_i23.png",
+      "metadata": {
+        "page": 7,
+        "img_index": 23
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p8_t0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document 'zt600 edit.pdf' (Chunk #76) details ZT600 Printer Setup and Operation (Section 9), specifically ribbon installation steps 4 and 5. Step 4 requires bringing the ribbon under the printhead assembly and around its left side. Step 5 involves tracking the ribbon as far back as it can under the printhead assembly, wrapping it around the ribbon take-up spindle, and rotating the spindle several turns in the direction shown to tighten and align the ribbon. Key components include the printhead assembly and ribbon take-up spindle; actions involve routing, wrapping, rotating, tightening, and aligning, with visual references (\"as shown\") guiding positioning and rotation direction.",
+      "raw_preview": "Printer  Setup  and Operation  \n9 4. Bring  the ribbon  under  the printhead  assembly  and around its  left side,  as shown. 5. With the ribbon tracking as far back as it can under the printhead assembly, wrap the ribbon around \nthe ribbon  take-up spindle. Rotate  the spindle  several  turns  in the direction  shown  to tighten  and align \nthe ribbon.",
+      "chunk_index": 76,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 8
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p8_img0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Source: Page 9 of 'zt600 edit.pdf' (Chunk #77).\n\n**Visual Content:** A technical line-drawing schematic of a thermal printer's internal ribbon mechanism, likely corresponding to a Zebra ZT600 series device.\n\n**Key Components & Highlights:**\n*   **Ribbon Path:** A dark grey area representing the ink ribbon is traced by a thick red outline, indicating the correct threading route.\n*   **Directionality:** A red arrow points from left to right, showing the direction of ribbon travel under the print head assembly and around the guide rollers.\n*   **Highlighted Rollers:**\n    *   **Central Roller:** A roller assembly located centrally beneath the ribbon path is highlighted with a **yellow circle**.\n    *   **Right-Side Roller:** A roller assembly positioned to the right of the central roller (near the ribbon take-up area) is highlighted with a **red circle**.\n*   **Printer Assemblies:**\n    *   **Print Head:** An angled white assembly on the left containing the thermal printing element.\n    *   **Platen Roller:** A large white roller situated on the far right, which presses media against the print head.\n\n**Function:** The diagram serves as a visual guide for ribbon loading or path verification, emphasizing the specific routing of the ribbon relative to the tensioners, guide rollers, and print head.",
+      "raw_preview": "",
+      "chunk_index": 77,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p8_i0.png",
+      "metadata": {
+        "page": 8,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p8_img1",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Page 9 of the document 'zt600 edit.pdf' presents a technical schematic diagram illustrating the internal media path and mechanical assembly of a printer, contextually identified as a Zebra ZT600 series device. The image features a large white media supply roll positioned on the right side. A specific routing path for the media is highlighted using a dark grey fill enclosed by a thick red outline. Red directional arrows indicate the media flow moves from the supply roll on the right, threading through the mechanism towards the left.\n\nKey components within the highlighted path include:\n*   **Rollers:** Two primary rollers are visible within the grey path. The central roller features a distinct yellow ring or gear-like interface. A second roller is positioned to its right.\n*   **Print Head Assembly:** Located on the far left of the path, depicted as a white rectangular component with multiple black circular points (likely sensors or mounting holes).\n*   **Chassis:** The background consists of white line art detailing the printer's internal frame and structural supports against a black background.\n\nThe diagram serves as a visual guide for media threading or component identification within the printer's internal mechanics.",
+      "raw_preview": "",
+      "chunk_index": 78,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p8_i1.png",
+      "metadata": {
+        "page": 8,
+        "img_index": 1
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p9_t0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document 'zt600 edit.pdf' Chunk #79 details 'Printer Setup and Operation' Step 10 6. The procedure verifies if media is already loaded in the printer. If media is not loaded, the instruction is to continue to load media. If media is loaded, the operator must: (a) Rotate the printhead-open lever downward until it locks the printhead in place, (b) Close the media door, and (c) Press PAUSE to enable printing if necessary. Key technical elements include the printhead-open lever, media door, and PAUSE button. Mechanical actions involve rotating downward, locking, closing, and pressing. Operational states transition from media load verification to printhead locking, door closure, and print enablement.",
+      "raw_preview": "Printer  Setup  and Operation  \n10 6. Is media  already loaded  in the printer? If... Then... No Continue  with to load media  in the printer. Yes a. Rotate  the printhead -open  lever  downward  until it locks  the printhead  in place. b. Close  the media  door. c. If necessary,  press  PAUSE  to enable  printing.",
+      "chunk_index": 79,
+      "source_type": "text",
+      "image_path": null,
+      "metadata": {
+        "page": 9
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p9_img0",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Based on the visual content of 'zt600 edit.pdf' (Page 10, Chunk #80), the image depicts a technical installation diagram for a Zebra ZT600 series industrial printer.\n\n**Key Visual Elements:**\n*   **Main Unit:** A grey industrial thermal printer featuring a left-side control panel (with LCD screen and keypad) and a front-facing media exit slot with a cutter/tear bar area.\n*   **Accessory Module:** A box-like component (rendered with dashed lines indicating internal structure or transparency) is suspended above the printer. It features a yellow highlighted strip on its top edge.\n*   **Action Indicator:** A long, curved black arrow originates from the accessory module and points toward the rear/top section of the main printer chassis, indicating an attachment or installation motion.\n*   **Alignment/Interface Points:** A second yellow highlighted strip is visible on the bottom rear edge of the main printer base, corresponding to the module above, suggesting a locking mechanism or alignment guide for the installation process.\n*   **Style:** Technical line art illustration using greyscale shading and yellow accents to denote specific interaction points.",
+      "raw_preview": "",
+      "chunk_index": 80,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p9_i0.png",
+      "metadata": {
+        "page": 9,
+        "img_index": 0
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p9_img1",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "**Document Source:** Page 10 of 'zt600 edit.pdf' (Chunk #81).\n**Image Type:** High-contrast technical line drawing/schematic (white outlines on black background).\n**Subject:** Mechanical assembly detail, likely internal chassis or rear panel of a Zebra ZT600 series industrial printer.\n\n**Key Visual Elements & Technical Details:**\n*   **Structural Frame:** Horizontal structural edge running across the top; vertical panel on the left side.\n*   **Fasteners & Mounting:**\n    *   Dual-screw mounting bracket centered near the top edge.\n    *   Multiple hexagonal fasteners (nuts/bolt heads) and circular mounting holes scattered along the right side and top edge.\n    *   Small directional arrow pointing to a specific hole/mounting point near the top center.\n*   **Markers:** Capital letter **'T'** visible on the left vertical panel, likely indicating orientation (Top) or a specific zone.\n*   **Components:** Curved line representing a cable or wire harness with a clip/connector attachment visible in the lower right quadrant.\n*   **Context:** Diagram illustrates fastener placement, bracket locations, and cable routing for assembly, disassembly, or parts identification.",
+      "raw_preview": "",
+      "chunk_index": 81,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p9_i1.png",
+      "metadata": {
+        "page": 9,
+        "img_index": 1
+      }
+    },
+    {
+      "id": "cc0701fc2d32e8_p9_img2",
+      "doc_id": "cc0701fc2d32e8",
+      "doc_name": "zt600 edit.pdf",
+      "content": "Document 'zt600 edit.pdf', Page 10: Technical line drawing of a Zebra ZT600 printer mechanical assembly, likely depicting the printhead mechanism or media path. A vertical, pill-shaped component (highlighted in yellow/orange within a black outline) is featured on the left side of the assembly. A curved black arrow indicates a downward closing or engaging motion associated with this highlighted element. Surrounding structures include cylindrical rollers on the right, structural mounting plates with visible fasteners/screws, and a flat media guide plate on the left. The illustration demonstrates a specific operational step, likely closing the printhead or engaging a locking latch.",
+      "raw_preview": "",
+      "chunk_index": 82,
+      "source_type": "image",
+      "image_path": "D:\\ai-chat\\backend\\processed_cache\\extracted_images\\cc0701fc2d32e8_p9_i2.png",
+      "metadata": {
+        "page": 9,
+        "img_index": 2
+      }
+    }
+  ]
+}
