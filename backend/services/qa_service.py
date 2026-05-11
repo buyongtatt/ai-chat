@@ -93,7 +93,7 @@ def _parse_cited_indices(answer: str) -> set[int]:
 class QAService:
     def __init__(self):
         self.store  = MemoryStore.get_instance()
-        self.client = OllamaClient.cloud()
+        self.client = OllamaClient.local()
 
     async def stream_answer(
         self,

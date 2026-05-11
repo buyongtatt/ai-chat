@@ -43,7 +43,7 @@ CHUNK_OVERLAP = 150
 class DocumentIndexer:
     def __init__(self, force: bool = False):
         from services.ollama_client import OllamaClient
-        self.client = OllamaClient.cloud()
+        self.client = OllamaClient.local()
         self.force  = force
         CACHE_DIR.mkdir(exist_ok=True)
         IMAGES_DIR.mkdir(exist_ok=True)
